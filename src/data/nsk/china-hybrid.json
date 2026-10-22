@@ -1,0 +1,652 @@
+[
+ {
+  "brand": "Tank",
+  "model": "500 Hi4-T",
+  "sub": "Гибрид PHEV, российская версия (Сити Премиум / Техно Премиум)",
+  "code": "ДВС E20NA 2,0T, коробка 9HAT, батарея PE326114B 325,6 В",
+  "nsk": 31,
+  "rows": [
+   {
+    "name": "Гибридная коробка (9HAT)",
+    "oil": "SEID ATF 9",
+    "spec": "ATF 9",
+    "vol": "6,5 л",
+    "note": "Рекомендуемый объём при замене на ТО (ориентировочно), не полная заправка. Одинаково в руководствах Сити Премиум и Техно Премиум.",
+    "src": "https://cdn.perxis.ru/originals/dbcv7t7vbdlg00bp417g/original"
+   },
+   {
+    "name": "Передний редуктор",
+    "oil": "SEID 75W-90",
+    "spec": "DUAL 9 FE 75W-90",
+    "vol": "1,05 ± 0,05 л (без блокировки) / 0,9 ± 0,05 л (с блокировкой)",
+    "note": "Объём при замене на ТО, ориентировочно.",
+    "src": "https://cdn.perxis.ru/originals/dbcv7t7vbdlg00bp417g/original"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "SEID 75W-90",
+    "spec": "DUAL 9 FE 75W-90",
+    "vol": "3 ± 0,1 л (Техно Премиум) / 2,4 ± 0,1 л (Сити Премиум)",
+    "note": "Руководства по комплектациям расходятся: Техно Премиум – 3 л, Сити Премиум – 2,4 л (https://cdn.perxis.ru/originals/dbcv7q7vbdlg00bp4170/original).",
+    "src": "https://cdn.perxis.ru/originals/dbcv7t7vbdlg00bp417g/original"
+   },
+   {
+    "name": "Раздаточная коробка",
+    "oil": "SEID MV",
+    "spec": "Mercon LV",
+    "vol": "1,5 ± 0,1 л",
+    "src": "https://cdn.perxis.ru/originals/dbcv7t7vbdlg00bp417g/original"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "TANK MOTOR OIL SP 0W-20",
+    "spec": "API SP 0W-20 полностью синтетическое со средней и низкой зольностью; или ACEA C5 0W-20",
+    "vol": "5,9 ± 0,1 л с фильтром; 5,5 ± 0,1 л без фильтра",
+    "note": "Двигатель E20NA. В Китае с 2024 г. ставят E20NB – для него данных в этом руководстве нет.",
+    "src": "https://cdn.perxis.ru/originals/dbcv7t7vbdlg00bp417g/original"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "TANK Coolant-45",
+    "spec": "Этиленгликоль, -45 °C",
+    "vol": "10,2 ± 0,5 л",
+    "src": "https://cdn.perxis.ru/originals/dbcv7t7vbdlg00bp417g/original"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "TANK Coolant-45",
+    "spec": "Этиленгликоль, -45 °C",
+    "vol": "8,9 ± 0,5 л (Техно Премиум) / 7,1 ± 0,5 л (Сити Премиум)",
+    "note": "Руководства по комплектациям расходятся (https://cdn.perxis.ru/originals/dbcv7q7vbdlg00bp4170/original).",
+    "src": "https://cdn.perxis.ru/originals/dbcv7t7vbdlg00bp417g/original"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Тормозная жидкость GWM",
+    "spec": "DOT 4 класс 6",
+    "vol": "1,05 ± 0,1 л (Техно Премиум) / 0,9 ± 0,1 л (Сити Премиум)",
+    "note": "Руководства по комплектациям расходятся (https://cdn.perxis.ru/originals/dbcv7q7vbdlg00bp4170/original).",
+    "src": "https://cdn.perxis.ru/originals/dbcv7t7vbdlg00bp417g/original"
+   }
+  ]
+ },
+ {
+  "brand": "Tank",
+  "model": "700 Hi4-T",
+  "sub": "Гибрид PHEV, российская версия (Техно Премиум, Е1)",
+  "code": "ДВС E30Z 3,0T V6, коробка 9HAT",
+  "nsk": 10,
+  "rows": [
+   {
+    "name": "Гибридная коробка (9HAT)",
+    "oil": "SEID ATF 9",
+    "spec": "ATF 9",
+    "vol": "6,5 л",
+    "note": "Рекомендуемый объём при замене на ТО (ориентировочно). В руководстве на Tank 700 без гибрида указано 6 л.",
+    "src": "https://cdn.perxis.ru/originals/dbcv82vvbdlg00bp418g/original"
+   },
+   {
+    "name": "Передний редуктор",
+    "oil": "SEID 75W-90",
+    "spec": "DUAL 9 FE 75W-90",
+    "vol": "1,8 ± 0,1 л",
+    "src": "https://cdn.perxis.ru/originals/dbcv82vvbdlg00bp418g/original"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "SEID 75W-90",
+    "spec": "DUAL 9 FE 75W-90",
+    "vol": "2,7 ± 0,1 л",
+    "src": "https://cdn.perxis.ru/originals/dbcv82vvbdlg00bp418g/original"
+   },
+   {
+    "name": "Раздаточная коробка",
+    "oil": "SEID MV",
+    "spec": "Mercon LV",
+    "vol": "1,5 ± 0,1 л",
+    "src": "https://cdn.perxis.ru/originals/dbcv82vvbdlg00bp418g/original"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "TANK MOTOR OIL C2 0W-30",
+    "spec": "API SP и выше, средне- и низкозольное; ACEA C2: 5W-30 при температурах выше -30 °C, 0W-30 при более низких",
+    "vol": "6,5 ± 0,1 л с фильтром; 6,1 ± 0,1 л без фильтра",
+    "src": "https://cdn.perxis.ru/originals/dbcv82vvbdlg00bp418g/original"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "TANK Coolant-45",
+    "spec": "Этиленгликоль, -45 °C",
+    "vol": "10,8 ± 0,5 л",
+    "src": "https://cdn.perxis.ru/originals/dbcv82vvbdlg00bp418g/original"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "TANK Coolant-45",
+    "spec": "Этиленгликоль, -45 °C",
+    "vol": "11,8 ± 0,5 л",
+    "src": "https://cdn.perxis.ru/originals/dbcv82vvbdlg00bp418g/original"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "spec": "DOT 4 класс 6",
+    "vol": "1,15 ± 0,1 л",
+    "src": "https://cdn.perxis.ru/originals/dbcv82vvbdlg00bp418g/original"
+   }
+  ]
+ },
+ {
+  "brand": "Geely",
+  "model": "EX5 EM-i (Galaxy Starship 7 EM-i)",
+  "sub": "Гибрид PHEV, российская версия",
+  "code": "ДВС BHE15-DFN 1,5, батарея LFP 18,4 кВт·ч, электромотор TZ220WY075",
+  "nsk": 14,
+  "rows": [
+   {
+    "name": "Масло ДВС",
+    "spec": "API SP SAE 0W-20 (при температуре ниже 40 °C); API SP SAE 5W-40 (выше 40 °C)",
+    "vol": "4,3 л с фильтром; 4,0 л без фильтра",
+    "note": "EX5 EM-i – экспортное имя Galaxy Starship 7 EM-i (в РФ также EX5 EM-R). Каталог Ravenol для Starship 7 (BHE15-BFN) даёт 4 л (https://podbor.ravenol.ru/1-cars/189-geely/201762-galaxy-starship-7/207503-15-phev-2wd-bhe15-bfn/), для EX5 EM-i – 6,6 л (https://podbor.ravenol.ru/1-cars/189-geely/202733-ex5-em-i-pro--max/209896-15-hybrid-fwd-2wd-bhe15-bfn-99-ls-218-ls-73-kvt-160-kvt/); 6,6 л противоречит руководству.",
+    "src": "https://cdn.perxis.ru/originals/dak0c0obeucc7399gfq0/original"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Охлаждающая жидкость на основе этиленгликоля, одобренная Geely",
+    "vol": "9,5 л",
+    "note": "Ravenol для EX5 EM-i указывает 10 л на всю систему охлаждения.",
+    "src": "https://cdn.perxis.ru/originals/dak0c0obeucc7399gfq0/original"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "spec": "DOT 4",
+    "vol": "0,86 л",
+    "note": "Объём указан для системы с интеллектуальным усилителем.",
+    "src": "https://cdn.perxis.ru/originals/dak0c0obeucc7399gfq0/original"
+   },
+   {
+    "name": "Гибридная коробка (DHT)",
+    "vol": "3 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. В российском руководстве объём и жидкость DHT не приведены. Для EX5 EM-i тот же каталог даёт 1,2 л на «электропривод передний» (https://podbor.ravenol.ru/1-cars/189-geely/202733-ex5-em-i-pro--max/209896-15-hybrid-fwd-2wd-bhe15-bfn-99-ls-218-ls-73-kvt-160-kvt/) – значения расходятся.",
+    "src": "https://podbor.ravenol.ru/1-cars/189-geely/201762-galaxy-starship-7/207503-15-phev-2wd-bhe15-bfn/",
+    "alt": [
+     "RAVENOL EV-Synto Extra Fluid 70W E-TF (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "vol": "8 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Контур инвертора; в каталоге запись по Galaxy Starship 7.",
+    "src": "https://podbor.ravenol.ru/1-cars/189-geely/201762-galaxy-starship-7/207503-15-phev-2wd-bhe15-bfn/",
+    "alt": [
+     "RAVENOL OTC Premix -40C Protect C12+ (подбор Ravenol)"
+    ]
+   }
+  ]
+ },
+ {
+  "brand": "Geely",
+  "model": "Galaxy M7",
+  "sub": "Гибрид PHEV, 2025–",
+  "code": "ДВС BHE15-BFN 1,5, батареи 18 и 30 кВт·ч (по каталогу)",
+  "nsk": 20,
+  "rows": [
+   {
+    "name": "Масло ДВС",
+    "vol": "6,6 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Сомнительно: для того же семейства BHE15 в руководстве EX5 EM-i – 4,3 л с фильтром. Каталог называет версию E-REV, в Китае модель продаётся как PHEV (EM-i).",
+    "src": "https://podbor.ravenol.ru/1-cars/189-geely/202867-galaxy-m7/210271-15-hybrid-e-rev-fwd-2wd-18-kvch-30-kvch-bhe15-bfn-300-ls-221-kvt/",
+    "alt": [
+     "RAVENOL EFS EcoFullSynth 0W-20 (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Передний редуктор",
+    "vol": "2 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. В каталоге узел назван «электропривод передний», то есть, вероятно, блок DHT.",
+    "src": "https://podbor.ravenol.ru/1-cars/189-geely/202867-galaxy-m7/210271-15-hybrid-e-rev-fwd-2wd-18-kvch-30-kvch-bhe15-bfn-300-ls-221-kvt/",
+    "alt": [
+     "RAVENOL EV-Synto Extra Fluid 70W E-TF (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "vol": "10 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Объём на всю систему охлаждения, без разбивки по контурам.",
+    "src": "https://podbor.ravenol.ru/1-cars/189-geely/202867-galaxy-m7/210271-15-hybrid-e-rev-fwd-2wd-18-kvch-30-kvch-bhe15-bfn-300-ls-221-kvt/",
+    "alt": [
+     "RAVENOL ETC Premix -40C Protect C12evo (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Тормозная жидкость",
+    "vol": "1 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён.",
+    "src": "https://podbor.ravenol.ru/1-cars/189-geely/202867-galaxy-m7/210271-15-hybrid-e-rev-fwd-2wd-18-kvch-30-kvch-bhe15-bfn-300-ls-221-kvt/",
+    "alt": [
+     "RAVENOL DOT 4 LV (подбор Ravenol)"
+    ]
+   }
+  ]
+ },
+ {
+  "brand": "Exeed",
+  "model": "Exlantix ET (EREV)",
+  "sub": "Гибрид EREV, в РФ продаётся под маркой Esteo",
+  "code": "ДВС SQRH4J15 1,5T",
+  "nsk": 20,
+  "rows": [
+   {
+    "name": "Масло ДВС",
+    "vol": "4,7 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Одинаково для заднего и полного привода.",
+    "src": "https://podbor.ravenol.ru/1-cars/734-exeed/201682-/209876-15-t-hybrid-e-rev-awd-4wd-265-ls-sqrh4j15sqrh4j15asqrh4j15b/",
+    "alt": [
+     "RAVENOL DXG 5W-30 (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Передний редуктор",
+    "vol": "2 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Полный привод: «коробка + электропривод передний» 1-FGR 130HHC / KPTZ220YMDA0.",
+    "src": "https://podbor.ravenol.ru/1-cars/734-exeed/201682-/209876-15-t-hybrid-e-rev-awd-4wd-265-ls-sqrh4j15sqrh4j15asqrh4j15b/",
+    "alt": [
+     "RAVENOL EV-Synto Extra Fluid 70W E-TF (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Задний редуктор",
+    "vol": "1 л (полный привод) / 2 л (задний привод)",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Полный привод: задний электропривод TZ190XY105 – 1 л. Задний привод: «коробка + электропривод задний» 1-FGR TZ190XY105 – 2 л (https://podbor.ravenol.ru/1-cars/734-exeed/201682-/207299-15-t-hybrid-e-rev-rwd-2wd-265-ls-sqrh4j15sqrh4j15asqrh4j15b/).",
+    "src": "https://podbor.ravenol.ru/1-cars/734-exeed/201682-/209876-15-t-hybrid-e-rev-awd-4wd-265-ls-sqrh4j15sqrh4j15asqrh4j15b/",
+    "alt": [
+     "RAVENOL EV-Synto Extra Fluid 70W E-TF (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "vol": "8,6 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён.",
+    "src": "https://podbor.ravenol.ru/1-cars/734-exeed/201682-/209876-15-t-hybrid-e-rev-awd-4wd-265-ls-sqrh4j15sqrh4j15asqrh4j15b/",
+    "alt": [
+     "RAVENOL OTC Premix -40C Protect C12+ (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "vol": "9,05 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён.",
+    "src": "https://podbor.ravenol.ru/1-cars/734-exeed/201682-/209876-15-t-hybrid-e-rev-awd-4wd-265-ls-sqrh4j15sqrh4j15asqrh4j15b/",
+    "alt": [
+     "RAVENOL OTC Premix -40C Protect C12+ (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Охлаждающая жидкость батареи",
+    "vol": "4,6 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён.",
+    "src": "https://podbor.ravenol.ru/1-cars/734-exeed/201682-/209876-15-t-hybrid-e-rev-awd-4wd-265-ls-sqrh4j15sqrh4j15asqrh4j15b/",
+    "alt": [
+     "RAVENOL OTC Premix -40C Protect C12+ (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Тормозная жидкость",
+    "vol": "1 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён.",
+    "src": "https://podbor.ravenol.ru/1-cars/734-exeed/201682-/209876-15-t-hybrid-e-rev-awd-4wd-265-ls-sqrh4j15sqrh4j15asqrh4j15b/",
+    "alt": [
+     "RAVENOL DOT 4 LV (подбор Ravenol)"
+    ]
+   }
+  ]
+ },
+ {
+  "brand": "Rox",
+  "model": "01 (Polestones 01)",
+  "sub": "Гибрид EREV, батарея 56 кВт·ч",
+  "code": "ДВС B15F 1,5T (по каталогу также JLH-3G15TDF)",
+  "nsk": 12,
+  "rows": [
+   {
+    "name": "Масло ДВС",
+    "vol": "4 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Запись Polestones 01 (476 л.с.). Отдельная запись Rox 01 тоже даёт 4 л (https://podbor.ravenol.ru/1-cars/846-rox-motor/202070-01/208224-15-2wd-56-kvch-b15f-156-ls-115-kvt/).",
+    "src": "https://podbor.ravenol.ru/1-cars/876-polestones--/202897-01/210375-15-hybrid-e-rev-56-kvch-b15f-476-ls-350-kvt/",
+    "alt": [
+     "RAVENOL Eco Synth ECS 0W-20 (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Передний редуктор",
+    "vol": "2 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. «Коробка + электропривод передний» 1-FGR TZ210XS000. В записи Rox 01 вместо этого два узла: передний левый 1,02 л и передний правый 1,01 л (https://podbor.ravenol.ru/1-cars/846-rox-motor/202070-01/208224-15-2wd-56-kvch-b15f-156-ls-115-kvt/) – данные каталога расходятся.",
+    "src": "https://podbor.ravenol.ru/1-cars/876-polestones--/202897-01/210375-15-hybrid-e-rev-56-kvch-b15f-476-ls-350-kvt/",
+    "alt": [
+     "RAVENOL EV-Synto Extra Fluid 70W E-TF (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Задний редуктор",
+    "vol": "1 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Задний электропривод TZ220XS000.",
+    "src": "https://podbor.ravenol.ru/1-cars/876-polestones--/202897-01/210375-15-hybrid-e-rev-56-kvch-b15f-476-ls-350-kvt/",
+    "alt": [
+     "RAVENOL EV-Synto Extra Fluid 70W E-TF (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "vol": "10 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Объём на всю систему охлаждения, без разбивки по контурам.",
+    "src": "https://podbor.ravenol.ru/1-cars/876-polestones--/202897-01/210375-15-hybrid-e-rev-56-kvch-b15f-476-ls-350-kvt/",
+    "alt": [
+     "RAVENOL ETC Premix -40C Protect C12evo (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Тормозная жидкость",
+    "vol": "1 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён.",
+    "src": "https://podbor.ravenol.ru/1-cars/876-polestones--/202897-01/210375-15-hybrid-e-rev-56-kvch-b15f-476-ls-350-kvt/",
+    "alt": [
+     "RAVENOL DOT 4 LV (подбор Ravenol)"
+    ]
+   }
+  ]
+ },
+ {
+  "brand": "Lynk & Co",
+  "model": "900 (EM-P)",
+  "sub": "Гибрид PHEV, 2025–",
+  "code": "ДВС JLM-4G15TD 1,5T или JLH-4G20TDC 2,0T, коробка 3DHT",
+  "nsk": 9,
+  "rows": [
+   {
+    "name": "Гибридная коробка (3DHT)",
+    "vol": "4,2 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Одинаково для 1,5T и 2,0T.",
+    "src": "https://podbor.ravenol.ru/1-cars/753-lynk--co/202059-900/208204-15-t-awd-4wd-hybrid-phev-jlm-4g15td-721-ls-530-kvt/",
+    "alt": [
+     "RAVENOL EV-Synto Extra Fluid 70W E-TF (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Задний редуктор",
+    "vol": "1,01 л (1,5T) / 1 л (2,0T)",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Задний электропривод; для 2,0T – TZ220XY006 (https://podbor.ravenol.ru/1-cars/753-lynk--co/202059-900/208205-20-awd-4wd-jlh-4g20tdc-884-ls-734-ls-650-kvt-540-kvt/).",
+    "src": "https://podbor.ravenol.ru/1-cars/753-lynk--co/202059-900/208204-15-t-awd-4wd-hybrid-phev-jlm-4g15td-721-ls-530-kvt/",
+    "alt": [
+     "RAVENOL EV-Synto Extra Fluid 70W E-TF (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Масло ДВС",
+    "vol": "7 л (1,5T) / 5,9 л (2,0T)",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Сомнительно: у 1,5T объём больше, чем у 2,0T (https://podbor.ravenol.ru/1-cars/753-lynk--co/202059-900/208205-20-awd-4wd-jlh-4g20tdc-884-ls-734-ls-650-kvt-540-kvt/). Сверить по щупу или руководству.",
+    "src": "https://podbor.ravenol.ru/1-cars/753-lynk--co/202059-900/208204-15-t-awd-4wd-hybrid-phev-jlm-4g15td-721-ls-530-kvt/",
+    "alt": [
+     "RAVENOL DXG 5W-30 (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "vol": "14 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Объём на всю систему охлаждения, без разбивки по контурам.",
+    "src": "https://podbor.ravenol.ru/1-cars/753-lynk--co/202059-900/208204-15-t-awd-4wd-hybrid-phev-jlm-4g15td-721-ls-530-kvt/",
+    "alt": [
+     "RAVENOL ETC Premix -40C Protect C12evo (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Тормозная жидкость",
+    "vol": "1 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён.",
+    "src": "https://podbor.ravenol.ru/1-cars/753-lynk--co/202059-900/208204-15-t-awd-4wd-hybrid-phev-jlm-4g15td-721-ls-530-kvt/",
+    "alt": [
+     "RAVENOL DOT 4 LV (подбор Ravenol)"
+    ]
+   }
+  ]
+ },
+ {
+  "brand": "Zeekr",
+  "model": "8X",
+  "sub": "Гибрид PHEV, 2026–",
+  "code": "ДВС DHE20-PFZ 2,0T, батарея 70 кВт·ч",
+  "nsk": 8,
+  "rows": [
+   {
+    "name": "Гибридная коробка (DHT)",
+    "vol": "2,6 л + 0,3 л на фильтр",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. «Коробка + электропривод передний».",
+    "src": "https://podbor.ravenol.ru/1-cars/763-zeekr/202855-8x/210252-stellar-yao-ying-dawn-20-hybrid-awd-4wd-70-kvch-dhe20-pfz-1400-ls-1030-kvt/",
+    "alt": [
+     "RAVENOL EV-Synto Extra Fluid 70W E-TF (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Задний редуктор",
+    "vol": "3,5 л (два задних мотора, 1400 л.с.) / 2 л (один задний мотор, 898 л.с.)",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Задний электропривод TZ230XYC04; версия 898 л.с. – https://podbor.ravenol.ru/1-cars/763-zeekr/202855-8x/211128-max-ultra-20-hybrid-awd-4wd-70-kvch-dhe20-pfz-898-ls-660-kvt/.",
+    "src": "https://podbor.ravenol.ru/1-cars/763-zeekr/202855-8x/210252-stellar-yao-ying-dawn-20-hybrid-awd-4wd-70-kvch-dhe20-pfz-1400-ls-1030-kvt/",
+    "alt": [
+     "RAVENOL EV-Synto Extra Fluid 70W E-TF (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Масло ДВС",
+    "vol": "4,6 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Без отдельного объёма на фильтр (у 9X с тем же мотором каталог даёт ещё 0,4 л на фильтр).",
+    "src": "https://podbor.ravenol.ru/1-cars/763-zeekr/202855-8x/210252-stellar-yao-ying-dawn-20-hybrid-awd-4wd-70-kvch-dhe20-pfz-1400-ls-1030-kvt/",
+    "alt": [
+     "RAVENOL Eco Synth ECS 0W-20 (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "vol": "20 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Объём на всю систему охлаждения, без разбивки по контурам.",
+    "src": "https://podbor.ravenol.ru/1-cars/763-zeekr/202855-8x/210252-stellar-yao-ying-dawn-20-hybrid-awd-4wd-70-kvch-dhe20-pfz-1400-ls-1030-kvt/",
+    "alt": [
+     "RAVENOL ETC Premix -40C Protect C12evo (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Тормозная жидкость",
+    "vol": "1 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён.",
+    "src": "https://podbor.ravenol.ru/1-cars/763-zeekr/202855-8x/210252-stellar-yao-ying-dawn-20-hybrid-awd-4wd-70-kvch-dhe20-pfz-1400-ls-1030-kvt/",
+    "alt": [
+     "RAVENOL DOT 4 LV (подбор Ravenol)"
+    ]
+   }
+  ]
+ },
+ {
+  "brand": "Zeekr",
+  "model": "9X",
+  "sub": "Гибрид PHEV, 2025–",
+  "code": "ДВС DHE20-PFZ / DX1E 2,0T, батарея 55 или 70 кВт·ч",
+  "nsk": 5,
+  "rows": [
+   {
+    "name": "Гибридная коробка (DHT)",
+    "vol": "2,9 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. «Коробка + электропривод передний» 1-DHT.",
+    "src": "https://podbor.ravenol.ru/1-cars/763-zeekr/202239-9X/208675-hyper-20-70-kvch-hybrid-phev-awd-4wd-dhe20-pfzdx1e-1401-ls-1030-kvt/",
+    "alt": [
+     "RAVENOL EV-Synto Extra Fluid 70W E-TF (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Задний редуктор",
+    "vol": "3,5 л (Hyper, два задних мотора) / 2 л (Max и Ultra)",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён. Задний электропривод TZ230XYC04; версии Max и Ultra – https://podbor.ravenol.ru/1-cars/763-zeekr/202239-9X/210381-max-ultra-20-55-kvch-hybrid-phev-awd-4wd-dhe20-pfzdx1e-898-ls-660-kvt/.",
+    "src": "https://podbor.ravenol.ru/1-cars/763-zeekr/202239-9X/208675-hyper-20-70-kvch-hybrid-phev-awd-4wd-dhe20-pfzdx1e-1401-ls-1030-kvt/",
+    "alt": [
+     "RAVENOL EV-Synto Extra Fluid 70W E-TF (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Масло ДВС",
+    "vol": "4,6 л + 0,4 л на фильтр",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён.",
+    "src": "https://podbor.ravenol.ru/1-cars/763-zeekr/202239-9X/208675-hyper-20-70-kvch-hybrid-phev-awd-4wd-dhe20-pfzdx1e-1401-ls-1030-kvt/",
+    "alt": [
+     "RAVENOL Eco Synth ECS 0W-20 (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "vol": "7,8 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён.",
+    "src": "https://podbor.ravenol.ru/1-cars/763-zeekr/202239-9X/208675-hyper-20-70-kvch-hybrid-phev-awd-4wd-dhe20-pfzdx1e-1401-ls-1030-kvt/",
+    "alt": [
+     "RAVENOL ETC Premix -40C Protect C12evo (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "vol": "13 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён.",
+    "src": "https://podbor.ravenol.ru/1-cars/763-zeekr/202239-9X/208675-hyper-20-70-kvch-hybrid-phev-awd-4wd-dhe20-pfzdx1e-1401-ls-1030-kvt/",
+    "alt": [
+     "RAVENOL ETC Premix -40C Protect C12evo (подбор Ravenol)"
+    ]
+   },
+   {
+    "name": "Тормозная жидкость",
+    "vol": "1 л",
+    "note": "Данные каталога подбора Ravenol, не руководство производителя: оригинальная жидкость и допуск не указаны, объём округлён.",
+    "src": "https://podbor.ravenol.ru/1-cars/763-zeekr/202239-9X/208675-hyper-20-70-kvch-hybrid-phev-awd-4wd-dhe20-pfzdx1e-1401-ls-1030-kvt/",
+    "alt": [
+     "RAVENOL DOT 4 LV (подбор Ravenol)"
+    ]
+   }
+  ]
+ },
+ {
+  "brand": "GAC",
+  "model": "Trumpchi S9 (Xiangwang S9, версия Qiankun)",
+  "sub": "Гибрид EREV, Китай",
+  "code": "ДВС-генератор 4A15M3 1,5T, привод H4EF35C, полный привод",
+  "nsk": 8,
+  "rows": [
+   {
+    "name": "Гибридная коробка (DHT)",
+    "oil": "SK GA-26",
+    "vol": "3,7 ± 0,2 л всего; 2,9 ± 0,2 л при замене",
+    "note": "В руководстве узел назван «электромеханическая сцепная коробка передач».",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T60M_UserManual/topics/SF-03006002_f8119.html"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "DEXRON-VI",
+    "vol": "0,6 ± 0,05 л",
+    "note": "Задний приводной электромотор.",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T60M_UserManual/topics/SF-03006002_f8119.html"
+   },
+   {
+    "name": "Масло ДВС",
+    "spec": "API SN, SAE 0W-20",
+    "vol": "4,7 ± 0,1 л",
+    "note": "В руководстве один объём, без разбивки по замене с фильтром и без.",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T60M_UserManual/topics/SF-03006002_f8115.html"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "DF-6, -35 °C",
+    "vol": "12,0 ± 0,3 л",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T60M_UserManual/topics/SF-03006002_f8118.html"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "DF-6, -35 °C",
+    "vol": "10,2 ± 0,3 л",
+    "note": "Общий контур интеркулера и электропривода.",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T60M_UserManual/topics/SF-03006002_f8118.html"
+   },
+   {
+    "name": "Охлаждающая жидкость батареи",
+    "oil": "DF-6, -35 °C",
+    "vol": "3,7 ± 0,2 л",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T60M_UserManual/topics/SF-03006002_f8118.html"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "spec": "DOT 4",
+    "vol": "0,97 ± 0,05 л",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T60M_UserManual/topics/SF-03006002_f8108.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a (R134a)",
+    "vol": "900 ± 20 г",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T60M_UserManual/topics/SF-03006002_f8117.html"
+   }
+  ]
+ },
+ {
+  "brand": "GAC",
+  "model": "Trumpchi S7 (Xiangwang S7)",
+  "sub": "Гибрид, 2025– (Китай); руководства T68 и S7 PHEV 2027 модельного года (T68-M1)",
+  "code": "ДВС 4A15M3 1,5T, привод H4EF35C (2027 м.г. – H4EF35L)",
+  "nsk": 7,
+  "rows": [
+   {
+    "name": "Гибридная коробка (DHT)",
+    "oil": "GHTF (2025–2026); SK-GA-26 (2027 м.г.)",
+    "vol": "3,7 ± 0,2 л всего, 2,9 ± 0,2 л при замене; 2027 м.г.: 3,5 ± 0,1 л всего, 2,8 ± 0,1 л при замене",
+    "note": "Объём и жидкость 2027 м.г. – по руководству https://pic-gsp.gacmotor.com/app/manual/S7-PHEV(T68-M1)/concepts/AFM_12_2_5.html",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T68_NEW_UserManual/concepts/AFM_12_2_5.html"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "DEXRON-VI (2025–2026); SK-GA-26 (2027 м.г.)",
+    "vol": "0,6 ± 0,05 л; 2027 м.г.: 0,7 ± 0,1 л",
+    "note": "Только полный привод (задний приводной электромотор). Данные 2027 м.г. – https://pic-gsp.gacmotor.com/app/manual/S7-PHEV(T68-M1)/concepts/AFM_12_2_5.html",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T68_NEW_UserManual/concepts/AFM_12_2_5.html"
+   },
+   {
+    "name": "Масло ДВС",
+    "spec": "API SN, SAE 0W-20",
+    "vol": "4,0 ± 0,1 л при замене; 4,7 ± 0,1 л полный объём",
+    "note": "Полный объём 4,7 л – по сноске руководства, это объём при капремонте двигателя.",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T68_NEW_UserManual/concepts/AFM_12_2_5.html"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "DF-6, -35 °C",
+    "vol": "9,1 ± 0,2 л",
+    "note": "Включая жидкость в бачке и остаток в двигателе.",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T68_NEW_UserManual/concepts/AFM_12_2_5.html"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "DF-6, -35 °C",
+    "vol": "8,1 ± 0,5 л (передний привод) / 10,1 ± 0,5 л (полный привод)",
+    "note": "Общий контур интегрированного контроллера мотора и интеркулера.",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T68_NEW_UserManual/concepts/AFM_12_2_5.html"
+   },
+   {
+    "name": "Охлаждающая жидкость батареи",
+    "oil": "DF-6, -35 °C",
+    "vol": "4,1 ± 0,2 л (большая батарея) / 3,6 ± 0,2 л (малая батарея)",
+    "note": "В руководстве 2027 м.г. – одно значение 4,1 ± 0,2 л.",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T68_NEW_UserManual/concepts/AFM_12_2_5.html"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "spec": "DOT 4",
+    "vol": "1,0 ± 0,1 л",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T68_NEW_UserManual/concepts/AFM_12_2_5.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a (R134a)",
+    "vol": "580 ± 25 г",
+    "src": "https://pic-gsp.gacmotor.com/app/manual/GZH_T68_NEW_UserManual/concepts/AFM_12_2_5.html"
+   }
+  ]
+ }
+]
