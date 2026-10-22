@@ -10,6 +10,8 @@ export type Row = {
   part?: string; // артикул
   vol?: string; // объём
   note?: string;
+  src?: string; // ссылка на источник
+  check?: boolean; // собрано Claude из открытых источников – надо проверить
 };
 
 export type Model = {
@@ -18,6 +20,8 @@ export type Model = {
   code?: string; // заводской код модели или двигателя
   rows: Row[];
   note?: string;
+  check?: boolean; // вся карточка собрана Claude – надо проверить
+  nsk?: number; // объявлений на drom.ru в Новосибирске (22.10.2026)
 };
 
 export type Brand = { id: string; name: string; models: Model[] };

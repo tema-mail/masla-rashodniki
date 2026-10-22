@@ -3,6 +3,8 @@ import { brands, type Model, type Row } from '../data/brands';
 
 const sorted = [...brands].sort((a, b) => a.name.localeCompare(b.name, 'en'));
 const modelCount = sorted.reduce((n, b) => n + b.models.length, 0);
+const needsCheck = (m: Model) => m.check || m.rows.some((r) => r.check);
+const checkCount = sorted.reduce((n, b) => n + b.models.filter(needsCheck).length, 0);
 
 // Группа строки по названию узла: порядок проверок важен ("ОЖ для ДВС" – это жидкость).
 const GROUPS = ['Трансмиссия', 'Двигатель', 'Жидкости', 'Фильтры и запчасти'] as const;
@@ -23,6 +25,7 @@ const searchText = (brand: string, m: Model) =>
     m.sub,
     m.code,
     m.note,
+    needsCheck(m) && 'надо проверить',
     ...m.rows.flatMap((r) => [r.name, r.spec, r.oil, r.part, r.vol, r.note, ...(r.alt ?? [])]),
   ]
     .filter(Boolean)
@@ -50,6 +53,7 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
         <p class="lead">
           Редукторы, ДВС, охлаждающие и тормозные жидкости, фреон, фильтры. {sorted.length} марок, {modelCount} моделей.
         </p>
+        <p class="legend"><span class="chk">Надо проверить</span> – собрано из открытых источников, а не из нашей таблицы. Перед заливкой сверить с машиной.</p>
       </div>
     </header>
 
@@ -59,6 +63,7 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
           <input id="q" type="search" placeholder="Модель, допуск, масло, артикул…" autocomplete="off" />
         </label>
+        <label class="only"><input id="onlyCheck" type="checkbox" /> Только «надо проверить» ({checkCount})</label>
         <nav class="chips" aria-label="Марки">
           <button class="chip is-on" data-brand="">Все</button>
           {sorted.map((b) => <button class="chip" data-brand={b.id}>{b.name}</button>)}
@@ -75,11 +80,13 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
             </h2>
             <div class="grid">
               {b.models.map((m) => (
-                <article class="card" data-search={searchText(b.name, m)}>
+                <article class="card" data-search={searchText(b.name, m)} data-check={needsCheck(m) ? '1' : undefined}>
                   <header class="card-head">
                     <h3>{m.name}</h3>
                     {m.sub && <span class="sub">{m.sub}</span>}
+                    {m.check && <span class="chk">Надо проверить</span>}
                   </header>
+                  {m.nsk && <p class="code">На drom в Новосибирске: {m.nsk} объявл.</p>}
 
                   {m.code && <p class="code">{m.code}</p>}
                   <table class="spec">
@@ -97,7 +104,10 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
                         </tr>
                         {g.rows.map((r) => (
                           <tr>
-                            <td class="n">{r.name}</td>
+                            <td class="n">
+                              {r.name}
+                              {r.check && !m.check && <span class="chk sm">проверить</span>}
+                            </td>
                             <td>
                               {r.oil && <div class="oil">{r.oil}</div>}
                               {r.spec && <div class="meta">допуск {r.spec}</div>}
@@ -116,6 +126,11 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
                                   <div class="meta">аналог {r.alt.join(' · ')}</div>
                                 ))}
                               {r.note && <div class="rnote">{r.note}</div>}
+                              {r.src && (
+                                <a class="src" href={r.src} target="_blank" rel="noopener noreferrer">
+                                  источник
+                                </a>
+                              )}
                               {!r.oil && !r.spec && !r.part && !r.alt && !r.note && <span class="dash">–</span>}
                             </td>
                             <td class="v">{r.vol ? nb(r.vol) : <span class="dash">–</span>}</td>
@@ -142,6 +157,7 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
       const chips = [...document.querySelectorAll<HTMLButtonElement>('.chip')];
       const sections = [...document.querySelectorAll<HTMLElement>('.brand')];
       const empty = document.getElementById('empty')!;
+      const onlyCheck = document.getElementById('onlyCheck') as HTMLInputElement;
       let brand = '';
 
       function apply() {
@@ -151,7 +167,7 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
           const brandOk = !brand || s.dataset.brand === brand;
           let inSection = 0;
           for (const c of s.querySelectorAll<HTMLElement>('.card')) {
-            const ok = brandOk && words.every((w) => c.dataset.search!.includes(w));
+            const ok = brandOk && (!onlyCheck.checked || c.dataset.check === '1') && words.every((w) => c.dataset.search!.includes(w));
             c.hidden = !ok;
             if (ok) inSection++;
           }
@@ -172,6 +188,7 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
         });
       }
       q.addEventListener('input', apply);
+      onlyCheck.addEventListener('change', apply);
 
       const fromHash = location.hash.slice(1);
       if (fromHash) chips.find((c) => c.dataset.brand === fromHash)?.click();
@@ -188,6 +205,9 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
         --accent-soft: #fdf0e3;
         --chip: #ecebe6;
         --shadow: 0 1px 2px rgb(0 0 0 / 0.04), 0 4px 16px rgb(0 0 0 / 0.04);
+        --warn: #fde68a;
+        --warn-ink: #713f12;
+        --warn-line: #f5d565;
         color-scheme: light;
       }
       @media (prefers-color-scheme: dark) {
@@ -201,6 +221,9 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
           --accent-soft: #3a2614;
           --chip: #25282c;
           --shadow: none;
+          --warn: #4a3a0a;
+          --warn-ink: #fcd34d;
+          --warn-line: #6b5410;
           color-scheme: dark;
         }
       }
@@ -214,6 +237,9 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
         --accent-soft: #3a2614;
         --chip: #25282c;
         --shadow: none;
+        --warn: #4a3a0a;
+        --warn-ink: #fcd34d;
+        --warn-line: #6b5410;
         color-scheme: dark;
       }
 
@@ -376,6 +402,23 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
         font-size: 14px;
       }
 
+      .legend { margin: 8px 0 0; color: var(--muted); font-size: 14px; }
+      .chk {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--warn-ink);
+        background: var(--warn);
+        padding: 2px 8px;
+        border-radius: 6px;
+        white-space: nowrap;
+      }
+      .chk.sm { display: table; margin-top: 3px; font-size: 11px; padding: 1px 6px; }
+      .card[data-check] { border-color: var(--warn-line); }
+      .src { font-size: 12px; color: var(--muted); }
+      .src:hover { color: var(--ink); }
+      .only { display: inline-flex; align-items: center; gap: 6px; margin-top: 8px; font-size: 14px; cursor: pointer; }
+      .only input { width: 16px; height: 16px; accent-color: var(--accent); }
       .empty { padding: 40px 0; color: var(--muted); text-align: center; }
       .foot { padding: 40px 16px 32px; color: var(--muted); font-size: 13px; }
       [hidden] { display: none !important; }
