@@ -1,46 +1,8 @@
-// Перенесено из Google-таблицы «МАСЛА и прочее» 22.10.2026.
-// Один лист таблицы = одна марка. Пустые ячейки не переносятся.
+// Перенесено из Google-таблицы «МАСЛА и прочее» 22.10.2026. Типы, общие списки аналогов
+// и марки Leopard–Zeekr – в brands-2.ts, здесь AITO–Li Auto и общий список.
+import { brandsLZ, DEX3, DEX3_NOTE, GL45, HUNTER_COMMON, HUNTER_FLUIDS, ULV4, ULV5, type Brand } from './brands-2';
 
-export type Unit = {
-  name: string; // узел: передний редуктор, ДВС, АКПП…
-  vol?: string; // объём
-  spec?: string; // допуск
-  oil?: string; // масло
-  alt?: string[]; // аналоги
-  part?: string; // артикул
-};
-
-export type Extra = { k: string; v: string };
-
-export type Model = {
-  name: string;
-  sub?: string;
-  units?: Unit[];
-  extra?: Extra[];
-  note?: string;
-};
-
-export type Brand = { id: string; name: string; models: Model[] };
-
-const ULV4 = [
-  'KROON-OIL SP Matic 2096',
-  'Castrol ON EV Transmission Fluid D1',
-  'Ravenol ATF ULV D-M',
-  'Castrol ON EV Transmission Fluid W5',
-];
-const ULV5 = [...ULV4, 'Wolf OFFICIALTECH ATF D/M ULV'];
-const DEX3 = [
-  'FUCHS TITAN ATF 4400 DEXRON III',
-  'TOTAL FLUIDMATIC XLD FE',
-  'ZIC ATF MULTI SP-III Dexron III (1 л)',
-];
-const DEX3_NOTE = 'На канистре должно быть указано Dexron III / Dex/Merc / Mercon';
-const GL45 = ['75W-90 или любое с допуском GL-4/GL-5'];
-// У Xiaomi фреон и тормозная жидкость в таблице общие на все модели.
-const XIAOMI_COMMON: Extra[] = [
-  { k: 'Хладагент', v: 'R134a, 1150 г' },
-  { k: 'Тормозная жидкость', v: 'DOT 4, 1 л' },
-];
+export type { Brand, Model, Row } from './brands-2';
 
 export const brands: Brand[] = [
   {
@@ -49,13 +11,42 @@ export const brands: Brand[] = [
     models: [
       {
         name: 'M5',
-        units: [{ name: 'Редуктор', alt: ['75W'] }],
-        extra: [
-          { k: 'Фильтр салона', v: 'Filtron K1175' },
-          { k: 'Фильтр воздушный', v: 'Подходит от Voyah (дорест)' },
+        rows: [
+          { name: 'Масло трансмиссионное (SEP165)', oil: 'ATF-VI; ETF-EMC', vol: '3,0 ± 0,5 л' },
+          { name: 'Редуктор CTZ196XY0P1', oil: 'Castrol BOT 805 C', alt: ['75W'], vol: '1,7 ± 0,1 л' },
+          { name: 'Редуктор CTZ196XY0P4', oil: 'Castrol BOT 805 C', alt: ['75W'], vol: '1,7 ± 0,1 л' },
+          { name: 'Редуктор CYS210XY0P1', oil: 'Castrol BOT 805 C', alt: ['75W'], vol: '2,0 ± 0,1 л' },
+          { name: 'Масло моторное (H15RT)', oil: 'SP 0W-20', vol: '4 л' },
+          { name: 'Тормозная жидкость', oil: 'DOT4', vol: '700 ± 50 мл' },
+          { name: 'Охлаждающая жидкость ДВС', oil: 'до −40 °C', vol: '8,7 ± 0,5 л' },
+          { name: 'Охлаждающая жидкость тяговой батареи', oil: 'до −40 °C', vol: '13,5 ± 0,5 л' },
+          { name: 'Хладагент кондиционера', oil: 'R134a', vol: '600 ± 20 г' },
+          { name: 'Омывающая жидкость', oil: 'любая', vol: '3,7 ± 0,2 л' },
+          { name: 'Фильтр салона', oil: 'Filtron K1175' },
+          { name: 'Фильтр воздушный', oil: 'Подходит от Voyah (дорест)' },
         ],
       },
-      { name: 'M7', units: [{ name: 'Редуктор', alt: ['75W'] }] },
+      {
+        name: 'M7',
+        rows: [
+          { name: 'Трансмиссия SE200', oil: 'BOT 805C EV', alt: ['75W'], vol: '1,7 ± 0,1 л' },
+          { name: 'Трансмиссия DET300', oil: 'SK DHTF-01', vol: '2,2 ± 0,1 л' },
+          {
+            name: 'ДВС генераторной установки (H15RT)',
+            oil: 'SP 0W-20',
+            vol: '4 л при замене фильтра; 4,5 л при капремонте двигателя',
+          },
+          { name: 'Охлаждающая жидкость генераторной установки', oil: 'до −40 °C', vol: '8,9 ± 0,6 л' },
+          { name: 'Охлаждающая жидкость тяговой батареи', oil: 'до −40 °C', vol: '5,7 ± 0,5 л' },
+          {
+            name: 'Охлаждающая жидкость электропривода',
+            oil: 'до −40 °C',
+            vol: '7,5 л (моно) / 8,9 л (полный привод)',
+          },
+          { name: 'Хладагент кондиционера', oil: 'R134a', vol: '850 ± 10 г' },
+          { name: 'Омывающая жидкость (зимняя)', oil: 'до −35 °C', vol: '2,5 л' },
+        ],
+      },
     ],
   },
   {
@@ -64,12 +55,22 @@ export const brands: Brand[] = [
     models: [
       {
         name: 'Avatr 11',
-        units: [{ name: 'Редуктор', spec: 'BOT 805 C EV', oil: 'Castrol ON EV Transmission Fluid W1' }],
-        extra: [{ k: 'Колодки передние', v: 'FDP2076' }],
+        code: 'SC6491EBCBEV, SC6491EBEBEV',
+        rows: [
+          { name: 'Передний редуктор', spec: 'BOT 805 C EV', oil: 'Castrol ON EV Transmission Fluid W1', vol: '1,6 ± 0,1 л' },
+          { name: 'Задний редуктор', spec: 'BOT 805 C EV', oil: 'Castrol ON EV Transmission Fluid W1', vol: '1,8 ± 0,1 л' },
+          { name: 'Тормозная жидкость', oil: 'DOT4/HZY4', vol: '1000 мл' },
+          { name: 'ОЖ: контур отопления, вентиляции и кондиционирования', oil: 'KEVO −40 °C', vol: '2,9 л' },
+          { name: 'ОЖ: тяговая батарея', oil: 'KEVO −40 °C', vol: '5,85 л' },
+          { name: 'ОЖ: цепь электропривода', oil: 'KEVO −40 °C', vol: '7,8 л' },
+          { name: 'Хладагент кондиционера', oil: 'R134a', vol: '850 ± 20 мл' },
+          { name: 'Омывающая жидкость', oil: 'ZT-30', vol: '3 л' },
+          { name: 'Колодки передние', oil: 'FDP2076' },
+        ],
       },
       {
         name: 'Avatr 12',
-        units: [
+        rows: [
           {
             name: 'Редуктор',
             spec: 'BOT 805 C EV',
@@ -81,18 +82,18 @@ export const brands: Brand[] = [
       {
         name: 'Avatr 07',
         sub: 'Гибрид, полный привод',
-        units: [
-          { name: 'Передний редуктор', vol: '4,1 ± 0,1 л', oil: 'CA-DHTF-1' },
-          { name: 'Задний редуктор', vol: '1,8 ± 0,1 л', oil: '75W' },
-          { name: 'ДВС', vol: '4 л', oil: '0W-16' },
+        rows: [
+          { name: 'Передний редуктор', oil: 'CA-DHTF-1', vol: '4,1 ± 0,1 л' },
+          { name: 'Задний редуктор', oil: '75W', vol: '1,8 ± 0,1 л' },
+          { name: 'ДВС', oil: '0W-16', vol: '4 л' },
         ],
       },
       {
         name: 'Avatr 07',
         sub: 'Электро',
-        units: [
-          { name: 'Передний редуктор', vol: '1,05 л', oil: '75W' },
-          { name: 'Задний редуктор', vol: '1,65 л', oil: '75W' },
+        rows: [
+          { name: 'Передний редуктор', oil: '75W', vol: '1,05 л' },
+          { name: 'Задний редуктор', oil: '75W', vol: '1,65 л' },
         ],
       },
     ],
@@ -103,14 +104,7 @@ export const brands: Brand[] = [
     models: [
       {
         name: 'E4',
-        units: [
-          {
-            name: 'Редуктор',
-            vol: 'по книге 3,17 л, фактически 2,7 л',
-            spec: 'Dexron ULV',
-            oil: 'Ravenol ULV D-M',
-          },
-        ],
+        rows: [{ name: 'Редуктор', spec: 'Dexron ULV', oil: 'Ravenol ULV D-M', vol: 'по книге 3,17 л, фактически 2,7 л' }],
       },
     ],
   },
@@ -118,184 +112,165 @@ export const brands: Brand[] = [
     id: 'byd',
     name: 'BYD',
     models: [
-      {
-        name: 'Song Plus',
-        sub: '2024',
-        units: [{ name: 'Редуктор', vol: '0,8–1,6 л', spec: 'BOT 383', oil: 'Castrol', alt: ULV4 }],
-      },
+      { name: 'Song Plus', sub: '2024', rows: [{ name: 'Редуктор', spec: 'BOT 383', oil: 'Castrol', alt: ULV4, vol: '0,8–1,6 л' }] },
       {
         name: 'E2',
         sub: '2023–2024',
-        units: [{ name: 'Редуктор', vol: '0,5 л', spec: 'BOT 384', alt: ULV4 }],
-        extra: [
-          { k: 'Тормозная жидкость', v: 'BASF DOT4; Sinopec HZY6, 1,0 ± 0,05 л' },
-          { k: 'Охлаждающая жидкость', v: 'Этиленгликолевый, стойкий антикоррозийный антифриз, 4,5 ± 0,2 л' },
+        rows: [
+          { name: 'Редуктор', spec: 'BOT 384', alt: ULV4, vol: '0,5 л' },
+          { name: 'Тормозная жидкость', oil: 'BASF DOT4; Sinopec HZY6', vol: '1,0 ± 0,05 л' },
+          { name: 'Охлаждающая жидкость', oil: 'Этиленгликолевый, стойкий антикоррозийный антифриз', vol: '4,5 ± 0,2 л' },
         ],
       },
       {
         name: 'E2',
         sub: 'до 2023',
-        units: [{ name: 'Редуктор', vol: '0,5 л', spec: 'Shell S3-ATF-MD3', oil: DEX3_NOTE, alt: DEX3 }],
-        extra: [
-          { k: 'Тормозная жидкость', v: 'DOT4, 0,75 ± 0,05 л' },
+        rows: [
+          { name: 'Редуктор', spec: 'Shell S3-ATF-MD3', oil: DEX3_NOTE, alt: DEX3, vol: '0,5 л' },
+          { name: 'Тормозная жидкость', oil: 'DOT4', vol: '0,75 ± 0,05 л' },
           {
-            k: 'Охлаждающая жидкость',
-            v: 'Для внутреннего рынка: гликолевый долговечный антикоррозийный антифриз, 4,6 ± 0,2 л. Температура замерзания по климату: −25 °C – круглый год на юге и летом на севере; −40 °C – зима в северных регионах',
+            name: 'Охлаждающая жидкость',
+            oil: 'Гликолевый долговечный антикоррозийный антифриз (внутренний рынок)',
+            vol: '4,6 ± 0,2 л',
+            note: 'Замерзание по климату: −25 °C – круглый год на юге и летом на севере; −40 °C – зима в северных регионах',
           },
-          { k: 'ОЖ батареи', v: 'Органический кислотный антифриз, −40 °C, 3,8 ± 0,1 л' },
-          { k: 'Шаровая', v: 'Узкий палец' },
+          { name: 'ОЖ батареи', oil: 'Органический кислотный антифриз −40 °C', vol: '3,8 ± 0,1 л' },
+          { name: 'Шаровая', oil: 'Узкий палец' },
         ],
       },
       {
         name: 'Yuan Up',
-        units: [{ name: 'Редуктор', vol: '600 ± 50 мл', alt: ULV5 }],
-        extra: [{ k: 'Фильтр салона', v: 'FC474NY (Nakayama)' }],
+        rows: [
+          { name: 'Редуктор', alt: ULV5, vol: '600 ± 50 мл' },
+          { name: 'Фильтр салона', oil: 'FC474NY (Nakayama)' },
+        ],
       },
       {
         name: 'Yuan Plus',
-        units: [{ name: 'Редуктор', vol: '600 ± 50 мл', spec: 'BOT 384', alt: ULV5 }],
-        extra: [{ k: 'Стойки стабилизатора', v: 'Задние PS4283' }],
+        rows: [
+          { name: 'Редуктор', spec: 'BOT 384', alt: ULV5, vol: '600 ± 50 мл' },
+          { name: 'Стойки стабилизатора задние', oil: 'PS4283' },
+        ],
       },
       {
         name: 'Han',
         sub: 'до 2022',
-        units: [
-          { name: 'Передний редуктор', vol: '0,75 л', alt: ['75W-90'] },
-          { name: 'Задний редуктор', vol: '0,85 л', alt: ['75W-90'] },
+        rows: [
+          { name: 'Передний редуктор', alt: ['75W-90'], vol: '0,75 л' },
+          { name: 'Задний редуктор', alt: ['75W-90'], vol: '0,85 л' },
         ],
       },
       {
         name: 'Han',
         sub: 'с 2022',
-        units: [
-          { name: 'Передний редуктор', vol: '0,9 л', spec: 'BOT 384', alt: ULV5 },
-          { name: 'Задний редуктор', vol: '1 л', spec: 'BOT 384', alt: ULV5 },
+        rows: [
+          { name: 'Передний редуктор', spec: 'BOT 384', alt: ULV5, vol: '0,9 л' },
+          { name: 'Задний редуктор', spec: 'BOT 384', alt: ULV5, vol: '1 л' },
+          { name: 'Тормозная жидкость', oil: 'DOT4/HZY6', vol: '1,13 ± 0,2 л (2WD); 1,15 ± 0,2 л (4WD)' },
         ],
-        extra: [{ k: 'Тормозная жидкость', v: 'DOT4/HZY6: 1,13 ± 0,2 л (2WD), 1,15 ± 0,2 л (4WD)' }],
       },
       {
         name: 'Han',
         sub: '2022',
-        units: [
-          { name: 'Передний узел в сборе', vol: '0,85 ± 0,1 л', oil: 'BOT 384', alt: ULV5 },
-          { name: 'Задний узел в сборе', vol: '0,95 ± 0,1 л', oil: 'BOT 384', alt: ULV5 },
+        rows: [
+          { name: 'Передний узел в сборе', oil: 'BOT 384', alt: ULV5, vol: '0,85 ± 0,1 л' },
+          { name: 'Задний узел в сборе', oil: 'BOT 384', alt: ULV5, vol: '0,95 ± 0,1 л' },
+          { name: 'Фреон', oil: 'R-134a', vol: '1150 ± 10 г' },
         ],
-        extra: [{ k: 'Фреон', v: 'R-134a, 1150 ± 10 г' }],
       },
       {
         name: 'Sea Lion',
-        units: [
-          { name: 'Передний редуктор', vol: '1,6 л', spec: 'BOT 383', oil: 'Castrol', alt: ULV5 },
-          { name: 'Задний редуктор', vol: '1,55 л', spec: 'BOT 383', oil: 'Castrol', alt: ULV5 },
+        rows: [
+          { name: 'Передний редуктор', spec: 'BOT 383', oil: 'Castrol', alt: ULV5, vol: '1,6 л' },
+          { name: 'Задний редуктор', spec: 'BOT 383', oil: 'Castrol', alt: ULV5, vol: '1,55 л' },
         ],
       },
       {
         name: 'Song L',
-        units: [
-          { name: 'Передний редуктор', vol: '1,6 л', spec: 'BOT 383', oil: 'Castrol', alt: ULV5 },
-          { name: 'Задний редуктор', vol: '1,55 л', spec: 'BOT 383', oil: 'Castrol', alt: ULV5 },
+        rows: [
+          { name: 'Передний редуктор', spec: 'BOT 383', oil: 'Castrol', alt: ULV5, vol: '1,6 л' },
+          { name: 'Задний редуктор', spec: 'BOT 383', oil: 'Castrol', alt: ULV5, vol: '1,55 л' },
+          { name: 'Колодки передние', oil: 'HP9157NY' },
+          { name: 'Колодки задние', oil: 'PBP363' },
         ],
-        extra: [{ k: 'Колодки', v: 'Передние HP9157NY, задние PBP363' }],
       },
       {
         name: 'Song L DM-i',
-        units: [
-          { name: 'ДВС', vol: '4 л', spec: '0W-16' },
-          { name: 'Передний редуктор', vol: '3,3 л', spec: 'EHSF-2LV', alt: ['Idemitsu CVTF Type 2'] },
-          { name: 'Задний редуктор', vol: '3,3 л', spec: 'EHSF-2LV', alt: ['Idemitsu CVTF Type 2'] },
+        rows: [
+          { name: 'Передний редуктор', spec: 'EHSF-2LV', alt: ['Idemitsu CVTF Type 2'], vol: '3,3 л' },
+          { name: 'Задний редуктор', spec: 'EHSF-2LV', alt: ['Idemitsu CVTF Type 2'], vol: '3,3 л' },
+          { name: 'ДВС', spec: '0W-16', vol: '4 л' },
         ],
       },
       {
         name: 'Qin Plus',
         sub: '2020',
-        units: [{ name: 'Редуктор', vol: '0,7 л', spec: 'S3-ATF-MD3', oil: DEX3_NOTE, alt: DEX3 }],
-        extra: [
-          { k: 'Тормозная жидкость', v: 'DOT4, 850 ± 50 мл' },
+        rows: [
+          { name: 'Редуктор', spec: 'S3-ATF-MD3', oil: DEX3_NOTE, alt: DEX3, vol: '0,7 л' },
+          { name: 'Тормозная жидкость', oil: 'DOT4', vol: '850 ± 50 мл' },
           {
-            k: 'Охлаждающая жидкость',
-            v: 'С подогревом батареи – 4,4 л; без подогрева батареи – 3,3 л; без электрического + с электрическим подогревом – 5,0 л',
+            name: 'Охлаждающая жидкость',
+            vol: 'с подогревом батареи 4,4 л; без подогрева 3,3 л; без электрического + с электрическим подогревом 5,0 л',
           },
-          { k: 'ОЖ батареи', v: 'На основе этиленгликоля, 5,4 л' },
+          { name: 'ОЖ батареи', oil: 'На основе этиленгликоля', vol: '5,4 л' },
         ],
       },
       {
         name: 'Qin Plus',
         sub: '2023',
-        units: [
-          {
-            name: 'Редуктор',
-            vol: 'BYD7000BVBEV – 0,65 ± 0,05 л; BYD7000BVBEV2 – 0,8 ± 0,05 л',
-            spec: 'Castrol BOT 384',
-            oil: 'Castrol',
-            alt: ULV5,
-          },
-        ],
-        extra: [
-          { k: 'Тормозная жидкость', v: 'HZY6/DOT4, 0,93 ± 0,05 л' },
-          { k: 'Охлаждающая жидкость', v: 'Этиленгликолевая органическая долговечная, 7,4 л' },
+        rows: [
+          { name: 'Редуктор BYD7000BVBEV', spec: 'Castrol BOT 384', oil: 'Castrol', alt: ULV5, vol: '0,65 ± 0,05 л' },
+          { name: 'Редуктор BYD7000BVBEV2', spec: 'Castrol BOT 384', oil: 'Castrol', alt: ULV5, vol: '0,8 ± 0,05 л' },
+          { name: 'Тормозная жидкость', oil: 'HZY6/DOT4', vol: '0,93 ± 0,05 л' },
+          { name: 'Охлаждающая жидкость', oil: 'Этиленгликолевая органическая долговечная', vol: '7,4 л' },
         ],
       },
       {
         name: 'Tang EV',
         sub: '2025',
-        units: [
+        rows: [
           {
             name: 'Передний редуктор',
-            vol: '2,3 ± 0,05 л',
             spec: 'Castrol BOT 383 или W5, Total GL-4 75W-90, Shell S3 ATF MD3',
             alt: [...ULV5, '75W'],
+            vol: '2,3 ± 0,05 л',
           },
           {
             name: 'Задний редуктор',
-            vol: '1,9 ± 0,05 л',
             spec: 'Castrol BOT 383 или W5, Total GL-4 75W-90, Shell S3 ATF MD3',
             alt: [...ULV5, '75W'],
+            vol: '1,9 ± 0,05 л',
           },
-        ],
-        extra: [
-          { k: 'Фреон', v: 'BYD7006BEVA1 или BYD7006BEVA2 – 1500 ± 10 г; BYD7006BEVA – 1200 ± 10 г' },
-          { k: 'Тормозная жидкость', v: 'DOT4/HZY6, 1,15 ± 0,05 л' },
-          { k: 'Охлаждающая жидкость', v: 'LEC-II: BYD7006BEVA / BYD7006BEVA2 – 5,1 ± 0,2 л; BYD7006BEVA1 – 5,8 ± 0,2 л' },
+          { name: 'Тормозная жидкость', oil: 'DOT4/HZY6', vol: '1,15 ± 0,05 л' },
+          { name: 'Охлаждающая жидкость', oil: 'LEC-II', vol: 'BYD7006BEVA / BEVA2 – 5,1 ± 0,2 л; BYD7006BEVA1 – 5,8 ± 0,2 л' },
+          { name: 'Фреон', vol: 'BYD7006BEVA1 или BEVA2 – 1500 ± 10 г; BYD7006BEVA – 1200 ± 10 г' },
         ],
       },
       {
         name: 'Seal',
         sub: '2022',
-        units: [
-          { name: 'Передний редуктор', vol: '2 ± 0,05 л', spec: 'Castrol BOT 383', alt: [...ULV5, '75W'] },
-          { name: 'Задний редуктор', vol: '1,7 ± 0,05 л', spec: 'Castrol BOT 383', alt: [...ULV5, '75W'] },
-        ],
-        extra: [
-          { k: 'Фреон', v: 'R134a: BYD7006BEVA1 или BYD7006BEVA2 – 1500 ± 10 г; BYD7006BEVA – 1200 ± 10 г' },
-          { k: 'Тормозная жидкость', v: 'DOT4/HZY6, 1100 ± 100 мл' },
-          { k: 'Охлаждающая жидкость', v: 'TZ180XSF – 3,1 ± 0,2 л; TZ200XSQ – 3,3 ± 0,2 л' },
+        rows: [
+          { name: 'Передний редуктор', spec: 'Castrol BOT 383', alt: [...ULV5, '75W'], vol: '2 ± 0,05 л' },
+          { name: 'Задний редуктор', spec: 'Castrol BOT 383', alt: [...ULV5, '75W'], vol: '1,7 ± 0,05 л' },
+          { name: 'Тормозная жидкость', oil: 'DOT4/HZY6', vol: '1100 ± 100 мл' },
+          { name: 'Охлаждающая жидкость', vol: 'TZ180XSF – 3,1 ± 0,2 л; TZ200XSQ – 3,3 ± 0,2 л' },
+          { name: 'Фреон', oil: 'R134a', vol: 'BYD7006BEVA1 или BEVA2 – 1500 ± 10 г; BYD7006BEVA – 1200 ± 10 г' },
         ],
       },
       {
         name: 'Dolphin',
-        units: [
-          {
-            name: 'Редуктор',
-            vol: 'TZ180XSF (70 кВт, 94 л. с.) – 0,5 л; TZ200XSQ (130 кВт, 174 л. с.) – 0,65 л',
-            spec: 'BOT 384',
-            alt: [...ULV5, '75W'],
-          },
+        rows: [
+          { name: 'Редуктор TZ180XSF (70 кВт, 94 л. с.)', spec: 'BOT 384', alt: [...ULV5, '75W'], vol: '0,5 л' },
+          { name: 'Редуктор TZ200XSQ (130 кВт, 174 л. с.)', spec: 'BOT 384', alt: [...ULV5, '75W'], vol: '0,65 л' },
+          { name: 'Фреон', oil: 'R1234yf', vol: '1000 ± 20 г' },
         ],
-        extra: [{ k: 'Фреон', v: 'R1234yf, 1000 ± 20 г' }],
       },
     ],
   },
   {
     id: 'changan',
     name: 'Changan',
-    models: [
-      { name: 'Qiyuan A07', units: [{ name: 'Редуктор', vol: '1,1 л', spec: 'BOT 805C EV', oil: '75W' }] },
-    ],
-  },
-  {
-    id: 'changan-hunter',
-    name: 'Changan Hunter',
-    models: [{ name: 'Hunter', units: [{ name: 'Редуктор', spec: 'BOT 350 M3', alt: ['75W'] }] }],
+    models: [{ name: 'Qiyuan A07', rows: [{ name: 'Редуктор', spec: 'BOT 805C EV', oil: '75W', vol: '1,1 л' }] }],
   },
   {
     id: 'deepal',
@@ -304,36 +279,103 @@ export const brands: Brand[] = [
       {
         name: 'SL07',
         sub: '2025',
-        units: [
-          { name: 'Задний редуктор', vol: '1 л', spec: 'BOT 805C EV', oil: '75W', alt: ['Fuchs Titan'] },
-          { name: 'ДВС', vol: '3,3 л' },
+        rows: [
+          { name: 'Задний редуктор', spec: 'BOT 805C EV', oil: 'Castrol BOT805C EV', alt: ['75W', 'Fuchs Titan'], vol: '1,0 л' },
+          {
+            name: 'Моторное масло',
+            oil: 'SN/GF-5 и выше, 0W-20 (Q/JD J-GY5)',
+            vol: '3,2 ± 0,1 л',
+            note: 'В таблице у мастеров ДВС – 3,3 л',
+          },
+          { name: 'Охлаждающая жидкость', oil: 'LEC-II-40 (Q/JD1028)', vol: '11,6 л' },
+          { name: 'Тормозная жидкость', oil: 'HZY4 или DOT4', vol: '950 ± 50 мл' },
+          { name: 'Компрессорное масло кондиционера', oil: 'PVE 56EA', vol: '140 мл', note: 'В мануале опечатка «ФЖЕЛ 56EA»' },
+          { name: 'Хладагент кондиционера', oil: 'R134a', vol: '480 г' },
+          { name: 'Омывающая жидкость', oil: 'ZT-30', vol: '3,0 л' },
+          { name: 'Топливо', oil: 'АИ-92 и выше (GB 17930)', vol: '45 л' },
         ],
       },
       {
         name: 'SL07',
         sub: '2026',
-        units: [
-          { name: 'Задний редуктор', vol: '1,7 л', spec: 'BOT 805C EV', oil: '75W', alt: ['Fuchs Titan'] },
+        rows: [
+          { name: 'Задний редуктор', spec: 'BOT 805C EV', oil: '75W', alt: ['Fuchs Titan'], vol: '1,7 л' },
           { name: 'ДВС', vol: '3,3 л' },
         ],
       },
       {
         name: 'G318',
-        units: [
-          { name: 'Передний редуктор', vol: '3,8 л', spec: 'Changan CA-DHTF-1', oil: 'Shell Geely E-Fluids E6 i DHTF' },
-          { name: 'Задний редуктор', vol: '1,2 л', spec: 'Castrol BOT 805C EV', oil: '75W' },
-          { name: 'ДВС', vol: '4 л', spec: '0W-16', oil: 'SP/GF-6 и выше' },
-        ],
-        extra: [
-          { k: 'Фильтр переднего редуктора', v: 'C318F211802-1401 (1504520-HFE30D01)' },
-          { k: 'Фильтр масляный', v: 'OC1566' },
+        rows: [
+          {
+            name: 'Передний редуктор',
+            spec: 'Changan CA-DHTF-1',
+            oil: 'Shell Geely E-Fluids E6 i DHTF',
+            vol: '3,8 л',
+          },
+          { name: 'Задний редуктор', spec: 'Castrol BOT 805C EV', oil: '75W', vol: '1,2 л' },
+          { name: 'ДВС', spec: '0W-16', oil: 'SP/GF-6 и выше', vol: '4 л' },
+          { name: 'Фильтр переднего редуктора', oil: 'C318F211802-1401 (1504520-HFE30D01)' },
+          { name: 'Фильтр масляный', oil: 'OC1566' },
         ],
       },
       {
         name: 'S05',
-        units: [
-          { name: 'ДВС', oil: '0W-20' },
-          { name: 'Редуктор', oil: '75W' },
+        rows: [
+          { name: 'Редуктор', oil: 'Castrol BOT805C EV', alt: ['75W'], vol: '1,0 л' },
+          {
+            name: 'Моторное масло',
+            oil: 'SP/GF-6 и выше, 0W-16 (Q/JD J-GY5)',
+            vol: '4 ± 0,1 л',
+            note: 'В таблице у мастеров – 0W-20',
+          },
+          { name: 'Охлаждающая жидкость', oil: 'LEC-II-40 (Q/JD1028)', vol: '15 ± 0,5 л' },
+          { name: 'Тормозная жидкость', oil: 'HZY4', vol: '800 ± 80 мл' },
+          { name: 'Компрессорное масло кондиционера', oil: 'PVE 56EA', vol: '150 мл' },
+          { name: 'Хладагент кондиционера', oil: 'R134a', vol: '570 ± 10 г' },
+          { name: 'Омывающая жидкость', oil: 'HG0807000006', vol: '2,9 ± 0,5 л' },
+          { name: 'Топливо', oil: 'АИ-92 и выше', vol: '51 л' },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'changan-hunter',
+    name: 'Changan Hunter',
+    models: [
+      {
+        name: 'Hunter',
+        sub: 'Бензин',
+        code: 'D20TG-AB',
+        rows: [
+          ...HUNTER_COMMON,
+          { name: 'Масло АКПП (8AT)', oil: 'Shell L12108', vol: '8,5 ± 1,0 л' },
+          { name: 'Раздаточная коробка (Active 4WD)', oil: 'Mercon LV', vol: '1,5 ± 0,05 л' },
+          { name: 'Масло двигателя', oil: '0W-20, SN/GF-5', vol: '4,5 ± 0,1 л' },
+          {
+            name: 'Охлаждающая жидкость',
+            oil: 'BASF Glysantin G30',
+            vol: 'высокотемпературная система 8,9 л; низкотемпературная 2,7 л',
+          },
+          ...HUNTER_FLUIDS,
+          { name: 'Топливо (Euro VI)', oil: 'Бензин неэтилированный, RON не ниже 92 (AKI не ниже 89)', vol: '80 л' },
+        ],
+      },
+      {
+        name: 'Hunter',
+        sub: 'Дизель',
+        code: '4D20M',
+        rows: [
+          ...HUNTER_COMMON,
+          { name: 'Масло двигателя', oil: '5W-30, ACEA C3', vol: '5,0 ± 0,02 л' },
+          { name: 'Охлаждающая жидкость', oil: 'RLFD-101', vol: '8,4 ± 0,5 л' },
+          ...HUNTER_FLUIDS,
+          { name: 'Жидкость гидроусилителя руля', oil: 'ATF III', vol: '1,05 ± 0,02 л' },
+          { name: 'Раствор мочевины', oil: 'AUS32 (массовая доля 31,8–33,2 %)', vol: '16,5 л' },
+          {
+            name: 'Топливо (Euro VI)',
+            oil: 'Дизель: 0# – выше 5 °C; −10# – выше −5 °C; −20# – выше −10 °C; −35# – выше −25 °C',
+            vol: '80 л',
+          },
         ],
       },
     ],
@@ -344,11 +386,29 @@ export const brands: Brand[] = [
     models: [
       {
         name: 'Z9',
-        units: [
-          { name: 'Передний редуктор' },
-          { name: 'Задний редуктор', vol: 'установлено 2, заливаются через общее отверстие' },
+        code: 'ДВС BYD479ZQA',
+        rows: [
+          { name: 'Передний редуктор (коробка EHS)', oil: 'EHSF-2LV', vol: '3,1 ± 0,05 л' },
+          {
+            name: 'Задний электропривод',
+            oil: 'EHSF-2LV',
+            vol: '2,6 ± 0,1 л',
+            note: 'Установлено 2 задних редуктора, заливаются через общее отверстие',
+          },
+          { name: 'Масло ДВС', oil: 'SP 0W-20; C5 0W-20, одновременно SN+/SP', vol: '5,4 ± 0,1 л' },
+          { name: 'Тормозная жидкость', oil: 'HZY6/DOT4', vol: '1,08 ± 0,1 л' },
+          {
+            name: 'Охлаждающая жидкость электропривода и электроники',
+            oil: 'Этиленгликолевая органическо-кислотная (OAT) долговечная, −40 °C',
+            vol: '11,15 ± 0,5 л',
+          },
+          {
+            name: 'Охлаждающая жидкость двигателя',
+            oil: 'Этиленгликолевая органическо-кислотная (OAT) долговечная, −40 °C',
+            vol: '9,5 ± 0,5 л',
+          },
         ],
-        note: 'В таблице данных по маслу пока нет',
+        note: 'Таблица из китайского мануала, переведено',
       },
     ],
   },
@@ -359,12 +419,12 @@ export const brands: Brand[] = [
       {
         name: '230 Pro',
         sub: 'Гибрид',
-        units: [
+        rows: [
           { name: 'Редукторы', oil: 'HBVFE-2 GL-4 75W' },
           { name: 'Задний редуктор', vol: '0,95 л' },
-          { name: 'ДВС', vol: '3,1 л', oil: 'SN PLUS 0W-20' },
+          { name: 'ДВС', oil: 'SN PLUS 0W-20', vol: '3,1 л' },
+          { name: 'Фреон', vol: '600 г' },
         ],
-        extra: [{ k: 'Фреон', v: '600 г' }],
       },
     ],
   },
@@ -374,11 +434,7 @@ export const brands: Brand[] = [
     models: [
       {
         name: 'Mars 9',
-        units: [
-          { name: 'Двигатель', vol: '5,5 л', oil: 'Titan 5W-30 C3' },
-          { name: 'Редуктор задний' },
-          { name: 'Редуктор передний' },
-        ],
+        rows: [{ name: 'Редуктор задний' }, { name: 'Редуктор передний' }, { name: 'Двигатель', oil: 'Titan 5W-30 C3', vol: '5,5 л' }],
       },
     ],
   },
@@ -388,10 +444,10 @@ export const brands: Brand[] = [
     models: [
       {
         name: 'Aion Y Plus',
-        units: [
-          { name: 'Редуктор TZ184XYA2001', vol: '1,35–1,43 л', oil: 'Idemitsu MOTF TS-1' },
-          { name: 'Редуктор TZ180XS127 / TZ180XS130', vol: '650–750 мл', spec: 'BOT 350 M3', alt: ['75W'] },
-          { name: 'Редуктор TZ180XYXOF51', vol: '1,5 л', oil: 'Mobil 304' },
+        rows: [
+          { name: 'Редуктор TZ184XYA2001', oil: 'Idemitsu MOTF TS-1', vol: '1,35–1,43 л' },
+          { name: 'Редуктор TZ180XS127 / TZ180XS130', spec: 'BOT 350 M3', alt: ['75W'], vol: '650–750 мл' },
+          { name: 'Редуктор TZ180XYXOF51', oil: 'Mobil 304', vol: '1,5 л' },
         ],
       },
     ],
@@ -402,45 +458,44 @@ export const brands: Brand[] = [
     models: [
       {
         name: 'E8',
-        units: [
-          { name: 'Передний редуктор', vol: '1,6 л', oil: 'ULV D-M' },
-          { name: 'Задний редуктор', vol: '1,8 л', oil: 'ULV D-M' },
+        rows: [
+          { name: 'Передний редуктор', oil: 'ULV D-M', vol: '1,6 л' },
+          { name: 'Задний редуктор', oil: 'ULV D-M', vol: '1,8 л' },
         ],
       },
-      { name: 'Farizon', units: [{ name: 'Передний редуктор', vol: '0,8 л', oil: 'ULV D-M' }] },
+      { name: 'Farizon', rows: [{ name: 'Передний редуктор', oil: 'ULV D-M', vol: '0,8 л' }] },
       {
         name: 'E5',
         sub: '2025',
-        units: [{ name: 'Передний редуктор', vol: '1 л', oil: 'Geely Shell E-Fluids E6 i DHTF' }],
-        extra: [
+        rows: [
+          { name: 'Передний редуктор', oil: 'Geely Shell E-Fluids E6 i DHTF', vol: '1 л', note: 'Под сливной крышкой ещё одна крышка' },
           {
-            k: 'Хладагент',
-            v: 'R134, 725 ± 20 г (было на наклейке у машины, которая к нам приезжала; лучше смотреть под капотом у каждой)',
+            name: 'Хладагент',
+            oil: 'R134',
+            vol: '725 ± 20 г',
+            note: 'Было на наклейке у машины, которая к нам приезжала; лучше смотреть под капотом у каждой',
           },
         ],
-        note: 'Под сливной крышкой ещё одна крышка',
       },
       {
         name: 'Monjaro',
-        units: [
-          { name: 'Раздаточная коробка', vol: '0,45 л', oil: '75W-90' },
-          { name: 'Задняя главная передача и дифференциал', vol: '0,45 л', oil: '75W-90' },
-          { name: 'ДВС', vol: '6,8 л сухой / 5,6 л при замене', spec: 'VCC RBS0-2AE', oil: '0W-20' },
+        rows: [
+          { name: 'АКПП', oil: 'ATF AW-1', vol: '6,65 л' },
+          { name: 'Раздаточная коробка', oil: '75W-90', vol: '0,45 л' },
+          { name: 'Задняя главная передача и дифференциал', oil: '75W-90', vol: '0,45 л' },
           { name: 'Масло для распределения крутящего момента', spec: 'Habot 311', oil: 'Пока нет информации' },
-          { name: 'АКПП', vol: '6,65 л', oil: 'ATF AW-1' },
-        ],
-        extra: [
-          { k: 'Хладагент', v: 'R134, 550 г' },
-          { k: 'Тормозная жидкость', v: 'DOT-4, 0,86 л / интеллектуальный усилитель 0,73 л' },
+          { name: 'ДВС', spec: 'VCC RBS0-2AE', oil: '0W-20', vol: '6,8 л сухой / 5,6 л при замене' },
+          { name: 'Тормозная жидкость', oil: 'DOT-4', vol: '0,86 л; интеллектуальный усилитель 0,73 л' },
+          { name: 'Хладагент', oil: 'R134', vol: '550 г' },
         ],
       },
       {
         name: 'Coolray',
-        units: [{ name: 'ДВС', oil: '0W-20 Geely LP0W20AFS4L Lopal' }],
-        extra: [
-          { k: 'Фильтр масляный', v: 'Mahle OC614 / Mann 7030' },
-          { k: 'Фильтр салонный', v: 'Filtron K1017' },
-          { k: 'Фильтр воздушный', v: 'BIG FILTER GB95113, Goodwill AG853, JS Asakashi A0841, Totachi TA-4109' },
+        rows: [
+          { name: 'ДВС', oil: '0W-20 Geely LP0W20AFS4L Lopal' },
+          { name: 'Фильтр масляный', oil: 'Mahle OC614 / Mann 7030' },
+          { name: 'Фильтр салонный', oil: 'Filtron K1017' },
+          { name: 'Фильтр воздушный', oil: 'BIG FILTER GB95113, Goodwill AG853, JS Asakashi A0841, Totachi TA-4109' },
         ],
       },
     ],
@@ -449,409 +504,32 @@ export const brands: Brand[] = [
     id: 'honda',
     name: 'Honda',
     models: [
-      { name: 'M-NV', sub: '2024', units: [{ name: 'Редуктор', spec: 'BOT 352', alt: GL45 }] },
-      { name: 'M-NV', sub: '2023', units: [{ name: 'Редуктор', vol: '950 г', spec: 'BOT 352', alt: GL45 }] },
-      { name: 'e:NP1', units: [{ name: 'Редуктор', vol: '350 г', spec: 'BEVF TYPE 1.0 75W' }] },
-      { name: 'e:NP2', units: [{ name: 'Редуктор', vol: '900 г', spec: 'BOT 352', alt: GL45 }] },
+      { name: 'M-NV', sub: '2024', rows: [{ name: 'Редуктор', spec: 'BOT 352', alt: GL45 }] },
+      { name: 'M-NV', sub: '2023', rows: [{ name: 'Редуктор', spec: 'BOT 352', alt: GL45, vol: '950 г' }] },
+      { name: 'e:NP1', rows: [{ name: 'Редуктор', spec: 'BEVF TYPE 1.0 75W', vol: '350 г' }] },
+      { name: 'e:NP2', rows: [{ name: 'Редуктор', spec: 'BOT 352', alt: GL45, vol: '900 г' }] },
     ],
   },
   {
     id: 'jac',
     name: 'JAC',
-    models: [
-      {
-        name: 'Refine M3 / e3',
-        units: [{ name: 'Редуктор TZ220XSLJC60C', vol: '1,25 л', oil: '75W-90 GL-4/GL-5' }],
-      },
-    ],
+    models: [{ name: 'Refine M3 / e3', rows: [{ name: 'Редуктор TZ220XSLJC60C', oil: '75W-90 GL-4/GL-5', vol: '1,25 л' }] }],
   },
   {
     id: 'leapmotor',
     name: 'Leapmotor',
     models: [
-      {
-        name: 'C11',
-        sub: 'С водяным охлаждением',
-        units: [{ name: 'Редуктор', vol: '1,9 ± 0,05 л', spec: 'BOT 350 M3', oil: '75W' }],
-      },
+      { name: 'C11', sub: 'С водяным охлаждением', rows: [{ name: 'Редуктор', spec: 'BOT 350 M3', oil: '75W', vol: '1,9 ± 0,05 л' }] },
       {
         name: 'C11',
         sub: 'С масляным охлаждением',
-        units: [
-          { name: 'Передний редуктор', vol: '2,8 ± 0,05 л', spec: 'BOT 805C', oil: '75W' },
-          { name: 'Задний редуктор', vol: '3,0 ± 0,05 л', spec: 'BOT 805C', oil: '75W' },
-        ],
-        extra: [{ k: 'Фильтр', v: 'OP525' }],
-      },
-    ],
-  },
-  {
-    id: 'leopard',
-    name: 'Leopard',
-    models: [
-      {
-        name: 'Leopard 5',
-        units: [
-          { name: 'Передний редуктор', vol: '5,7 л', oil: 'EHSF-2LV' },
-          { name: 'Задний редуктор', vol: '2,8 л', oil: 'EHSF-2LV' },
-        ],
-      },
-      { name: 'Leopard 3', units: [{ name: 'Редуктор', spec: 'BOT 383' }] },
-    ],
-  },
-  {
-    id: 'lixiang',
-    name: 'Li Auto (Lixiang)',
-    models: [
-      {
-        name: 'L6 / L7 / L8 / L9',
-        sub: '2023–2024',
-        units: [
-          { name: 'Передний редуктор · UMC', part: 'X01-21000012', vol: '1,1 + 0,05 л', oil: 'LV MV' },
-          { name: 'Передний редуктор · OT&TB', part: 'X03-10010012', vol: '1,1 + 0,05 л', oil: 'LV MV' },
-          { name: 'Передний редуктор · UMC', part: 'X028-2100013', vol: '0,8 + 0,1 л', oil: 'LV MV' },
-          { name: 'Задний редуктор · UMC', part: 'W01-21000018', vol: '1,7 + 0,1 л', oil: 'Castrol D2' },
-          { name: 'Задний редуктор · BorgWarner', part: 'X03B-21000011', vol: '1,1 л', oil: 'Castrol D2' },
-          { name: 'Задний редуктор · Huawei', part: 'W01-21000012', vol: '1,7 + 0,1 л', oil: '75W' },
-          { name: 'ДВС', vol: '4 л', spec: 'ACEA C2', oil: '0W-30, 5W-30' },
-        ],
-        extra: [
-          {
-            k: 'Антифриз',
-            v: 'На основе этиленгликоля, спецификация LEC-II (Chinese National Standard GB 29743-2013), карбоксилатный. Общий объём 18 л. С завода до −35 °C. Нам подходит G12++, G12+ смешивать не рекомендуется',
-          },
-        ],
-      },
-      { name: 'L7', extra: [{ k: 'Правый бачок охлаждения', v: '(P10-0205) LAA30030012' }] },
-      { name: 'L6', extra: [{ k: 'Рычаги', v: 'Правый PS50644R, левый PS50644L' }] },
-    ],
-  },
-  {
-    id: 'lynk',
-    name: 'Lynk & Co',
-    models: [
-      {
-        name: '08',
-        units: [
-          {
-            name: 'ДВС',
-            vol: '≈ 4,2 л',
-            spec: 'VCC RBS0-2AE',
-            oil: 'Строго 0W-20. Замена каждые 10 000 км',
-          },
-          {
-            name: 'Редуктор',
-            vol: 'частичная замена 4,5 л',
-            oil: 'Shell E-Fluids E6 i DHTF',
-            part: '9020009000',
-          },
-        ],
-        extra: [
-          { k: 'Фильтр масляный', v: '1016057051 (подходит также на 06 EM-P и 900 1.5T)' },
-          { k: 'Фильтр воздушный', v: '8889682625 (подходит также на 06 EM-P и Geely Monjaro Hi-X)' },
-          { k: 'Фильтр салонный', v: '8888397355' },
-          { k: 'Свечи зажигания', v: '1016056801, замена каждые 40 000 км' },
+        rows: [
+          { name: 'Передний редуктор', spec: 'BOT 805C', oil: '75W', vol: '2,8 ± 0,05 л' },
+          { name: 'Задний редуктор', spec: 'BOT 805C', oil: '75W', vol: '3,0 ± 0,05 л' },
+          { name: 'Фильтр', oil: 'OP525' },
         ],
       },
     ],
   },
-  {
-    id: 'nissan',
-    name: 'Nissan',
-    models: [
-      {
-        name: 'Ariya',
-        units: [
-          { name: 'Задний редуктор', vol: '0,75 л', oil: 'Nissan MT-XZ NFX 75W', alt: ['75W'] },
-          { name: 'Коробка', vol: '0,87 л' },
-        ],
-      },
-      {
-        name: 'Ariya',
-        sub: '2022',
-        units: [
-          { name: 'Передний редуктор', vol: '0,9 л', alt: ['75W'] },
-          { name: 'Коробка', vol: '0,87 л' },
-        ],
-        extra: [{ k: 'Кондиционер', v: 'POE, 1050 г (была наклейка на авто; мы делали так, когда машина приехала)' }],
-      },
-      { name: 'e-NV200', units: [{ name: 'Редуктор', oil: 'Nissan Matic S', alt: ['Ravenol TWS Longlife'] }] },
-      {
-        name: 'e-NV200 Evalia',
-        units: [
-          { name: 'Редуктор', vol: '1,6 л', spec: 'Nissan Matic-S', oil: 'Nissan Matic-S', alt: ['ZIC MULTI LF'] },
-        ],
-        extra: [{ k: 'Фильтр', v: 'ADN12540' }],
-      },
-    ],
-  },
-  {
-    id: 'polar-stone',
-    name: 'Polar Stone',
-    models: [
-      {
-        name: '01',
-        units: [
-          { name: 'Передний редуктор', vol: '0,8 ± 0,1 л', spec: 'BOT 352 B1 BEV', alt: ['Ravenol ATF ULV D-M 75W'] },
-          { name: 'Задний редуктор', vol: '0,8 ± 0,1 л', spec: 'BOT 352 B1 BEV', alt: ['Ravenol ATF ULV D-M 75W'] },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'stelato',
-    name: 'Stelato',
-    models: [
-      {
-        name: 'S9',
-        units: [
-          { name: 'Передний редуктор', vol: '1,6 л', spec: 'BOT 805C', oil: '75W' },
-          { name: 'Задний редуктор', vol: '1,8 л', spec: 'BOT 805C', oil: '75W' },
-        ],
-        extra: [
-          { k: 'Тормозная жидкость', v: 'DOT-4, 1 л' },
-          { k: 'Охлаждающая жидкость', v: 'Задний привод – 16,8 л, полный привод – 17,3 л' },
-          { k: 'Фреон', v: 'HFC-134a, 675 ± 20 г' },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'vw',
-    name: 'Volkswagen',
-    models: [
-      {
-        name: 'ID.4 / ID.6',
-        units: [
-          {
-            name: 'Передний редуктор',
-            vol: '1,6 л',
-            oil: 'G053013M2',
-            alt: ['FUCHS TITAN FFL-2', '30939071 (5 л)', 'G052182A2 – масло для DSG', 'FEBI BILSTEIN 39071'],
-            part: '602016157',
-          },
-          {
-            name: 'Задний редуктор',
-            vol: '0,8 л',
-            oil: 'G052527A2',
-            alt: ['FUCHS TITAN SINTOFLUID FE 75W'],
-            part: '600632199',
-          },
-        ],
-      },
-      {
-        name: 'ID.3',
-        units: [{ name: 'Задний редуктор', vol: '0,8 л', alt: ['FUCHS TITAN SINTOFLUID FE 75W'] }],
-      },
-    ],
-  },
-  {
-    id: 'voyah',
-    name: 'Voyah',
-    models: [
-      {
-        name: 'Free',
-        sub: '2021–2022',
-        units: [
-          { name: 'Мотор передний · SEP200, 255 кВт', vol: '3 л', oil: 'ETF-EMC', part: 'H41201001', alt: ['DX6'] },
-          { name: 'Мотор задний · SEP200, 255 кВт', vol: '3 л', oil: 'ETF-EMC', part: 'H41201001', alt: ['DX6'] },
-          { name: 'Генератор', vol: '1,1 л', oil: 'ETF-EMC', part: 'H41201001, 2, 3, 4' },
-          { name: 'ДВС · SFG15TR, 80 кВт', vol: '4 л', oil: '5W-30 API SN и выше' },
-        ],
-      },
-      {
-        name: 'Free',
-        sub: '2021–2023, дорест',
-        units: [
-          { name: 'Мотор передний · TZ200XSP10, 160 кВт', vol: '0,8 л', oil: 'Oil motor EV', part: 'H41202002', alt: ['75W'] },
-          { name: 'Мотор задний · TZ220XSP01, 200 кВт', vol: '0,8 л', oil: 'Oil motor EV', part: 'H41202002', alt: ['75W'] },
-          { name: 'Генератор', vol: '1,1 л', oil: 'ETF-EMC', part: 'H41201001, 2, 3, 4' },
-          { name: 'ДВС · SFG15TR, 80 кВт', vol: '4 л', oil: '5W-30 API SN и выше' },
-        ],
-        extra: [
-          { k: 'Кондиционер', v: 'R134, 620 г; масло PAG' },
-          { k: 'Пыльник ШРУСа', v: 'Наружный (в таблице не дописано)' },
-        ],
-      },
-      {
-        name: 'Free',
-        sub: '2023, рестайлинг (318 км)',
-        units: [
-          { name: 'Мотор передний · TZ200XSP10, 160 кВт', vol: '0,8 л', oil: 'Oil motor EV', part: 'H41202002', alt: ['75W'] },
-          { name: 'Мотор задний · TZ220XSP01, 200 кВт', vol: '0,8 л', oil: 'Oil motor EV', part: 'H41202002', alt: ['75W'] },
-          { name: 'Генератор · EHSF-2LV', vol: '1,4 л', oil: 'HV generator lub.', part: 'H41203001, 2, 3' },
-          { name: 'ДВС · DAM15NTDE, 110 кВт', vol: '4 л', oil: '0W-20' },
-        ],
-      },
-      {
-        name: 'Free+',
-        units: [
-          { name: 'Передний редуктор', vol: '0,75 ± 0,05 л', spec: 'BOT 805C EV', alt: ['75W'] },
-          { name: 'Задний редуктор', vol: '2,35 ± 0,05 л', spec: 'BOT 805C EV', alt: ['75W'] },
-          { name: 'ДВС', vol: '4 л', oil: 'SP 0W-20' },
-        ],
-        extra: [{ k: 'Кондиционер', v: 'R134a, 620 г' }],
-      },
-      {
-        name: 'Dream',
-        units: [
-          { name: 'Мотор передний · TZ200XSP08, 130 кВт', vol: '3 л', oil: 'PHEV front motor', part: 'H41202003' },
-          { name: 'Мотор задний · TZ200XSP08, 160 кВт', vol: '0,8 л', oil: 'Oil motor EV', part: 'H41202002', alt: ['75W'] },
-          { name: 'Генератор', oil: 'PHEV front motor', part: 'H41202003' },
-          { name: 'ДВС · DFMC15TE2, 100 кВт', vol: '4 л', oil: '0W-20' },
-        ],
-        extra: [{ k: 'Колодки передние', v: 'PBP479' }],
-      },
-      {
-        name: 'Dream',
-        sub: 'новая модель',
-        units: [
-          { name: 'Мотор передний · TZ236XY150, 150 кВт', vol: '5 л', oil: 'PHEV front motor', part: 'H41202001, 2, 3' },
-          { name: 'Мотор задний · TZ200XSP08, 160 кВт', vol: '0,8 л', oil: 'Oil motor EV', part: 'H41202002', alt: ['75W'] },
-          { name: 'ДВС · DFMC15TE3, 110 кВт', vol: '4 л', oil: '0W-20' },
-        ],
-        extra: [{ k: 'Фильтр масляный', v: 'W6103' }],
-      },
-      {
-        name: 'Passion',
-        units: [
-          { name: 'Передний электродвигатель', vol: '0,85 л', oil: '75W' },
-          { name: 'Задний электродвигатель', vol: '0,85 л', oil: '75W' },
-        ],
-      },
-      {
-        name: 'Courage',
-        units: [
-          { name: 'Передний редуктор', vol: '2,3 л', spec: 'BOT 802 EV', oil: 'Castrol W1', alt: ['75W'] },
-          { name: 'Задний редуктор', vol: '2,3 л', spec: 'BOT 802 EV', oil: 'Castrol W1', alt: ['75W'] },
-        ],
-        extra: [
-          { k: 'Кондиционер', v: 'R134a, 1150 ± 15 г' },
-          {
-            k: 'Антифриз',
-            v: 'Полный привод – 13,3 ± 0,6 л; 2WD – 12,8 ± 0,6 л; 2WD с увеличенным запасом хода – 12,03 ± 0,6 л',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'weltmeister',
-    name: 'Weltmeister',
-    models: [
-      { name: 'EX5', units: [{ name: 'Редуктор', vol: '1,8 л', oil: 'Dexron 6' }] },
-      { name: 'EX5-Z', units: [{ name: 'Редуктор', vol: '700 ± 50 мл', spec: 'BOT 350 M3', oil: '75W' }] },
-    ],
-  },
-  {
-    id: 'xiaomi',
-    name: 'Xiaomi',
-    models: [
-      {
-        name: 'SU7',
-        sub: 'Полный привод',
-        units: [
-          { name: 'Передний редуктор', vol: '1,8 л', spec: 'Castrol BOT 805C EV', oil: '75W' },
-          { name: 'Задний редуктор', vol: '2 л', spec: 'Castrol BOT 805C EV', oil: '75W' },
-        ],
-        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 20 л' }, ...XIAOMI_COMMON],
-      },
-      {
-        name: 'SU7',
-        sub: 'Задний привод',
-        units: [{ name: 'Задний редуктор', spec: 'Castrol BOT 352 B1 REV', oil: '75W-90 или любое с допуском GL-4/GL-5' }],
-        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 17 л' }, ...XIAOMI_COMMON],
-      },
-      {
-        name: 'YU7',
-        sub: 'Задний привод',
-        units: [{ name: 'Задний редуктор', spec: 'Castrol BOT 805C EV', oil: '75W' }],
-        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 19,5 л' }, ...XIAOMI_COMMON],
-      },
-      {
-        name: 'YU7 Pro',
-        sub: 'Полный привод',
-        units: [
-          { name: 'Передний редуктор', vol: '1,75 л', spec: 'Castrol BOT 805C EV', oil: '75W' },
-          { name: 'Задний редуктор', vol: '1,95 л', spec: 'Castrol BOT 805C EV', oil: '75W' },
-        ],
-        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 19,5 л' }, ...XIAOMI_COMMON],
-      },
-      {
-        name: 'YU7 Max',
-        sub: 'Полный привод',
-        units: [
-          { name: 'Передний редуктор', vol: '1,8 л', spec: 'Castrol BOT 805C EV', oil: '75W' },
-          { name: 'Задний редуктор', vol: '2 л', spec: 'Castrol BOT 805C EV', oil: '75W' },
-        ],
-        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 22 л' }, ...XIAOMI_COMMON],
-      },
-    ],
-  },
-  {
-    id: 'zeekr',
-    name: 'Zeekr',
-    models: [
-      {
-        name: '001',
-        sub: 'Дорест, Vremt',
-        units: [
-          { name: 'Передний редуктор', vol: '0,9 л', oil: 'DX6' },
-          { name: 'Задний редуктор', vol: '0,9 л', oil: 'DX6' },
-        ],
-      },
-      {
-        name: '001',
-        sub: 'Дорест, Nidec',
-        units: [
-          { name: 'Передний редуктор', vol: '1,6 л', oil: 'DX6' },
-          { name: 'Задний редуктор', vol: '1,6 л', oil: 'DX6' },
-        ],
-        note: 'Встречается крайне редко, это самые первые 001',
-      },
-      {
-        name: '001',
-        sub: '2024–2025',
-        units: [
-          {
-            name: 'Передний редуктор',
-            vol: 'ТО – 2,0 л ± 50 мл; при замене двигателя – 1,5 л ± 50 мл',
-            spec: 'BOT 383',
-            alt: ULV5,
-          },
-          {
-            name: 'Задний редуктор',
-            vol: 'ТО – 2,0 л ± 50 мл; при замене двигателя – 1,5 л ± 50 мл',
-            spec: 'BOT 383',
-            alt: ULV5,
-          },
-          { name: 'Два передних редуктора', vol: 'ТО – 5,1 л ± 50 мл', spec: 'BOT 383', alt: ULV5 },
-          { name: 'Два задних редуктора', vol: 'ТО – левый 2,3 ± 0,1 л, правый 2,3 ± 0,1 л', spec: 'BOT 383', alt: ULV5 },
-        ],
-        note: 'Масло заливать через заправочное отверстие',
-      },
-      {
-        name: '7X',
-        units: [
-          { name: 'Передний редуктор', vol: '2 л', spec: 'BOT 383', alt: ULV5 },
-          { name: 'Задний редуктор', vol: '2 л', spec: 'BOT 383', alt: ULV5 },
-        ],
-      },
-      {
-        name: '007',
-        units: [
-          { name: 'Передний редуктор', vol: '1,5 л ± 50 мл', spec: 'BOT 383', alt: ULV5 },
-          { name: 'Задний редуктор', vol: '1,8 л ± 50 мл', spec: 'BOT 383', alt: ULV5 },
-        ],
-        note: 'Лить через маслозаливное отверстие, остановиться, когда уровень дойдёт до отверстия',
-      },
-      {
-        name: 'X',
-        units: [
-          { name: 'Передний редуктор · Vremt', vol: '0,7 ± 0,05 л', spec: 'DX6', oil: 'Dexron 6' },
-          { name: 'Задний редуктор', vol: '1 л; с Vremt – 0,8 ± 0,025 л', spec: 'DX6', oil: 'Dexron 6' },
-        ],
-      },
-    ],
-  },
+  ...brandsLZ,
 ];

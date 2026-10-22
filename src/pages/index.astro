@@ -1,8 +1,19 @@
 ---
-import { brands, type Model } from '../data/brands';
+import { brands, type Model, type Row } from '../data/brands';
 
 const sorted = [...brands].sort((a, b) => a.name.localeCompare(b.name, 'en'));
 const modelCount = sorted.reduce((n, b) => n + b.models.length, 0);
+
+// Группа строки по названию узла: порядок проверок важен ("ОЖ для ДВС" – это жидкость).
+const GROUPS = ['Трансмиссия', 'Двигатель', 'Жидкости', 'Фильтры и запчасти'] as const;
+const groupOf = (name: string) => {
+  if (/фильтр|колодк|свеч|рычаг|бачок|стойк|шаров|пыльник/i.test(name)) return 3;
+  if (/тормозн|охлажд|антифриз|ОЖ|фреон|хладагент|кондиц|омыв|топлив|мочевин|гидроусил/i.test(name)) return 2;
+  if (/ДВС|моторное|двигател/i.test(name) && !/электродвигател|электроуправлен/i.test(name)) return 1;
+  return 0;
+};
+const grouped = (rows: Row[]) =>
+  GROUPS.map((title, i) => ({ title, rows: rows.filter((r) => groupOf(r.name) === i) })).filter((g) => g.rows.length);
 
 // Текст карточки для поиска: марка + всё, что в ней написано.
 const searchText = (brand: string, m: Model) =>
@@ -10,13 +21,16 @@ const searchText = (brand: string, m: Model) =>
     brand,
     m.name,
     m.sub,
+    m.code,
     m.note,
-    ...(m.units ?? []).flatMap((u) => [u.name, u.vol, u.spec, u.oil, u.part, ...(u.alt ?? [])]),
-    ...(m.extra ?? []).flatMap((e) => [e.k, e.v]),
+    ...m.rows.flatMap((r) => [r.name, r.spec, r.oil, r.part, r.vol, r.note, ...(r.alt ?? [])]),
   ]
     .filter(Boolean)
     .join(' ')
     .toLowerCase();
+
+// Неразрывные пробелы в объёме, чтобы «л» и «± 0,1» не отрывались от числа.
+const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (л|мл|г)(?![а-яa-z])/g, '$1\u00a0$2');
 ---
 
 <!doctype html>
@@ -67,67 +81,49 @@ const searchText = (brand: string, m: Model) =>
                     {m.sub && <span class="sub">{m.sub}</span>}
                   </header>
 
-                  {m.units && (
-                    <ul class="units">
-                      {m.units.map((u) => (
-                        <li class="unit">
-                          <div class="unit-head">
-                            <span class="unit-name">{u.name}</span>
-                            {u.vol && <span class="vol">{u.vol}</span>}
-                          </div>
-                          {(u.spec || u.oil || u.part) && (
-                            <dl class="kv">
-                              {u.spec && (
-                                <>
-                                  <dt>Допуск</dt>
-                                  <dd>{u.spec}</dd>
-                                </>
-                              )}
-                              {u.oil && (
-                                <>
-                                  <dt>Масло</dt>
-                                  <dd class="strong">{u.oil}</dd>
-                                </>
-                              )}
-                              {u.part && (
-                                <>
-                                  <dt>Артикул</dt>
-                                  <dd class="mono">{u.part}</dd>
-                                </>
-                              )}
-                            </dl>
-                          )}
-                          {u.alt &&
-                            (u.alt.length > 2 ? (
-                              <details class="alt">
-                                <summary>Аналоги · {u.alt.length}</summary>
-                                <ol>
-                                  {u.alt.map((a) => (
-                                    <li>{a}</li>
-                                  ))}
-                                </ol>
-                              </details>
-                            ) : (
-                              <dl class="kv">
-                                <dt>Аналог</dt>
-                                <dd>{u.alt.join(' · ')}</dd>
-                              </dl>
-                            ))}
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-
-                  {m.extra && (
-                    <dl class="extra">
-                      {m.extra.map((e) => (
-                        <div>
-                          <dt>{e.k}</dt>
-                          <dd>{e.v}</dd>
-                        </div>
-                      ))}
-                    </dl>
-                  )}
+                  {m.code && <p class="code">{m.code}</p>}
+                  <table class="spec">
+                    <thead>
+                      <tr>
+                        <th>Узел</th>
+                        <th>Чем заливать</th>
+                        <th class="v">Объём</th>
+                      </tr>
+                    </thead>
+                    {grouped(m.rows).map((g) => (
+                      <tbody>
+                        <tr class="grp">
+                          <th colspan="3">{g.title}</th>
+                        </tr>
+                        {g.rows.map((r) => (
+                          <tr>
+                            <td class="n">{r.name}</td>
+                            <td>
+                              {r.oil && <div class="oil">{r.oil}</div>}
+                              {r.spec && <div class="meta">допуск {r.spec}</div>}
+                              {r.part && <div class="meta">арт. <span class="mono">{r.part}</span></div>}
+                              {r.alt &&
+                                (r.alt.length > 2 ? (
+                                  <details class="alt">
+                                    <summary>аналоги · {r.alt.length}</summary>
+                                    <ol>
+                                      {r.alt.map((a) => (
+                                        <li>{a}</li>
+                                      ))}
+                                    </ol>
+                                  </details>
+                                ) : (
+                                  <div class="meta">аналог {r.alt.join(' · ')}</div>
+                                ))}
+                              {r.note && <div class="rnote">{r.note}</div>}
+                              {!r.oil && !r.spec && !r.part && !r.alt && !r.note && <span class="dash">–</span>}
+                            </td>
+                            <td class="v">{r.vol ? nb(r.vol) : <span class="dash">–</span>}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    ))}
+                  </table>
 
                   {m.note && <p class="note">{m.note}</p>}
                 </article>
@@ -278,6 +274,7 @@ const searchText = (brand: string, m: Model) =>
       }
       .chips::-webkit-scrollbar { display: none; }
       @media (min-width: 900px) { .chips { flex-wrap: wrap; overflow: visible; } }
+      @media (max-width: 480px) { .card { padding: 14px 12px; } .spec { font-size: 13.5px; } }
       .chip {
         flex: none;
         border: 0;
@@ -307,7 +304,7 @@ const searchText = (brand: string, m: Model) =>
       .grid {
         display: grid;
         gap: 12px;
-        grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr));
         align-items: start;
       }
       .card {
@@ -327,42 +324,48 @@ const searchText = (brand: string, m: Model) =>
         border-radius: 6px;
       }
 
-      .units { list-style: none; margin: 0; padding: 0; }
-      .unit { padding: 10px 0; border-top: 1px solid var(--line); }
-      .unit:first-child { border-top: 0; padding-top: 0; }
-      .unit-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; }
-      .unit-name { font-weight: 600; }
-      .vol { color: var(--accent); font-weight: 600; font-variant-numeric: tabular-nums; }
+      .code { margin: -4px 0 10px; color: var(--muted); font-size: 13px; }
 
-      .kv {
-        display: grid;
-        grid-template-columns: 72px 1fr;
-        gap: 2px 10px;
-        margin: 6px 0 0;
-        font-size: 14px;
+      .spec { width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 14px; }
+      .spec thead th {
+        text-align: left;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        padding: 0 8px 6px 0;
+        border-bottom: 2px solid var(--ink);
       }
-      .kv dt { color: var(--muted); }
-      .kv dd { margin: 0; overflow-wrap: anywhere; }
-      .strong { font-weight: 600; }
-      .mono { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 13px; }
+      .spec .grp th {
+        text-align: left;
+        padding: 12px 0 4px;
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--accent);
+        border-bottom: 1px solid var(--line);
+      }
+      .spec td {
+        vertical-align: top;
+        padding: 7px 8px 7px 0;
+        border-bottom: 1px solid var(--line);
+        overflow-wrap: break-word;
+        hyphens: auto;
+      }
+      .spec tbody:last-child tr:last-child td { border-bottom: 0; }
+      .spec .n { width: 36%; font-weight: 600; }
+      .spec .v { width: 24%; padding-right: 0; text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; }
+      .spec thead .v { text-align: right; }
+      .oil { font-weight: 600; }
+      .meta { color: var(--muted); font-size: 13px; }
+      .rnote { margin-top: 2px; font-size: 13px; font-style: italic; color: var(--muted); }
+      .dash { color: var(--line); }
+      .mono { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 12px; }
 
-      .alt { margin-top: 6px; font-size: 14px; }
-      .alt summary { cursor: pointer; color: var(--muted); width: max-content; }
+      .alt { font-size: 13px; color: var(--muted); }
+      .alt summary { cursor: pointer; width: max-content; }
       .alt summary:hover { color: var(--ink); }
-      .alt ol { margin: 6px 0 0; padding-left: 20px; }
-      .alt li { padding: 1px 0; }
-
-      .extra {
-        margin: 12px 0 0;
-        padding: 12px;
-        background: var(--bg);
-        border-radius: 10px;
-        display: grid;
-        gap: 8px;
-        font-size: 14px;
-      }
-      .extra dt { color: var(--muted); font-size: 13px; }
-      .extra dd { margin: 0; overflow-wrap: anywhere; }
+      .alt ol { margin: 4px 0 0; padding-left: 18px; color: var(--ink); }
 
       .note {
         margin: 12px 0 0;
