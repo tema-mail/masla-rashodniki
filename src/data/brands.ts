@@ -535,8 +535,9 @@ const base: Brand[] = [
 ];
 
 // Популярные в Новосибирске гибриды и электромобили, собранные Claude (src/data/nsk/*.json).
-// Новая модель встаёт в свою марку; запись с addTo дописывает строки в уже существующие карточки.
-type NskEntry = Omit<Model, 'check' | 'name'> & { brand: string; model: string; addTo?: string };
+// Новая модель встаёт в свою марку; запись с addTo (и addSub – начало подписи) дописывает строки
+// в уже существующие карточки.
+type NskEntry = Omit<Model, 'check' | 'name'> & { brand: string; model: string; addTo?: string; addSub?: string };
 const nskFiles = import.meta.glob<{ default: NskEntry[] }>('./nsk/*.json', { eager: true });
 
 const slug = (s: string) => s.toLowerCase().replace(/&/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -546,12 +547,13 @@ const findBrand = (list: Brand[], name: string) =>
 function withNsk(list: Brand[]): Brand[] {
   const out = list.map((b) => ({ ...b, models: b.models.map((m) => ({ ...m, rows: [...m.rows] })) }));
   for (const file of Object.values(nskFiles)) {
-    for (const { brand, model, addTo, ...rest } of file.default) {
+    for (const { brand, model, addTo, addSub, ...rest } of file.default) {
       let b = findBrand(out, brand);
       if (!b) out.push((b = { id: slug(brand), name: brand, models: [] }));
       const rows = rest.rows.map((r) => ({ ...r, check: true }));
       if (addTo) {
-        for (const m of b.models.filter((m) => m.name === addTo)) m.rows.push(...rows);
+        const hit = b.models.filter((m) => m.name === addTo && (!addSub || (m.sub ?? '').startsWith(addSub)));
+        for (const m of hit) m.rows.push(...rows);
       } else {
         b.models.push({ ...rest, name: model, rows, check: true });
       }
