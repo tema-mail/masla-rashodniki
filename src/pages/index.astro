@@ -86,7 +86,7 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
                     {m.sub && <span class="sub">{m.sub}</span>}
                     {m.check && <span class="chk">Надо проверить</span>}
                   </header>
-                  {m.nsk && <p class="code">На drom в Новосибирске: {m.nsk} объявл.</p>}
+                  {m.nsk && <p class="code">На drom в Новосибирске: {m.nsk} объявл. (все поколения модели)</p>}
 
                   {m.code && <p class="code">{m.code}</p>}
                   <table class="spec">
@@ -158,6 +158,11 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
       const sections = [...document.querySelectorAll<HTMLElement>('.brand')];
       const empty = document.getElementById('empty')!;
       const onlyCheck = document.getElementById('onlyCheck') as HTMLInputElement;
+      // Липкая панель меняет высоту (марки в 2–3 строки), отступ прокрутки считаем по ней.
+      const bar = document.querySelector<HTMLElement>('.bar')!;
+      const pad = () => (document.documentElement.style.scrollPaddingTop = bar.offsetHeight + 16 + 'px');
+      pad();
+      addEventListener('resize', pad);
       let brand = '';
 
       function apply() {

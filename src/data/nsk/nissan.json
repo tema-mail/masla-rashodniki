@@ -1,0 +1,743 @@
+[
+ {
+  "brand": "Nissan",
+  "model": "Leaf",
+  "sub": "1 поколение, ранний, 2010/12–2012/11",
+  "code": "ZE0",
+  "nsk": 80,
+  "rows": [
+   {
+    "name": "Редуктор",
+    "oil": "Nissan Matic Fluid S (日産純正マチックフルードS)",
+    "vol": "около 1,1 л",
+    "note": "Nissan требует только оригинальную Matic S: другая жидкость может повредить редуктор",
+    "src": "https://faq2.nissan.co.jp/faq/show/8348"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Nissan Super Long Life Coolant (日産純正スーパーロングライフクーラント)",
+    "vol": "около 6,6 л",
+    "note": "В FAQ – «冷却システム冷却水» (основной контур охлаждения электропривода), включая бачок около 0,8 л. Присадки-герметики не добавлять",
+    "src": "https://faq2.nissan.co.jp/faq/show/8348"
+   },
+   {
+    "name": "Охлаждающая жидкость отопителя",
+    "oil": "Nissan Super Long Life Coolant",
+    "vol": "около 1,8 л",
+    "note": "Отдельный контур отопителя (ヒーターシステム冷却水), только у ранних машин до 2012/11",
+    "src": "https://faq2.nissan.co.jp/faq/show/8348"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Nissan Brake Fluid No.2500",
+    "spec": "DOT3",
+    "note": "Объём не указан – доливка по уровню",
+    "src": "https://faq2.nissan.co.jp/faq/show/8348"
+   }
+  ]
+ },
+ {
+  "brand": "Nissan",
+  "model": "Leaf",
+  "sub": "1 поколение, после обновления, 2012/11–2017/09",
+  "code": "AZE0",
+  "nsk": 80,
+  "rows": [
+   {
+    "name": "Редуктор",
+    "oil": "Nissan Matic Fluid S",
+    "vol": "около 1,4 л",
+    "note": "Nissan требует только оригинальную Matic S: другая жидкость может повредить редуктор. Руководство США 2014 (AZE0) – тоже 1,4 л Matic S ATF",
+    "src": "https://faq2.nissan.co.jp/faq/show/8348"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Nissan Super Long Life Coolant",
+    "vol": "около 5,3 л",
+    "note": "Единый контур электропривода, включая бачок 0,5 л. Руководство США 2014 – 5,3 л (бачок 0,5 л), Nissan Long Life Antifreeze/Coolant (blue)",
+    "src": "https://faq2.nissan.co.jp/faq/show/8348"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Nissan Brake Fluid No.2500",
+    "spec": "DOT3",
+    "note": "Объём не указан – доливка по уровню",
+    "src": "https://faq2.nissan.co.jp/faq/show/8348"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a (R-134a)",
+    "note": "По руководству для США 2014 (AZE0); масса заправки – на табличке кондиционера под капотом, в руководстве не указана. Японский AZE0 по первоисточнику не проверен",
+    "src": "https://owners.nissanusa.com/content/techpub/ManualsAndGuides/LEAF/2014/2014-LEAF-owner-manual.pdf"
+   },
+   {
+    "name": "Масло компрессора кондиционера",
+    "oil": "Nissan A/C System Oil ND-OIL11",
+    "note": "По руководству для США 2014 (AZE0); объём не указан",
+    "src": "https://owners.nissanusa.com/content/techpub/ManualsAndGuides/LEAF/2014/2014-LEAF-owner-manual.pdf",
+    "alt": [
+     "аналог по качеству (так в руководстве)"
+    ]
+   }
+  ]
+ },
+ {
+  "brand": "Nissan",
+  "model": "Leaf",
+  "sub": "2 поколение, 2017/10–2025/10",
+  "code": "ZE1",
+  "nsk": 80,
+  "rows": [
+   {
+    "name": "Редуктор",
+    "oil": "Nissan Matic Fluid S",
+    "vol": "1,41 л",
+    "note": "Nissan требует только оригинальную Matic S: другая жидкость может повредить редуктор. Европейское руководство 2023 – 1,38 л, тайское ZE1 – 1,4 л",
+    "src": "https://nissan.co.jp/SP/OM/LEAF/2312/manual_t00um5sa8a.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Nissan Super Long Life Coolant",
+    "vol": "4,6 л",
+    "note": "Японское руководство (издание 2023/12): 4,6 л с бачком 0,5 л. Европейское руководство 2023: 4,63 л (вариант 3 кВт) / 4,67 л (6 кВт), бачок 0,51 л; тайское – 4,6 л. Присадки не добавлять",
+    "src": "https://nissan.co.jp/SP/OM/LEAF/2312/manual_t00um5sa8a.pdf"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Nissan Brake Fluid No.2500",
+    "spec": "DOT3",
+    "note": "Японское руководство – DOT3; европейское 2023 – DOT3 или DOT4, не смешивать. Объём не указан",
+    "src": "https://nissan.co.jp/SP/OM/LEAF/2312/manual_t00um5sa8a.pdf"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFO-1234yf (R-1234yf)",
+    "vol": "425 г ± 25 г без теплового насоса; 850 г ± 25 г с тепловым насосом",
+    "note": "Данные европейского руководства 2023. Тайское ZE1 – HFC-134a. Японское руководство отсылает к табличке под капотом: тип газа на японских машинах проверять по табличке",
+    "src": "https://www.nissan.com.mt/ownership/owners-manuals/manuals.html/iom/leaf/0ze1/e0/2023/recommended-fluids-lubricants-and-capacities-1.shtml"
+   },
+   {
+    "name": "Масло компрессора кондиционера",
+    "oil": "ND-OIL11 (компрессор тип A) или AE10 (тип B)",
+    "note": "Европейское руководство 2023; объём не указан. Тайское ZE1 – Compressor Oil AE10 или аналог",
+    "src": "https://www.nissan.com.mt/ownership/owners-manuals/manuals.html/iom/leaf/0ze1/e0/2023/recommended-fluids-lubricants-and-capacities-1.shtml"
+   }
+  ]
+ },
+ {
+  "brand": "Nissan",
+  "model": "Note e-Power",
+  "sub": "2 поколение, 2016/11–2020/11",
+  "code": "HE12",
+  "nsk": 64,
+  "rows": [
+   {
+    "name": "Масло ДВС",
+    "oil": "Nissan SN Strong Save X 0W-20",
+    "spec": "API SN (допускается SM), SAE 0W-20, рекомендуется ILSAC",
+    "vol": "3,2 л без фильтра; 3,4 л с фильтром",
+    "note": "Двигатель HR12DE. Замена 1 год / 15 000 км, в тяжёлых условиях 6 мес / 7 500 км (FAQ Nissan 13788)",
+    "src": "https://www.nissan.co.jp/SP/OM/NOTE/1611/manual_t00um-5wk1a.pdf"
+   },
+   {
+    "name": "Редуктор",
+    "oil": "Nissan Matic Fluid S",
+    "vol": "около 1,94 л",
+    "note": "Nissan требует только оригинальную Matic S: другая жидкость может повредить редуктор. FAQ Nissan дополнительно: не использовать «Matic Fluid S для гибридов» (マチックフルードSハイブリッド車専用)",
+    "src": "https://faq2.nissan.co.jp/faq/show/13789"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "Nissan Matic Fluid D",
+    "vol": "около 0,97 л",
+    "note": "Только e-POWER 4WD (с 2018/07)",
+    "src": "https://faq2.nissan.co.jp/faq/show/13789"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Nissan Super Long Life Coolant",
+    "vol": "около 6,96 л (2016/11–2018/07); около 6,78 л (с 2018/07)",
+    "note": "С бачком 0,85 л. Присадки-герметики не добавлять",
+    "src": "https://faq2.nissan.co.jp/faq/show/13789"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Nissan Super Long Life Coolant",
+    "vol": "около 4,24 л (2016/11–2018/07); около 4,16 л (с 2018/07)",
+    "note": "С бачком 0,57 л",
+    "src": "https://faq2.nissan.co.jp/faq/show/13789"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Nissan Brake Fluid No.2500",
+    "spec": "DOT3",
+    "note": "Объём не указан",
+    "src": "https://www.nissan.co.jp/SP/OM/NOTE/1611/manual_t00um-5wk1a.pdf"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a (R-134a)",
+    "note": "Масса заправки в руководстве не указана",
+    "src": "https://www.nissan.co.jp/SP/OM/NOTE/1611/manual_t00um-5wk1a.pdf"
+   }
+  ]
+ },
+ {
+  "brand": "Nissan",
+  "model": "Note e-Power",
+  "sub": "3 поколение, 2020/12–",
+  "code": "E13 (SNE13 – 4WD)",
+  "nsk": 64,
+  "rows": [
+   {
+    "name": "Масло ДВС",
+    "oil": "Nissan SP Strong Save X 0W-20",
+    "spec": "API SP, SAE 0W-20, рекомендуется ILSAC",
+    "vol": "около 3,2 л без фильтра; около 3,4 л с фильтром",
+    "note": "Двигатель HR12DE. Замена 1 год / 15 000 км, тяжёлые условия 6 мес / 7 500 км",
+    "src": "https://faq2.nissan.co.jp/faq/show/25087"
+   },
+   {
+    "name": "Редуктор",
+    "oil": "Nissan Matic Fluid S",
+    "vol": "около 1,94 л",
+    "note": "Nissan требует только оригинальную Matic S: другая жидкость может повредить редуктор. Совпадает с руководством издания 2022/10",
+    "src": "https://faq2.nissan.co.jp/faq/show/25072"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "Nissan Matic Fluid S",
+    "vol": "около 0,61 л",
+    "note": "Только 4WD (с 2021/03), в FAQ – «リヤファイナルドライブオイル»",
+    "src": "https://faq2.nissan.co.jp/faq/show/25072"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Nissan Super Long Life Coolant",
+    "vol": "около 5,7 л",
+    "note": "С бачком 0,8 л",
+    "src": "https://faq2.nissan.co.jp/faq/show/25072"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Nissan Super Long Life Coolant",
+    "vol": "около 3,92 л (2WD); около 5,58 л (4WD)",
+    "note": "С бачком 0,95 л",
+    "src": "https://faq2.nissan.co.jp/faq/show/25072"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Nissan Brake Fluid No.2500",
+    "spec": "DOT3",
+    "note": "Объём не указан",
+    "src": "https://faq2.nissan.co.jp/faq/show/25072"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFO-1234yf",
+    "note": "По руководству издания 2022/10; масса заправки не указана. Для машин ранних лет выпуска проверять табличку под капотом",
+    "src": "https://www.nissan.co.jp/SP/OM/NOTE/2210/manual_t00um6xj5a.pdf"
+   }
+  ]
+ },
+ {
+  "brand": "Nissan",
+  "model": "Serena S-Hybrid",
+  "sub": "4 поколение (C26), S-HYBRID 2012/08–2016/08",
+  "code": "HC26 (2WD), HFC26 (4WD)",
+  "nsk": 51,
+  "rows": [
+   {
+    "name": "Масло ДВС",
+    "oil": "Nissan SN Strong Save X 0W-20",
+    "spec": "API SN, SAE 0W-20",
+    "vol": "около 3,6 л без фильтра; около 3,8 л с фильтром",
+    "note": "MR20DD. В FAQ для всех C26 2010/11–2016/08 объём один; с 2012/08 до 2015/07 также указана SN Extra Save X 0W-20. Замена 1 год / 15 000 км, тяжёлые условия 6 мес / 7 500 км",
+    "src": "https://faq2.nissan.co.jp/faq/show/8314"
+   },
+   {
+    "name": "Вариатор (CVT)",
+    "oil": "Nissan CVT Fluid NS-3",
+    "vol": "около 7,4 л (2WD с системой остановки двигателя); около 7,3 л (2WD без неё); около 8,3 л (4WD)",
+    "note": "Для C26 с 2012/08. Отдельно S-HYBRID в FAQ не выделен – 2WD S-HYBRID относятся к машинам с остановкой двигателя (アイドリングストップ付車). У C26 до 2012/08 – NS-2. Другая жидкость может повредить CVT",
+    "src": "https://faq2.nissan.co.jp/faq/show/8316"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "Nissan Hypoid Super",
+    "spec": "API GL-5, SAE 80W-90",
+    "vol": "около 0,8 л",
+    "note": "Только 4WD",
+    "src": "https://faq2.nissan.co.jp/faq/show/8316"
+   },
+   {
+    "name": "Раздаточная коробка",
+    "oil": "Nissan Hypoid Super",
+    "spec": "API GL-5, SAE 80W-90",
+    "vol": "около 0,36 л",
+    "note": "Только 4WD (トランスファーオイル)",
+    "src": "https://faq2.nissan.co.jp/faq/show/8316"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Nissan Super Long Life Coolant",
+    "vol": "около 8,1 л",
+    "note": "С бачком 0,7 л. Для 2WD с остановкой двигателя и для 4WD; 2WD с задним кондиционером без остановки двигателя – около 6,3 л",
+    "src": "https://faq2.nissan.co.jp/faq/show/8316"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Nissan Brake Fluid No.2500",
+    "spec": "DOT3",
+    "note": "Объём не указан",
+    "src": "https://faq2.nissan.co.jp/faq/show/8316"
+   }
+  ]
+ },
+ {
+  "brand": "Nissan",
+  "model": "Serena e-Power",
+  "sub": "5 поколение (C27), e-POWER 2018/03–2022/11",
+  "code": "HC27",
+  "nsk": 51,
+  "rows": [
+   {
+    "name": "Масло ДВС",
+    "oil": "Nissan SN Strong Save X 0W-20 (с 2021/11 – SP Strong Save X 0W-20)",
+    "spec": "API SN, SAE 0W-20, рекомендуется ILSAC",
+    "vol": "около 3,2 л без фильтра; около 3,4 л с фильтром",
+    "note": "HR12DE. Замена 1 год / 15 000 км, тяжёлые условия 6 мес / 7 500 км",
+    "src": "https://faq2.nissan.co.jp/faq/show/5089"
+   },
+   {
+    "name": "Редуктор",
+    "oil": "Nissan Matic Fluid S",
+    "vol": "около 1,94 л",
+    "note": "Nissan требует только оригинальную Matic S: другая жидкость может повредить редуктор. То же в руководстве 2018/03",
+    "src": "https://faq2.nissan.co.jp/faq/show/5092"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Nissan Super Long Life Coolant",
+    "vol": "около 7,6 л или около 6,3 л",
+    "note": "С бачком 0,6 л. Расхождение в привязке: FAQ – 7,6 л для «オートデュアルエアコン», 6,3 л для «オートエアコン+リヤクーラー»; руководство 2018/03 – 7,6 л «с задним кондиционером (リヤクーラー付車)», 6,3 л «без». Уточнять по машине",
+    "src": "https://faq2.nissan.co.jp/faq/show/5092"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Nissan Super Long Life Coolant",
+    "vol": "около 4,5 л",
+    "note": "С бачком 0,5 л",
+    "src": "https://faq2.nissan.co.jp/faq/show/5092"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Nissan Brake Fluid No.2500",
+    "spec": "DOT3",
+    "note": "Объём не указан",
+    "src": "https://faq2.nissan.co.jp/faq/show/5092"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a (R-134a)",
+    "note": "Масса заправки в руководстве не указана",
+    "src": "https://www.nissan.co.jp/SP/OM/SERENA/1803/manual_t00um5tl0a.pdf"
+   }
+  ]
+ },
+ {
+  "brand": "Nissan",
+  "model": "X-Trail Hybrid",
+  "sub": "3 поколение (T32), гибрид 2015/05–2022/11",
+  "code": "HT32 (2WD), HNT32 (4WD)",
+  "nsk": 15,
+  "rows": [
+   {
+    "name": "Масло ДВС",
+    "oil": "Nissan SN Strong Save X 0W-20",
+    "spec": "API SN, SAE 0W-20",
+    "vol": "около 3,6 л без фильтра; около 3,8 л с фильтром",
+    "note": "MR20DD. В FAQ одна строка «все машины» для T32/HT32. Замена 1 год / 15 000 км, тяжёлые условия 6 мес / 7 500 км",
+    "src": "https://faq2.nissan.co.jp/faq/show/12546"
+   },
+   {
+    "name": "Вариатор (CVT)",
+    "oil": "Nissan CVT Fluid NS-3",
+    "vol": "около 5,9 л",
+    "note": "Гибрид, 2WD и 4WD. У бензиновых T32 – около 7,9 л. Другая жидкость может повредить коробку",
+    "src": "https://faq2.nissan.co.jp/faq/show/12548"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "Nissan Hypoid Super",
+    "spec": "API GL-5, SAE 80W-90",
+    "vol": "около 0,55 л",
+    "note": "Только 4WD",
+    "src": "https://faq2.nissan.co.jp/faq/show/12548"
+   },
+   {
+    "name": "Раздаточная коробка",
+    "oil": "Nissan Hypoid Super",
+    "spec": "API GL-5, SAE 80W-90",
+    "vol": "около 0,31 л",
+    "note": "Только 4WD",
+    "src": "https://faq2.nissan.co.jp/faq/show/12548"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Nissan Super Long Life Coolant",
+    "vol": "около 7,9 л",
+    "note": "С бачком 0,85 л",
+    "src": "https://faq2.nissan.co.jp/faq/show/12548"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Nissan Super Long Life Coolant",
+    "vol": "около 2,2 л",
+    "note": "С бачком 0,45 л. Сильная нехватка – признак утечки, нужен осмотр",
+    "src": "https://faq2.nissan.co.jp/faq/show/12548"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Nissan Brake Fluid No.2500",
+    "spec": "DOT3",
+    "note": "Объём не указан",
+    "src": "https://faq2.nissan.co.jp/faq/show/12548"
+   }
+  ]
+ },
+ {
+  "brand": "Nissan",
+  "model": "X-Trail e-Power",
+  "sub": "4 поколение (T33), 2022/07–",
+  "code": "T33 (SNT33 – e-4ORCE 4WD)",
+  "nsk": 15,
+  "rows": [
+   {
+    "name": "Масло ДВС",
+    "oil": "Nissan SP Strong Save X 0W-20",
+    "spec": "API SP, SAE 0W-20, рекомендуется ILSAC",
+    "vol": "около 5,0 л без фильтра; около 5,1 л с фильтром",
+    "note": "KR15DDT (VC-Turbo). Замена 1 год / 10 000 км. Европейское руководство HT33 2024: 5,1 / 5,0 л, API SP, ILSAC GF-6A",
+    "src": "https://faq2.nissan.co.jp/faq/show/57762"
+   },
+   {
+    "name": "Редуктор",
+    "oil": "Nissan Matic Fluid S",
+    "vol": "около 1,54 л",
+    "note": "Nissan требует только оригинальную Matic S: другая жидкость может повредить редуктор",
+    "src": "https://faq2.nissan.co.jp/faq/show/57698"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "Nissan Matic Fluid S",
+    "vol": "около 0,85 л",
+    "note": "Только 4WD (e-4ORCE), в FAQ – «リヤファイナルドライブオイル»",
+    "src": "https://faq2.nissan.co.jp/faq/show/57698"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Nissan Super Long Life Coolant",
+    "vol": "около 8,4 л",
+    "note": "С бачком 0,83 л. Европейское руководство – тоже 8,4 л",
+    "src": "https://faq2.nissan.co.jp/faq/show/57698"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Nissan Super Long Life Coolant",
+    "vol": "около 5,4 л (2WD); около 7,7 л (4WD)",
+    "note": "Общий контур инвертора и интеркулера (インバーター・インタークーラー冷却水), с бачком 0,55 л. Европейское руководство – те же 5,4 / 7,7 л",
+    "src": "https://faq2.nissan.co.jp/faq/show/57698"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Nissan Brake Fluid No.2500",
+    "spec": "DOT3",
+    "note": "Японский FAQ – DOT3; европейское руководство – DOT3 или DOT4, не смешивать",
+    "src": "https://faq2.nissan.co.jp/faq/show/57698"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFO-1234yf (R-1234yf) или HFC-134a (R-134a)",
+    "vol": "550 г",
+    "note": "Данные европейского руководства (HT33, тот же силовой агрегат). Для японских машин тип газа проверять по табличке под капотом",
+    "src": "https://www.nissan.ie/ownership/car-owner-manual/manuals/iom/xtrailepower/ht33/e1/2024/recommended-fluids-lubricants-and-capacities-1.shtml"
+   },
+   {
+    "name": "Масло компрессора кондиционера",
+    "oil": "AC system oil RB100EV (POE)",
+    "note": "Европейское руководство; объём не указан",
+    "src": "https://www.nissan.ie/ownership/car-owner-manual/manuals/iom/xtrailepower/ht33/e1/2024/recommended-fluids-lubricants-and-capacities-1.shtml",
+    "alt": [
+     "аналог по качеству (так в руководстве)"
+    ]
+   }
+  ]
+ },
+ {
+  "brand": "Suzuki",
+  "model": "Solio Hybrid",
+  "sub": "3 поколение, мягкий гибрид, 2015/08–2020/11",
+  "code": "MA36S",
+  "nsk": 12,
+  "rows": [
+   {
+    "name": "Масло ДВС",
+    "oil": "Suzuki ECSTAR F SN 0W-16 Plus",
+    "spec": "API SN",
+    "vol": "3,1 л без фильтра; 3,3 л с фильтром",
+    "note": "K12C. Руководство 2019/10; в руководстве 2015/08 указана только ECSTAR F SN 0W-16. Объём одинаковый",
+    "src": "https://www.suzuki.co.jp/car/owners_manual/data/pdf/Web99011-57S04-000.pdf",
+    "alt": [
+     "Suzuki ECSTAR F SN/GF-5 0W-20",
+     "Suzuki ECSTAR F SN 5W-30"
+    ]
+   },
+   {
+    "name": "Вариатор (CVT)",
+    "oil": "Suzuki CVTF Green 2",
+    "vol": "5,73 л",
+    "note": "Руководство: другую жидкость не заливать. Объём совпадает в изданиях 2015/08 и 2019/10",
+    "src": "https://www.suzuki.co.jp/car/owners_manual/data/pdf/Web99011-57S04-000.pdf"
+   },
+   {
+    "name": "Раздаточная коробка",
+    "oil": "Suzuki 4-wheel Super Gear Oil 75W-85",
+    "spec": "SAE 75W-85",
+    "vol": "0,41 л",
+    "note": "Только 4WD. В руководстве 2015/08 – 0,45 л",
+    "src": "https://www.suzuki.co.jp/car/owners_manual/data/pdf/Web99011-57S04-000.pdf"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "Suzuki 4-wheel Super Gear Oil 75W-85",
+    "spec": "SAE 75W-85",
+    "vol": "0,9 л",
+    "note": "Только 4WD. В руководстве 2015/08 – 1,0 л",
+    "src": "https://www.suzuki.co.jp/car/owners_manual/data/pdf/Web99011-57S04-000.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Suzuki Super Long Life Coolant (синий)",
+    "vol": "4,3 л",
+    "src": "https://www.suzuki.co.jp/car/owners_manual/data/pdf/Web99011-57S04-000.pdf"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Suzuki Brake Fluid",
+    "spec": "DOT3",
+    "note": "Объём не указан",
+    "src": "https://www.suzuki.co.jp/car/owners_manual/data/pdf/Web99011-57S04-000.pdf"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a (R-134a)",
+    "note": "Масса заправки в руководстве не указана",
+    "src": "https://www.suzuki.co.jp/car/owners_manual/data/pdf/Web99011-57S04-000.pdf"
+   }
+  ]
+ },
+ {
+  "brand": "Suzuki",
+  "model": "Solio Hybrid",
+  "sub": "3 поколение, полный гибрид (AGS), 2016/11–2020/11",
+  "code": "MA46S",
+  "nsk": 12,
+  "rows": [
+   {
+    "name": "Масло ДВС",
+    "oil": "Suzuki ECSTAR F SN 0W-16 Plus",
+    "spec": "API SN",
+    "vol": "3,1 л без фильтра; 3,3 л с фильтром",
+    "note": "K12C. Руководство 2019/10; в издании 2016/11 вместо SN 5W-30 указана SL 5W-30, вместо 0W-16 Plus – 0W-16",
+    "src": "https://www.suzuki.co.jp/car/owners_manual/data/pdf/Web99011-57SR5-000.pdf",
+    "alt": [
+     "Suzuki ECSTAR F SN/GF-5 0W-20",
+     "Suzuki ECSTAR F SN 5W-30"
+    ]
+   },
+   {
+    "name": "Коробка передач (AGS)",
+    "oil": "Suzuki 4-wheel Gear Oil 75W Synthetic",
+    "spec": "SAE 75W",
+    "vol": "1,6 л",
+    "note": "Роботизированная механика AGS. Объём совпадает в изданиях 2016/11 и 2019/10",
+    "src": "https://www.suzuki.co.jp/car/owners_manual/data/pdf/Web99011-57SR5-000.pdf"
+   },
+   {
+    "name": "Редуктор",
+    "oil": "Suzuki 4-wheel Gear Oil 75W Synthetic",
+    "spec": "SAE 75W",
+    "vol": "0,6 л",
+    "note": "Редуктор мотор-генератора (減速機, PTO в сборе)",
+    "src": "https://www.suzuki.co.jp/car/owners_manual/data/pdf/Web99011-57SR5-000.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Suzuki Super Long Life Coolant (синий)",
+    "vol": "4,4 л",
+    "note": "Отдельного контура инвертора в таблице руководства нет",
+    "src": "https://www.suzuki.co.jp/car/owners_manual/data/pdf/Web99011-57SR5-000.pdf"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Suzuki Brake Fluid",
+    "spec": "DOT3",
+    "note": "Объём не указан",
+    "src": "https://www.suzuki.co.jp/car/owners_manual/data/pdf/Web99011-57SR5-000.pdf"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a (R-134a)",
+    "note": "Масса заправки в руководстве не указана",
+    "src": "https://www.suzuki.co.jp/car/owners_manual/data/pdf/Web99011-57SR5-000.pdf"
+   }
+  ]
+ },
+ {
+  "brand": "Mitsubishi",
+  "model": "Outlander PHEV",
+  "sub": "1 поколение, 2,0 л, 2013–2018",
+  "code": "GG2W",
+  "nsk": 7,
+  "rows": [
+   {
+    "name": "Масло ДВС",
+    "spec": "API SM или выше, ILSAC; ACEA A1/B1, A3/B3, A3/B4, A5/B5. Вязкость 0W-20, 0W-30, 5W-30, 5W-40 – только при ACEA A3/B3, A3/B4, A5/B5 и API SM+",
+    "vol": "4,3 л (поддон) + 0,3 л (фильтр)",
+    "note": "4B11. Руководство для России 2014, стр. 1211 и 118",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2014_Rus.pdf"
+   },
+   {
+    "name": "Передний редуктор",
+    "oil": "Mitsubishi Motors Genuine ATF SP III",
+    "vol": "3,46 л",
+    "note": "В руководстве – «масло для оси передней» / Transaxle fluid Front; только оригинальная ATF. То же в руководствах Европы 2018 и Канады 2020. Оригинальные артикулы ATF SP III (каталог Mitsubishi Таиланд): MSC99033T – 1 л, MSC99073T – 5 л",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2014_Rus.pdf"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "Mitsubishi Motors Genuine ATF SP III",
+    "vol": "0,85 л",
+    "note": "Редуктор заднего электромотора (Transaxle fluid Rear). Раздаточной коробки в таблице объёмов нет: задняя ось приводится отдельным электромотором",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2014_Rus.pdf"
+   },
+   {
+    "name": "Жидкость переднего электродвигателя",
+    "oil": "Mitsubishi Motors Genuine CVTF-J4",
+    "vol": "2,2 л",
+    "note": "Front Motor fluid. Оригинальные артикулы CVTF Eco J4 (Mitsubishi Таиланд): MZ320261 – 1 л, MZ320262 – 4 л",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2014_Rus.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Mitsubishi Motors Genuine Super Long Life Coolant Premium",
+    "vol": "7,5 л; 9,0 л с электрическим отопителем",
+    "note": "С бачком 0,65 л. Расхождение: в руководстве Европы 2018 (тот же 4B11) – 6,5 л / 7,5 л с электроотопителем; Канада 2020 – 7,5 л. Артикулы SLLC Premium (Таиланд): MZ320263 – 1 л, MZ320264 – 4 л",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2014_Rus.pdf",
+    "alt": [
+     "аналог на этиленгликоле без силикатов, аминов, нитратов и боратов, с гибридной органической технологией (так в руководстве)"
+    ]
+   },
+   {
+    "name": "Охлаждающая жидкость заднего электродвигателя",
+    "oil": "Mitsubishi Motors Genuine Super Long Life Coolant Premium",
+    "vol": "6,5 л",
+    "note": "Контур гибридного привода (Rear Motor coolant), с бачком 1,07 л. То же в руководствах Европы 2018 и Канады 2020",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2014_Rus.pdf"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "spec": "DOT3 или DOT4",
+    "note": "Объём – по потребности",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2014_Rus.pdf"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a",
+    "vol": "570–610 г",
+    "note": "Руководство для России 2014. Европа 2018: HFO-1234yf 495–535 г (HFC-134a 520–560 г – для Украины); Канада 2020: HFO-1234yf. Японские машины по первоисточнику не проверены – смотреть табличку",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2014_Rus.pdf"
+   },
+   {
+    "name": "Масло компрессора кондиционера",
+    "oil": "POE MA68EV",
+    "note": "Объём не указан. Другое масло – риск замены всей системы",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2014_Rus.pdf"
+   }
+  ]
+ },
+ {
+  "brand": "Mitsubishi",
+  "model": "Outlander PHEV",
+  "sub": "1 поколение, 2,4 л, 2018–2021",
+  "code": "GG3W",
+  "nsk": 7,
+  "rows": [
+   {
+    "name": "Масло ДВС",
+    "spec": "API SM или выше, ILSAC; ACEA A1/B1, A3/B3, A3/B4, A5/B5. 0W-20, 0W-30, 5W-20, 5W-30, 5W-40 – только при ACEA A3/B3, A3/B4, A5/B5 и API SM+",
+    "vol": "4,3 л (поддон) + 0,3 л (фильтр)",
+    "note": "4B12 2,4 л. Руководство Европы MY2019, стр. 12-10 и 11-05",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2019_EUR.pdf"
+   },
+   {
+    "name": "Передний редуктор",
+    "oil": "Mitsubishi Motors Genuine ATF SP III",
+    "vol": "3,46 л",
+    "note": "Transaxle fluid Front; только оригинальная ATF. Оригинальные артикулы ATF SP III (каталог Mitsubishi Таиланд): MSC99033T – 1 л, MSC99073T – 5 л",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2019_EUR.pdf"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "Mitsubishi Motors Genuine ATF SP III",
+    "vol": "0,85 л",
+    "note": "Transaxle fluid Rear. Раздаточной коробки в таблице объёмов нет",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2019_EUR.pdf"
+   },
+   {
+    "name": "Жидкость переднего электродвигателя",
+    "oil": "Mitsubishi Motors Genuine CVTF-J4",
+    "vol": "2,2 л",
+    "note": "Front Motor fluid. Артикулы CVTF Eco J4 (Таиланд): MZ320261 – 1 л, MZ320262 – 4 л",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2019_EUR.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Mitsubishi Motors Genuine Super Long Life Coolant Premium",
+    "vol": "6,5 л; 7,5 л с электрическим отопителем",
+    "note": "С бачком 0,65 л. Артикулы SLLC Premium (Таиланд): MZ320263 – 1 л, MZ320264 – 4 л",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2019_EUR.pdf",
+    "alt": [
+     "аналог на этиленгликоле без силикатов, аминов, нитратов и боратов, с гибридной органической технологией (так в руководстве)"
+    ]
+   },
+   {
+    "name": "Охлаждающая жидкость заднего электродвигателя",
+    "oil": "Mitsubishi Motors Genuine Super Long Life Coolant Premium",
+    "vol": "6,5 л",
+    "note": "Rear Motor coolant, с бачком 1,07 л",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2019_EUR.pdf"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "spec": "DOT3 или DOT4",
+    "note": "Объём – по потребности",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2019_EUR.pdf"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFO-1234yf",
+    "vol": "495–535 г",
+    "note": "Руководство Европы MY2019; для Украины – HFC-134a 520–560 г. Японские машины по первоисточнику не проверены – смотреть табличку",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2019_EUR.pdf"
+   },
+   {
+    "name": "Масло компрессора кондиционера",
+    "oil": "POE MA68EV",
+    "note": "Объём не указан",
+    "src": "https://mmc-manuals.ru/manuals/outlander_phev/user/Owners_Manual_Outlander_PHEV_2019_EUR.pdf"
+   }
+  ]
+ }
+]
