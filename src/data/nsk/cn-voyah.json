@@ -1,0 +1,459 @@
+[
+ {
+  "brand": "Voyah",
+  "model": "Free",
+  "addTo": "Free",
+  "addSub": "2023, рестайлинг (318 км)",
+  "nsk": 72,
+  "rows": [
+   {
+    "name": "Тормозная жидкость",
+    "oil": "HZY4 / DOT 4",
+    "spec": "HZY4 / DOT 4 (по руководству)",
+    "vol": "0,8 л",
+    "note": "Руководство «岚图FREE 318» (2024), одинаково для EQ6495 и EQ6496. В руководстве «新岚图FREE» (2023) указано 0,7 л: https://m.dsmp.voyah.com.cn/userguide/h97c/h97c-56.html",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h97d/h97D-56.html"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "Оригинальная охлаждающая жидкость Voyah (–35 °C)",
+    "vol": "16,5 ± 0,5 л (полный привод); 15,5 ± 0,5 л (задний привод)",
+    "note": "Бачок контура электромоторов. В руководстве «新岚图FREE» (2023) – 16,5 ± 0,5 л без деления по приводу. Официальное онлайн-руководство владельца Voyah (раздел «Технические данные», таблица жидкостей и объёмов).",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h97d/h97D-56.html"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Оригинальная охлаждающая жидкость Voyah (–35 °C)",
+    "vol": "6 ± 0,5 л (EQ6495, с генератором EHSF-2LV); 9 ± 0,5 л (EQ6496)",
+    "note": "Бачок контура range extender (增程器副水箱). «新岚图FREE» (2023): 6 ± 0,5 л. Официальное онлайн-руководство владельца Voyah (раздел «Технические данные», таблица жидкостей и объёмов).",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h97d/h97D-56.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "620 г",
+    "note": "Одинаково в руководствах «岚图FREE 318» и «新岚图FREE»: https://m.dsmp.voyah.com.cn/userguide/h97c/h97c-56.html",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h97d/h97D-56.html"
+   }
+  ]
+ },
+ {
+  "brand": "Voyah",
+  "model": "Free+",
+  "addTo": "Free+",
+  "nsk": 72,
+  "rows": [
+   {
+    "name": "Тормозная жидкость",
+    "oil": "HZY4 / DOT 4",
+    "spec": "HZY4 / DOT 4 (по руководству)",
+    "vol": "0,96 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h97e/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "Оригинальная охлаждающая жидкость Voyah (–35 °C)",
+    "vol": "16,5 ± 0,5 л (полный и задний привод)",
+    "note": "Бачок контура электромоторов. Официальное онлайн-руководство владельца Voyah (раздел «Технические данные», таблица жидкостей и объёмов).",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h97e/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Оригинальная охлаждающая жидкость Voyah (–35 °C)",
+    "vol": "8,5 ± 0,5 л",
+    "note": "Бачок контура range extender. Официальное онлайн-руководство владельца Voyah (раздел «Технические данные», таблица жидкостей и объёмов).",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h97e/SF-03006002_f8105.html"
+   }
+  ]
+ },
+ {
+  "brand": "Voyah",
+  "model": "Dream",
+  "addTo": "Dream",
+  "addSub": "новая модель",
+  "nsk": 3,
+  "rows": [
+   {
+    "name": "Тормозная жидкость",
+    "oil": "HZY4 / DOT 4",
+    "spec": "HZY4 / DOT 4 (по руководству)",
+    "vol": "1,0 л",
+    "note": "Руководство «24款岚图梦想家»: тип указан как HZY4. 25-й модельный год – HZY4 / DOT4, 1,0 л: https://m.dsmp.voyah.com.cn/userguide/h56c/jssj_page20.html",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56b/jssj_page20.html"
+   },
+   {
+    "name": "Охлаждающая жидкость (все контуры)",
+    "oil": "Полностью органическая антифризная ОЖ; в разделе двигателя – Dongfeng Castrol DF-9",
+    "vol": "гибрид: 21,6 л (超长续航, ДВС 110 кВт); 18,9 л (长续航, ДВС 100 кВт)",
+    "note": "Руководство «24款岚图梦想家». Электро-версия: 20 л (长续航), 17,4 л (超长续航). 25-й модельный год: гибрид 22,2 л, электро 18,4 л: https://m.dsmp.voyah.com.cn/userguide/h56c/jssj_page20.html",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56b/jssj_page20.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "925 г (гибрид)",
+    "note": "Электро-версия – 1500 г. Одинаково для 24-го и 25-го модельного года: https://m.dsmp.voyah.com.cn/userguide/h56c/jssj_page20.html",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56b/jssj_page20.html"
+   }
+  ]
+ },
+ {
+  "brand": "Voyah",
+  "model": "Passion",
+  "addTo": "Passion",
+  "nsk": 5,
+  "rows": [
+   {
+    "name": "Тормозная жидкость",
+    "oil": "HZY4 / DOT 4",
+    "spec": "HZY4 / DOT 4 (по руководству)",
+    "vol": "1,0 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53/jssj_page20.html"
+   },
+   {
+    "name": "Охлаждающая жидкость (все контуры)",
+    "oil": "Полностью органическая антифризная ОЖ",
+    "vol": "17,1 л (EQ7000AL1F2BEV, полный привод, стандартный запас хода); 14,9 л (EQ7001AL1F2BEV, полный привод, увеличенный запас хода)",
+    "note": "Электро-версия. Официальное онлайн-руководство владельца Voyah (раздел «Технические данные», таблица жидкостей и объёмов).",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53/jssj_page20.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "1200 г (электро)",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53/jssj_page20.html"
+   }
+  ]
+ },
+ {
+  "brand": "Voyah",
+  "model": "Passion PHEV",
+  "sub": "Гибрид, 2023–",
+  "code": "ДВС 1.5T: 100 кВт (1476 см³) или 110 кВт (1497 см³)",
+  "rows": [
+   {
+    "name": "Гибридная коробка (DHT)",
+    "oil": "BOT 791D",
+    "vol": "4,4 л",
+    "note": "Двухмоторный модуль (双电机模块): передний мотор 130/150 кВт + генератор 80 кВт. В продаже с 05.12.2023 (Синьхуа: https://www.news.cn/auto/20231206/cfc2018bbb8e40e39bb9df85b0f51c06/c.html).",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53/jssj_page20.html"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "CASTROL 805C EV",
+    "vol": "0,85 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53/jssj_page20.html"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "SN PLUS 0W-20",
+    "vol": "4 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53/jssj_page20.html"
+   },
+   {
+    "name": "Охлаждающая жидкость (все контуры)",
+    "oil": "Полностью органическая антифризная ОЖ",
+    "vol": "16,5 л (EQ7150AL1F2CHEV); 17,8 л (EQ7151AL1F2CHEV); 18 л (EQ7152AL1F2CHEV)",
+    "note": "Объём зависит от VIN-модели (长续航 / 超长续航). Официальное онлайн-руководство владельца Voyah (раздел «Технические данные», таблица жидкостей и объёмов).",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53/jssj_page20.html"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "HZY4 / DOT 4",
+    "spec": "HZY4 / DOT 4 (по руководству)",
+    "vol": "1,0 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53/jssj_page20.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "575 г",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53/jssj_page20.html"
+   }
+  ]
+ },
+ {
+  "brand": "Voyah",
+  "model": "Passion L",
+  "sub": "Гибрид, 2025–",
+  "code": "ДВС 1.5T, 110 кВт (1497 см³), 800 В",
+  "rows": [
+   {
+    "name": "Гибридная коробка (DHT)",
+    "oil": "CASTROL 805C EV",
+    "vol": "2,55 ± 0,05 л",
+    "note": "Двухмоторный модуль спереди (双电机模块), передний мотор 150 кВт. Электро-версии нет. Двигатель: https://m.dsmp.voyah.com.cn/userguide/h53b/SF-03006002_f8102.html",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53b/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "CASTROL 802D EV",
+    "vol": "2,25 ± 0,05 л",
+    "note": "Задний мотор 230 кВт.",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53b/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "SN PLUS 0W-20",
+    "vol": "4 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53b/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Охлаждающая жидкость (все контуры)",
+    "oil": "Dongfeng Castrol DF9",
+    "vol": "23 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53b/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "HZY4 / DOT 4",
+    "spec": "HZY4 / DOT 4 (по руководству)",
+    "vol": "1,0 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53b/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "575 г",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h53b/SF-03006002_f8105.html"
+   }
+  ]
+ },
+ {
+  "brand": "Voyah",
+  "model": "Courage",
+  "addTo": "Courage",
+  "rows": [
+   {
+    "name": "Тормозная жидкость",
+    "oil": "HZY4 / DOT 4",
+    "spec": "HZY4 / DOT 4 (по руководству)",
+    "vol": "0,95 ± 0,1 л",
+    "note": "Одинаково в руководствах «全新岚图知音» (объёмы ОЖ совпадают с карточкой) и первого «岚图知音»: https://m.dsmp.voyah.com.cn/userguide/h37/h37-56.html . У первого «知音» ОЖ 14,5 ± 0,5 л (2WD) / 15,5 ± 0,5 л (4WD), редуктор водяного охлаждения – CASTROL BOT 805C EV 0,85 ± 0,05 л, масляного – CASTROL 802D EV 2,25 ± 0,05 л.",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h37b/SF-03006002_f8105.html"
+   }
+  ]
+ },
+ {
+  "brand": "Voyah",
+  "model": "Taishan",
+  "sub": "Гибрид, 2025–",
+  "code": "ДВС 1.5T, 110 кВт (1497 см³), 800 В",
+  "nsk": 5,
+  "rows": [
+   {
+    "name": "Гибридная коробка (DHT)",
+    "oil": "CASTROL 805C EV",
+    "vol": "2,55 ± 0,05 л",
+    "note": "Двухмоторный модуль спереди: мотор 150 кВт + генератор 100 кВт. В продаже с 18.11.2025 (по СМИ, напр. https://www.ifanr.com/1644866). Двигатель: https://m.dsmp.voyah.com.cn/userguide/h77/SF-03006002_f8102.html",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h77/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "Castrol 802D",
+    "vol": "2,25 ± 0,05 л",
+    "note": "Задний мотор 230 / 260 кВт, 800 В.",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h77/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "SN PLUS 0W-20",
+    "vol": "4 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h77/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Охлаждающая жидкость (все контуры)",
+    "oil": "Dongfeng Castrol DF-9+",
+    "vol": "MAX: 21,4 / 26 л; MAX+, Ultra, «黑武士»: 21,8 / 26,3 л",
+    "note": "В руководстве по два значения через дробь без пояснения (вероятно, два контура или заправка/полный объём – не расшифровано).",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h77/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "HZY4 / DOT 4",
+    "spec": "HZY4 / DOT 4 (по руководству)",
+    "vol": "1,0 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h77/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "1800 г",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h77/SF-03006002_f8105.html"
+   }
+  ]
+ },
+ {
+  "brand": "Voyah",
+  "model": "Dream",
+  "sub": "Гибрид, 2026 модельный год, 2025–",
+  "code": "ДВС 1.5T, 110 кВт (1497 см³), 400 В или 800 В",
+  "nsk": 3,
+  "rows": [
+   {
+    "name": "Гибридная коробка (DHT)",
+    "oil": "CASTROL 805C EV",
+    "vol": "2,55 ± 0,05 л",
+    "note": "Двухмоторный модуль спереди, одинаково для 400 В (мотор 210 кВт) и 800 В (150 кВт). В продаже с 15.09.2025 (Синьхуа: https://www.xinhuanet.com/auto/20250915/c4b21c920ddf46798ba0a03672f01e2c/c.html).",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56d/jssj_page20.html"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "CASTROL 805C EV (400 В); CASTROL 802D EV (800 В)",
+    "vol": "0,85 л (400 В); 2,25 ± 0,05 л (800 В)",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56d/jssj_page20.html"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "SN PLUS 0W-20",
+    "vol": "4 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56d/jssj_page20.html"
+   },
+   {
+    "name": "Охлаждающая жидкость (все контуры)",
+    "oil": "Полностью органическая антифризная ОЖ",
+    "vol": "25,5 л",
+    "note": "EQ6534AL5F2CHEV, EQ6536AL5F2CHEV.",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56d/jssj_page20.html"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "HZY4 / DOT 4",
+    "spec": "HZY4 / DOT 4 (по руководству)",
+    "vol": "1,0 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56d/jssj_page20.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "925 г",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56d/jssj_page20.html"
+   }
+  ]
+ },
+ {
+  "brand": "Voyah",
+  "model": "Dream",
+  "sub": "Электро, 2026 модельный год, 2025–",
+  "code": "800 В",
+  "nsk": 3,
+  "rows": [
+   {
+    "name": "Передний редуктор",
+    "oil": "CASTROL 802D EV",
+    "vol": "2,25 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56d/jssj_page20.html"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "CASTROL 802D EV",
+    "vol": "2,25 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56d/jssj_page20.html"
+   },
+   {
+    "name": "Охлаждающая жидкость (все контуры)",
+    "oil": "Полностью органическая антифризная ОЖ",
+    "vol": "18 л",
+    "note": "EQ6535AL5F2BEV.",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56d/jssj_page20.html"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "HZY4 / DOT 4",
+    "spec": "HZY4 / DOT 4 (по руководству)",
+    "vol": "1,0 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56d/jssj_page20.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "1400 г",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56d/jssj_page20.html"
+   }
+  ]
+ },
+ {
+  "brand": "Voyah",
+  "model": "Dream 9",
+  "sub": "Гибрид, 2026–",
+  "code": "ДВС 1.5T, 110 кВт (1497 см³)",
+  "rows": [
+   {
+    "name": "Гибридная коробка (DHT)",
+    "oil": "CASTROL 805C EV",
+    "vol": "2,55 ± 0,05 л",
+    "note": "Двухмоторный модуль, только спереди. В продаже с 22.09.2026 (https://tidenews.com.cn/news.html?id=3567019).",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56e/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "CASTROL 802D EV",
+    "vol": "1,35 ± 0,05 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56e/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "SN PLUS 0W-20",
+    "vol": "4 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56e/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Охлаждающая жидкость (все контуры)",
+    "oil": "Полностью органическая антифризная ОЖ",
+    "vol": "Ultra: высокотемпературный контур 8,76 л / низкотемпературный 17,1 л; Ultra+ и «礼尊版»: 9,1 / 17,8 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56e/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "HZY4 / DOT 4",
+    "spec": "HZY4 / DOT 4 (по руководству)",
+    "vol": "1,0 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56e/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "1550 ± 25 г",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56e/SF-03006002_f8105.html"
+   }
+  ]
+ },
+ {
+  "brand": "Voyah",
+  "model": "Dream 9",
+  "sub": "Электро, 2026–",
+  "rows": [
+   {
+    "name": "Передний редуктор",
+    "oil": "CASTROL 802D EV",
+    "vol": "2,25 ± 0,05 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56e/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "CASTROL 802D EV",
+    "vol": "1,35 ± 0,05 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56e/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Охлаждающая жидкость (все контуры)",
+    "oil": "Полностью органическая антифризная ОЖ",
+    "vol": "21,5 л (Ultra); 22 л (Ultra+)",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56e/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "HZY4 / DOT 4",
+    "spec": "HZY4 / DOT 4 (по руководству)",
+    "vol": "1,0 л",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56e/SF-03006002_f8105.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "1550 ± 25 г",
+    "src": "https://m.dsmp.voyah.com.cn/userguide/h56e/SF-03006002_f8105.html"
+   }
+  ]
+ }
+]
