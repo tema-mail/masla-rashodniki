@@ -6,6 +6,6 @@
 - Astro, одна страница `src/pages/index.astro`, данные – `src/data/brands.ts` (марка → модели → узлы + прочее).
 - Новые данные добавлять в `brands.ts`, не в разметку. Марки на странице сортируются по алфавиту.
 - Выкладка: push в main → GitHub Pages (`.github/workflows/deploy.yml`), https://tema-mail.github.io/masla-rashodniki/
-- Страница закрыта от поисковиков (noindex + robots.txt).
+- Страница закрыта от поисковиков meta noindex (robots.txt в подпапке Pages не работает).
 - Node: `~/.local/node/bin`, сборка `npx astro build`.
 - Тире только короткое «–».

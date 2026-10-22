@@ -36,6 +36,11 @@ const DEX3 = [
 ];
 const DEX3_NOTE = 'На канистре должно быть указано Dexron III / Dex/Merc / Mercon';
 const GL45 = ['75W-90 или любое с допуском GL-4/GL-5'];
+// У Xiaomi фреон и тормозная жидкость в таблице общие на все модели.
+const XIAOMI_COMMON: Extra[] = [
+  { k: 'Хладагент', v: 'R134a, 1150 г' },
+  { k: 'Тормозная жидкость', v: 'DOT 4, 1 л' },
+];
 
 export const brands: Brand[] = [
   {
@@ -516,7 +521,6 @@ export const brands: Brand[] = [
             v: 'На основе этиленгликоля, спецификация LEC-II (Chinese National Standard GB 29743-2013), карбоксилатный. Общий объём 18 л. С завода до −35 °C. Нам подходит G12++, G12+ смешивать не рекомендуется',
           },
         ],
-        note: 'Номер запчасти редуктора смотреть на самом узле: от него зависит объём и масло',
       },
       { name: 'L7', extra: [{ k: 'Правый бачок охлаждения', v: '(P10-0205) LAA30030012' }] },
       { name: 'L6', extra: [{ k: 'Рычаги', v: 'Правый PS50644R, левый PS50644L' }] },
@@ -750,19 +754,19 @@ export const brands: Brand[] = [
           { name: 'Передний редуктор', vol: '1,8 л', spec: 'Castrol BOT 805C EV', oil: '75W' },
           { name: 'Задний редуктор', vol: '2 л', spec: 'Castrol BOT 805C EV', oil: '75W' },
         ],
-        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 20 л' }],
+        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 20 л' }, ...XIAOMI_COMMON],
       },
       {
         name: 'SU7',
         sub: 'Задний привод',
         units: [{ name: 'Задний редуктор', spec: 'Castrol BOT 352 B1 REV', oil: '75W-90 или любое с допуском GL-4/GL-5' }],
-        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 17 л' }],
+        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 17 л' }, ...XIAOMI_COMMON],
       },
       {
         name: 'YU7',
         sub: 'Задний привод',
         units: [{ name: 'Задний редуктор', spec: 'Castrol BOT 805C EV', oil: '75W' }],
-        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 19,5 л' }],
+        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 19,5 л' }, ...XIAOMI_COMMON],
       },
       {
         name: 'YU7 Pro',
@@ -771,7 +775,7 @@ export const brands: Brand[] = [
           { name: 'Передний редуктор', vol: '1,75 л', spec: 'Castrol BOT 805C EV', oil: '75W' },
           { name: 'Задний редуктор', vol: '1,95 л', spec: 'Castrol BOT 805C EV', oil: '75W' },
         ],
-        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 19,5 л' }],
+        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 19,5 л' }, ...XIAOMI_COMMON],
       },
       {
         name: 'YU7 Max',
@@ -780,7 +784,7 @@ export const brands: Brand[] = [
           { name: 'Передний редуктор', vol: '1,8 л', spec: 'Castrol BOT 805C EV', oil: '75W' },
           { name: 'Задний редуктор', vol: '2 л', spec: 'Castrol BOT 805C EV', oil: '75W' },
         ],
-        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 22 л' }],
+        extra: [{ k: 'Охлаждающая жидкость', v: 'Valvoline LC100, 22 л' }, ...XIAOMI_COMMON],
       },
     ],
   },
