@@ -1,0 +1,673 @@
+[
+ {
+  "brand": "Li Auto",
+  "model": "L6 / L7 / L8 / L9",
+  "sub": "дополнение: 2023–2024",
+  "rows": [
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4",
+    "spec": "DOT 4",
+    "vol": "1,2 л (L7, L8, L9); 1,3 л (L6 Pro); 1,4 л (L6 Max)",
+    "note": "Количество при замене – ориентир сервиса Li Auto, фактически может немного отличаться. Замена – раз в 4 года / 80 000 км. Те же значения в руководствах обновлённых версий 2025 года. L8: https://manuals.lixiang.com/zh-cn/X022024PRO/20260731132232/topic-2022-906F3AFA.html; L7: https://manuals.lixiang.com/zh-cn/X032024PRO/20260731153424/topic-2022-5BFB17DC.html; L6 Pro: https://manuals.lixiang.com/zh-cn/X042024PRO/20260731165616/topic-2023-7489CDDE.html; L6 Max: https://manuals.lixiang.com/zh-cn/X042024MAX/20260731171727/topic-2024-1578EE14.html",
+    "src": "https://manuals.lixiang.com/zh-cn/X012024PRO/20260731101058/topic-2022-5B7E3D74.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "L8 и L9: 1050 ± 20 г (с задним кондиционером); L7: 550 ± 20 г; L6: 1450 ± 20 г",
+    "note": "Так в руководствах Li Auto 2023–2025 года (все версии Air/Pro/Max/Ultra). L6 – 1450 г по руководству, больше, чем у L9; перед заправкой сверить с табличкой под капотом. L7: https://manuals.lixiang.com/zh-cn/X032024PRO/20260731153424/topic-2022-5BFB17DC.html; L6: https://manuals.lixiang.com/zh-cn/X042024PRO/20260731165616/topic-2023-7489CDDE.html",
+    "src": "https://manuals.lixiang.com/zh-cn/X012024PRO/20260731101058/topic-2022-5B7E3D74.html"
+   },
+   {
+    "name": "Охлаждающая жидкость батареи",
+    "note": "Отдельного контура батареи нет: по руководству у всех L6/L7/L8/L9 общий расширительный бачок «батарея + электромотор», отдельный бачок – только у двигателя-генератора (ДВС). Объём контура в руководстве не указан. Замена ОЖ (L9) – раз в 6 лет / 120 000 км. L6 2025: https://manuals.lixiang.com/zh-cn/X042025PRO/20260731164043/topic-2025-F0E4316B.html",
+    "src": "https://manuals.lixiang.com/zh-cn/X012024PRO/20260731101058/topic-2022-B791C8B1-001.html"
+   },
+   {
+    "name": "Фильтр масляный",
+    "part": "X01-1001787 (X011001787)",
+    "note": "Оригинал Li Auto для L7/L8/L9 (двигатель 1,5T). Подтверждён двумя продавцами запчастей: карточка товара и описание видеообзора Stars Auto (https://www.youtube.com/watch?v=sNgyd6Litt4). Для L6 номер в этих источниках не указан.",
+    "src": "https://xn--80apbfzohd2b.xn--p1ai/products/LI-AUTO/X011001787.html"
+   },
+   {
+    "name": "Фильтр воздушный",
+    "part": "X01129150063",
+    "note": "Размер 363 × 162 × 41 мм. Для L7/L8/L9. Один источник – описание видеообзора продавца запчастей, сверять по VIN.",
+    "src": "https://www.youtube.com/watch?v=sNgyd6Litt4"
+   },
+   {
+    "name": "Фильтр салона",
+    "part": "X0390000206",
+    "note": "Размер 275 × 238 × 33 мм. Для L7/L8/L9. Один источник – описание видеообзора продавца запчастей, сверять по VIN.",
+    "src": "https://www.youtube.com/watch?v=sNgyd6Litt4"
+   }
+  ]
+ },
+ {
+  "brand": "Li Auto",
+  "model": "MEGA",
+  "sub": "Электро, 2024–",
+  "code": "BEV, 2 мотора (перед. 155 кВт, задн. 245 кВт)",
+  "rows": [
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4",
+    "spec": "DOT 4",
+    "vol": "1,3 л (количество при замене)",
+    "note": "Ориентир сервиса Li Auto. Замена – раз в 4 года / 80 000 км. Одинаково в руководствах MEGA Ultra 2024, MEGA Home и Ultra 2025 (https://manuals.lixiang.com/zh-cn/W012025ULTRA/20261022092301/topic-2023-6FA9D152.html).",
+    "src": "https://manuals.lixiang.com/zh-cn/W012024ULTRA/20261022092902/topic-2023-6FA9D152.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "1500 ± 25 г",
+    "src": "https://manuals.lixiang.com/zh-cn/W012024ULTRA/20261022092902/topic-2023-6FA9D152.html"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "note": "Два бачка: контур электромотора и батареи (общее предупреждение о низком уровне) и контур отопителя. Объёмы и тип в руководстве не указаны. Замена – раз в 5 лет / 100 000 км (https://manuals.lixiang.com/zh-cn/W012025ULTRA/20261022092301/topic-2023-547EB416.html).",
+    "src": "https://manuals.lixiang.com/zh-cn/W012025ULTRA/20261022092301/topic-2025-708521DD.html"
+   },
+   {
+    "name": "Передний редуктор",
+    "note": "По руководству масло электропривода в большинстве случаев не меняется весь срок службы. Тип и объём не указаны.",
+    "src": "https://manuals.lixiang.com/zh-cn/W012025ULTRA/20261022092301/topic-2023-547EB416.html"
+   }
+  ]
+ },
+ {
+  "brand": "Li Auto",
+  "model": "i8",
+  "sub": "Электро, 2025–",
+  "code": "BEV, 2 мотора (перед. 150 кВт, задн. 250 кВт)",
+  "rows": [
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4",
+    "spec": "DOT 4",
+    "vol": "1,3 л (количество при замене)",
+    "note": "Ориентир сервиса Li Auto. Замена – раз в 4 года / 80 000 км.",
+    "src": "https://manuals.lixiang.com/zh-cn/W022025ULTRA/20261022093821/topic-2025-93464A65.html"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "1800 ± 35 г",
+    "src": "https://manuals.lixiang.com/zh-cn/W022025ULTRA/20261022093821/topic-2025-93464A65.html"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "note": "Один бачок ОЖ (контур батарея + мотор). Тип и объём в руководстве не указаны.",
+    "src": "https://manuals.lixiang.com/zh-cn/W022025ULTRA/20261022093821/topic-2025-A6D046A7.html"
+   },
+   {
+    "name": "Передний редуктор",
+    "note": "По руководству масло электропривода в большинстве случаев не меняется весь срок службы. Тип и объём не указаны.",
+    "src": "https://manuals.lixiang.com/zh-cn/W022025ULTRA/20261022093821/topic-2025-3C581276.html"
+   }
+  ]
+ },
+ {
+  "brand": "AITO",
+  "model": "M7",
+  "sub": "дополнение",
+  "rows": [
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4",
+    "spec": "DOT 4",
+    "vol": "900 ± 30 мл",
+    "note": "Одинаково в руководствах M7 2022 (6 мест, https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M7使用说明书.pdf#page=272) и нового M7 2023–2025 (Plus, Max, Ultra/Pro: https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M7Plus标准版使用说明书.pdf#page=258, https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M7Ultra-Pro使用说明书.pdf#page=378). У M7 2026 модельного года – 970 ± 50 мл (https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M72026款增程版使用说明书.pdf#page=428). Оригинальные номера фильтров не найдены.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M7Max智驾版使用说明书.pdf#page=363"
+   }
+  ]
+ },
+ {
+  "brand": "AITO",
+  "model": "M9 EREV",
+  "sub": "Гибрид, 2024–2025",
+  "code": "ДВС 1,5T H15RT (2024) / HG15T (2025)",
+  "rows": [
+   {
+    "name": "Передний редуктор",
+    "oil": "BOT 805C EV",
+    "spec": "BOT 805C EV",
+    "vol": "2,0 ± 0,1 л",
+    "note": "Передний асинхронный мотор HW165, редуктор CYS210XY0P1. В руководствах 2024 и 2025 одинаково (https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M92025款增程版使用说明书.pdf#page=431).",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M9增程版使用说明书.pdf#page=426"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "BOT 805C EV",
+    "spec": "BOT 805C EV",
+    "vol": "1,7 ± 0,1 л",
+    "note": "Задний синхронный мотор HW200, редуктор CTZ196XY0P4.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M9增程版使用说明书.pdf#page=426"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "SP 0W-20 (H15RT, 2024); SP 0W-16 (HG15T, 2025)",
+    "spec": "API SP",
+    "vol": "3,5 л с фильтром",
+    "note": "4 л – при капремонте двигателя. 2025: https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M92025款增程版使用说明书.pdf#page=431",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M9增程版使用说明书.pdf#page=427"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "LEC-II-40 (жёлтая)",
+    "vol": "10,0 ± 0,5 л (2024); 9,7 ± 0,5 л (2025)",
+    "note": "Смешивать разные марки и типы ОЖ запрещено. 2025: https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M92025款增程版使用说明书.pdf#page=431",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M9增程版使用说明书.pdf#page=427"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "LEC-II-40 (жёлтая) или EVC-II-40 (красная)",
+    "vol": "8,0 ± 0,5 л (2024); 10,7 ± 0,5 л (2025)",
+    "note": "2025: https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M92025款增程版使用说明书.pdf#page=431",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M9增程版使用说明书.pdf#page=427"
+   },
+   {
+    "name": "Охлаждающая жидкость батареи",
+    "oil": "LEC-II-40 (жёлтая) или EVC-II-40 (красная)",
+    "vol": "4,0 ± 0,3 л (2024); 3,9 ± 0,3 л (2025)",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M9增程版使用说明书.pdf#page=427"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4",
+    "spec": "DOT 4",
+    "vol": "1050 ± 50 мл",
+    "note": "Одинаково в 2024 и 2025.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M9增程版使用说明书.pdf#page=425"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "790 ± 20 г",
+    "note": "Одинаково в 2024 и 2025.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M9增程版使用说明书.pdf#page=427"
+   }
+  ]
+ },
+ {
+  "brand": "AITO",
+  "model": "M9 EV",
+  "sub": "Электро, 2024–2025",
+  "code": "BEV, перед. асинхр. HW150, задн. синхр. HW250",
+  "rows": [
+   {
+    "name": "Передний редуктор",
+    "oil": "BOT 805C EV",
+    "spec": "BOT 805C EV",
+    "vol": "1,5 ± 0,1 л",
+    "note": "Редуктор YS210XYA03. Одинаково в 2024 и 2025 (https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M92025款纯电版使用说明书.pdf#page=424).",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M9纯电版使用说明书.pdf#page=419"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "BOT 805C EV",
+    "spec": "BOT 805C EV",
+    "vol": "1,7 ± 0,1 л",
+    "note": "Редуктор TZ210XYA03.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M9纯电版使用说明书.pdf#page=419"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "LEC-II-40 (жёлтая) или EVC-II-40 (красная)",
+    "vol": "16,7 ± 0,5 л (2024); 16,9 ± 0,5 л (2025)",
+    "note": "Общий объём системы (батарея + электропривод), по контурам не разделён. 2025: https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M92025款纯电版使用说明书.pdf#page=425",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M9纯电版使用说明书.pdf#page=420"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4",
+    "spec": "DOT 4",
+    "vol": "1050 ± 50 мл",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M9纯电版使用说明书.pdf#page=419"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "930 ± 20 г",
+    "note": "Одинаково в 2024 и 2025.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M9纯电版使用说明书.pdf#page=420"
+   }
+  ]
+ },
+ {
+  "brand": "AITO",
+  "model": "M9 EREV",
+  "sub": "Гибрид, 2026–",
+  "code": "ДВС 1,5T HG15T / 2,0T HG20T",
+  "rows": [
+   {
+    "name": "Передний редуктор",
+    "oil": "DOF",
+    "vol": "1,1 ± 0,05 л",
+    "note": "Передний асинхронный мотор YY67YS210A05 (220 кВт). Тип масла – «DOF», так в руководстве. В руководстве также указаны сдвоенные блоки: DC67TZ230001 – BOT 805C EV 2,9 ± 0,1 л и DC67TZ220F02 – DOF 2,6 ± 0,1 л (для части исполнений).",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M92026款增程版使用说明书.pdf#page=473"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "DOF",
+    "vol": "1,1 ± 0,05 л",
+    "note": "Задний синхронный мотор YY67TZ210A05 (277 кВт).",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M92026款增程版使用说明书.pdf#page=473"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "SP 0W-16",
+    "spec": "API SP",
+    "vol": "HG15T: 3,5 л с фильтром; HG20T: 4 л с фильтром",
+    "note": "При капремонте: HG15T – 4 л, HG20T – 4,5 л.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M92026款增程版使用说明书.pdf#page=473"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "LEC-II-40",
+    "vol": "9,8 ± 1,0 л",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M92026款增程版使用说明书.pdf#page=474"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "LEC-II-40",
+    "vol": "10,5 ± 1,0 л (без проектора и кислородного генератора); 11,5 ± 1,0 л",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M92026款增程版使用说明书.pdf#page=474"
+   },
+   {
+    "name": "Охлаждающая жидкость батареи",
+    "oil": "LEC-II-40",
+    "vol": "5,5 ± 0,5 л",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M92026款增程版使用说明书.pdf#page=474"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4 (HZY4)",
+    "spec": "DOT 4",
+    "vol": "1250 ± 70 мл",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M92026款增程版使用说明书.pdf#page=472"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "980 ± 20 г",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M92026款增程版使用说明书.pdf#page=473"
+   }
+  ]
+ },
+ {
+  "brand": "AITO",
+  "model": "M9 EV",
+  "sub": "Электро, 2026–",
+  "code": "BEV, перед. асинхр. 220 кВт, задн. синхр. 277 кВт",
+  "rows": [
+   {
+    "name": "Передний редуктор",
+    "oil": "DOF",
+    "vol": "1,1 ± 0,05 л",
+    "note": "Мотор YY67YS210A05. Тип масла – «DOF», так в руководстве.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M92026款纯电版使用说明书.pdf#page=466"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "DOF",
+    "vol": "1,1 ± 0,05 л",
+    "note": "Мотор YY67TZ210A05.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M92026款纯电版使用说明书.pdf#page=467"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "LEC-II-40",
+    "vol": "23,5 ± 1,0 л (без проектора и кислородного генератора); 24,25 ± 1,25 л",
+    "note": "Общий объём системы, по контурам не разделён.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M92026款纯电版使用说明书.pdf#page=467"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4 (HZY4)",
+    "spec": "DOT 4",
+    "vol": "1250 ± 70 мл",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M92026款纯电版使用说明书.pdf#page=466"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "950 ± 20 г",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M92026款纯电版使用说明书.pdf#page=467"
+   }
+  ]
+ },
+ {
+  "brand": "AITO",
+  "model": "M8 EREV",
+  "sub": "Гибрид, 2025–",
+  "code": "ДВС 1,5T HG15T",
+  "rows": [
+   {
+    "name": "Передний редуктор",
+    "oil": "BOT 805C EV (YS210XYA51); EVTF4107 (DY40YS230002)",
+    "vol": "2,1 ± 0,1 л (YS210XYA51); 2,5 ± 0,1 л (DY40YS230002)",
+    "note": "Два варианта переднего асинхронного мотора – смотреть номер на агрегате.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M8增程版使用说明书.pdf#page=429"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "BOT 805C EV",
+    "spec": "BOT 805C EV",
+    "vol": "1,4 ± 0,05 л (TZ210XYAP4); 1,9 ± 0,05 л (YY40TZ230001)",
+    "note": "Два варианта заднего синхронного мотора.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M8增程版使用说明书.pdf#page=429"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "SP 0W-16",
+    "spec": "API SP",
+    "vol": "4 л с фильтром",
+    "note": "4,5 л – при капремонте.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M8增程版使用说明书.pdf#page=430"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "LEC-II-40 (жёлтая)",
+    "vol": "8,2 ± 0,5 л",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M8增程版使用说明书.pdf#page=430"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "LEC-II-40 (жёлтая) или EVC-II-40 (красная)",
+    "vol": "9,0–9,1 ± 0,5 л",
+    "note": "По сочетанию моторов: DY40YS230002 + YY40TZ230001 – 9,1 л; YS210XYA51 + TZ210XYAP4 – 9,1 л; DY40YS230002 + TZ210XYAP4 – 9,0 л; только задний TZ210XYAP4 – 9,1 л (LEC-II-40).",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M8增程版使用说明书.pdf#page=430"
+   },
+   {
+    "name": "Охлаждающая жидкость батареи",
+    "oil": "LEC-II-40 (жёлтая) или EVC-II-40 (красная)",
+    "vol": "4,1 ± 0,5 л",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M8增程版使用说明书.pdf#page=430"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4",
+    "spec": "DOT 4",
+    "vol": "985 ± 50 мл",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M8增程版使用说明书.pdf#page=428"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "650 ± 20 г (5 мест); 950 ± 20 г (6 мест)",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M8增程版使用说明书.pdf#page=430"
+   }
+  ]
+ },
+ {
+  "brand": "AITO",
+  "model": "M8 EV",
+  "sub": "Электро, 2025–",
+  "code": "BEV, перед. асинхр. YS210XYA03, задн. синхр. QT67TZ210D01",
+  "rows": [
+   {
+    "name": "Передний редуктор",
+    "oil": "BOT 805C EV",
+    "spec": "BOT 805C EV",
+    "vol": "1,5 ± 0,1 л",
+    "note": "Мотор YS210XYA03 (полный привод).",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M8纯电版使用说明书.pdf#page=422"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "BOT 805C EV",
+    "spec": "BOT 805C EV",
+    "vol": "1,4 ± 0,05 л",
+    "note": "Мотор QT67TZ210D01.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M8纯电版使用说明书.pdf#page=423"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "LEC-II-40 (жёлтая) или EVC-II-40 (красная)",
+    "vol": "16,9 ± 0,85 л (полный привод); 15,9 ± 0,85 л (задний привод)",
+    "note": "Общий объём системы, по контурам не разделён.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M8纯电版使用说明书.pdf#page=423"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4",
+    "spec": "DOT 4",
+    "vol": "985 ± 50 мл",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M8纯电版使用说明书.pdf#page=422"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "725 ± 20 г (5 мест); 950 ± 20 г (6 мест)",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/260930/问界M8纯电版使用说明书.pdf#page=423"
+   }
+  ]
+ },
+ {
+  "brand": "AITO",
+  "model": "M5 (новый)",
+  "sub": "Гибрид, 2024–",
+  "code": "ДВС 1,5T H15RT",
+  "rows": [
+   {
+    "name": "Передний редуктор",
+    "oil": "BOT 805C EV",
+    "spec": "BOT 805C EV",
+    "vol": "2,0 ± 0,1 л",
+    "note": "Только полный привод: передний асинхронный мотор HW165, редуктор CYS210XY0P1.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界新M5增程版使用说明书.pdf#page=348"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "BOT 805C EV",
+    "spec": "BOT 805C EV",
+    "vol": "1,7 ± 0,1 л",
+    "note": "Мотор HW200, редуктор CTZ196XY0P4.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界新M5增程版使用说明书.pdf#page=348"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "SP 0W-20",
+    "spec": "API SP",
+    "vol": "3,5 л с фильтром",
+    "note": "4 л – при капремонте.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界新M5增程版使用说明书.pdf#page=348"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "LEC-II-40 (жёлтая)",
+    "vol": "8,7 ± 0,5 л",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界新M5增程版使用说明书.pdf#page=348"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "LEC-II-40 (жёлтая) или EVC-II-40 (красная)",
+    "vol": "11,3 ± 0,5 л (задний привод); 11,6 ± 0,6 л (полный привод)",
+    "note": "Общий объём контура электропривода и батареи (в таблице объединённая ячейка). Отличие от M5 2023 года: там 10,5 ± 1,0 / 12,0 ± 1,0 л (https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界M5智驾版使用说明书.pdf#page=351); остальные жидкости и объёмы совпадают.",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界新M5增程版使用说明书.pdf#page=348"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4",
+    "spec": "DOT 4",
+    "vol": "700 ± 50 мл",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界新M5增程版使用说明书.pdf#page=347"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "600 ± 20 г",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界新M5增程版使用说明书.pdf#page=348"
+   }
+  ]
+ },
+ {
+  "brand": "AITO",
+  "model": "M5 EV (новый)",
+  "sub": "Электро, 2024–",
+  "code": "BEV, задн. мотор HW200",
+  "rows": [
+   {
+    "name": "Задний редуктор",
+    "oil": "BOT 805C EV",
+    "spec": "BOT 805C EV",
+    "vol": "1,7 ± 0,1 л",
+    "note": "Редуктор CTZ196XY0P4. Так же в руководстве 2025 года (https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界新M52025款纯电版使用说明书.pdf#page=349).",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界新M5纯电版使用说明书.pdf#page=343"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "LEC-II-40 (жёлтая) или EVC-II-40 (красная)",
+    "vol": "13,8 ± 0,5 л (2024); 11,3 ± 0,5 л (2025)",
+    "note": "Общий объём системы. 2025: https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界新M52025款纯电版使用说明书.pdf#page=349",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界新M5纯电版使用说明书.pdf#page=343"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4",
+    "spec": "DOT 4",
+    "vol": "700 ± 50 мл",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界新M5纯电版使用说明书.pdf#page=342"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "930 ± 20 г",
+    "src": "https://aito.auto/dam/content/dam/aito/cn/service/pdf/261015/问界新M5纯电版使用说明书.pdf#page=343"
+   }
+  ]
+ },
+ {
+  "brand": "Avatr",
+  "model": "Avatr 07",
+  "sub": "дополнение: Электро",
+  "rows": [
+   {
+    "name": "Тормозная жидкость",
+    "oil": "HZY4 (DOT 4)",
+    "spec": "HZY4",
+    "vol": "0,9 ± 0,08 л",
+    "note": "Руководство экспортной (праворульной) версии для Сингапура, январь 2026. Китайское руководство не найдено.",
+    "src": "https://avatr.sg/wp-content/uploads/2026/04/Owners-Manual-for-AVATR-07-20260122.pdf#page=108"
+   },
+   {
+    "name": "Охлаждающая жидкость электропривода",
+    "oil": "LEC-II-40 или EVC-II-40",
+    "vol": "14,7 л (задний привод); 15,7 л (полный привод)",
+    "note": "Общий объём системы (батарея + электропривод), по контурам не разделён. Машины разных лет выпуска могут быть залиты разными ОЖ – заливать ту же, что стоит. Экспортная версия.",
+    "src": "https://avatr.sg/wp-content/uploads/2026/04/Owners-Manual-for-AVATR-07-20260122.pdf#page=108"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a",
+    "vol": "720 ± 15 г",
+    "note": "Для Пакистана – 680 ± 15 г. Экспортная версия.",
+    "src": "https://avatr.sg/wp-content/uploads/2026/04/Owners-Manual-for-AVATR-07-20260122.pdf#page=108"
+   }
+  ]
+ },
+ {
+  "brand": "Avatr",
+  "model": "Avatr 07",
+  "sub": "дополнение: Гибрид, полный привод",
+  "rows": [
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4 LV",
+    "vol": "1 л",
+    "note": "Только каталог Ravenol (руководство не найдено). Проверка каталога по руководствам: для Avatr 11 и 07 Ravenol расходится с заводскими данными, объёмы – только ориентир, доливать по уровню. У электрического 07 по руководству – HZY4, 0,9 л.",
+    "src": "https://podbor.ravenol.ru/1-cars/785-avatr/201402-07/209079-15-hybrid-4wd-jl469zq1/"
+   }
+  ]
+ },
+ {
+  "brand": "Avatr",
+  "model": "Avatr 12",
+  "sub": "дополнение",
+  "rows": [
+   {
+    "name": "Задний редуктор",
+    "oil": "трансмиссионное для электропривода, допуск BOT 805C EV",
+    "spec": "BOT 805C EV",
+    "vol": "1,6 л (электро, задний привод); 2 л (гибрид)",
+    "note": "Только каталог Ravenol (руководство не найдено). Проверка каталога по руководствам: для Avatr 11 и 07 Ravenol расходится с заводскими данными, объёмы – только ориентир, доливать по уровню. У Avatr 11 с тем же по каталогу задним мотором TZ210XY584 руководство даёт 1,8 ± 0,1 л (Ravenol – 1,6 л). Гибрид: https://podbor.ravenol.ru/1-cars/785-avatr/201401-12/209798-15-hybrid-erev-rwd-2wd-jl469zq1-156-ls-115-kvt-170-ls-125-kvt/. Передний редуктор (полный привод) – данных нет.",
+    "src": "https://podbor.ravenol.ru/1-cars/785-avatr/201401-12/206549-945-kwh/"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4 LV",
+    "vol": "1 л",
+    "note": "Только каталог Ravenol (руководство не найдено). Проверка каталога по руководствам: для Avatr 11 и 07 Ravenol расходится с заводскими данными, объёмы – только ориентир, доливать по уровню.",
+    "src": "https://podbor.ravenol.ru/1-cars/785-avatr/201401-12/206549-945-kwh/"
+   }
+  ]
+ },
+ {
+  "brand": "Avatr",
+  "model": "Avatr 06",
+  "sub": "Электро и гибрид, 2024–",
+  "code": "ДВС 1,5T JL469ZQ1 (гибрид)",
+  "rows": [
+   {
+    "name": "Передний редуктор",
+    "oil": "трансмиссионное для электропривода, допуск BOT 805C EV",
+    "spec": "BOT 805C EV",
+    "vol": "1 л (электро, полный привод)",
+    "note": "Только каталог Ravenol (руководство не найдено). Проверка каталога по руководствам: для Avatr 11 и 07 Ravenol расходится с заводскими данными, объёмы – только ориентир, доливать по уровню.",
+    "src": "https://podbor.ravenol.ru/1-cars/785-avatr/202566-06/209324-ev-73-kvch-awd-4wd-598-ls-440-kvt/"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "трансмиссионное для электропривода, допуск BOT 805C EV",
+    "spec": "BOT 805C EV",
+    "vol": "1,6 л (электро); 2 л (гибрид)",
+    "note": "Только каталог Ravenol (руководство не найдено). Проверка каталога по руководствам: для Avatr 11 и 07 Ravenol расходится с заводскими данными, объёмы – только ориентир, доливать по уровню. Гибрид: https://podbor.ravenol.ru/1-cars/785-avatr/202566-06/209325-15-hybrid-rwd-2wd-jl469zq1-156-ls-115-kvt/",
+    "src": "https://podbor.ravenol.ru/1-cars/785-avatr/202566-06/209323-ev-73-kvch-rwd-2wd-343-ls-252-kvt/"
+   },
+   {
+    "name": "Масло ДВС",
+    "vol": "3,6 л",
+    "note": "Только каталог Ravenol (руководство не найдено). Проверка каталога по руководствам: для Avatr 11 и 07 Ravenol расходится с заводскими данными, объёмы – только ориентир, доливать по уровню. Вязкость и допуск производителя в каталоге не указаны (Ravenol предлагает своё 5W-30).",
+    "src": "https://podbor.ravenol.ru/1-cars/785-avatr/202566-06/209325-15-hybrid-rwd-2wd-jl469zq1-156-ls-115-kvt/"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4 LV",
+    "vol": "1 л",
+    "note": "Только каталог Ravenol (руководство не найдено). Проверка каталога по руководствам: для Avatr 11 и 07 Ravenol расходится с заводскими данными, объёмы – только ориентир, доливать по уровню.",
+    "src": "https://podbor.ravenol.ru/1-cars/785-avatr/202566-06/209323-ev-73-kvch-rwd-2wd-343-ls-252-kvt/"
+   }
+  ]
+ },
+ {
+  "brand": "Avatr",
+  "model": "Avatr 11 EREV",
+  "sub": "Гибрид, 2024–",
+  "code": "ДВС 1,5T JL469ZQ1",
+  "rows": [
+   {
+    "name": "Задний редуктор",
+    "oil": "трансмиссионное для электропривода, допуск BOT 805C EV",
+    "spec": "BOT 805C EV",
+    "vol": "2 л",
+    "note": "Только каталог Ravenol (руководство не найдено). Проверка каталога по руководствам: для Avatr 11 и 07 Ravenol расходится с заводскими данными, объёмы – только ориентир, доливать по уровню. У электрического Avatr 11 по руководству задний редуктор – Castrol BOT 805C EV 1,8 ± 0,1 л, передний – 1,6 ± 0,1 л (https://chats.chinamobil.ru/files/avatr-club-chat/applicationpdf/Avatr%2011%20%E2%80%94%20Manual%20(CN,%202022).pdf#page=114).",
+    "src": "https://podbor.ravenol.ru/1-cars/785-avatr/201071-11/209795-15-hybrid-rwd-2wd-jl469zq1-156-ls-115-kvt-170-ls-125-kvt/"
+   },
+   {
+    "name": "Масло ДВС",
+    "vol": "3,6 л",
+    "note": "Только каталог Ravenol (руководство не найдено). Проверка каталога по руководствам: для Avatr 11 и 07 Ravenol расходится с заводскими данными, объёмы – только ориентир, доливать по уровню. Вязкость и допуск производителя в каталоге не указаны.",
+    "src": "https://podbor.ravenol.ru/1-cars/785-avatr/201071-11/209795-15-hybrid-rwd-2wd-jl469zq1-156-ls-115-kvt-170-ls-125-kvt/"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "DOT 4 LV",
+    "vol": "1 л",
+    "note": "Только каталог Ravenol (руководство не найдено). Проверка каталога по руководствам: для Avatr 11 и 07 Ravenol расходится с заводскими данными, объёмы – только ориентир, доливать по уровню. У электрического Avatr 11 по руководству – DOT4/HZY4, 1000 мл.",
+    "src": "https://podbor.ravenol.ru/1-cars/785-avatr/201071-11/209795-15-hybrid-rwd-2wd-jl469zq1-156-ls-115-kvt-170-ls-125-kvt/"
+   }
+  ]
+ }
+]

@@ -1,0 +1,534 @@
+[
+ {
+  "brand": "Toyota",
+  "model": "Prius",
+  "sub": "2 поколение (NHW20), 2003–2011",
+  "code": "NHW20, ДВС 1NZ-FXE, THS II",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,8 л",
+    "note": "Объём – справочный, по руководству владельца (выпуск 05.2009–02.2012); тот же объём у toyota-club для JDM-версии 2003–2011.",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_200905.pdf#page=350"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Motor Oil SM 0W-20",
+    "spec": "API SM, EC / ILSAC GF-4, SAE 0W-20",
+    "alt": [
+     "Toyota SM 5W-30 (API SM / ILSAC GF-4)",
+     "Toyota SM 10W-30 (API SM / ILSAC GF-4)",
+     "Toyota SL 5W-20 (API SL, EC)",
+     "Toyota SL 10W-30 (API SL, EC)"
+    ],
+    "vol": "3,7 л с фильтром",
+    "note": "Без замены фильтра – 3,4 л. 0W-20 залит с завода; остальные – допустимые по руководству, вязкость по температуре. toyota-club: допуск API SL..SM / ILSAC GF-4.",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_200905.pdf#page=351"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Toyota 90915-10003",
+    "alt": [
+     "MANN W 68/3"
+    ],
+    "note": "Резьбовой (spin-on). Применяемость по таблице toyota-club: NHW20, 09.2003–05.2009.",
+    "src": "https://toyota-club.net/files/techdata/oil_filter/index.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "5,3 л",
+    "note": "Концентрация 50 % – защита до –35 °C, 30 % – до –12 °C (по руководству).",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_200905.pdf#page=350"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "2,6 л",
+    "note": "Отдельный контур «электромотор и инвертор». Концентрация 50 % – защита до –35 °C, 30 % – до –12 °C (по руководству).",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_200905.pdf#page=350"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H",
+    "note": "Класс DOT в руководстве не указан.",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_200905.pdf#page=350"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a (HFC-134a)",
+    "vol": "450 г",
+    "note": "toyota-club (JDM). Американский заводской мануал 2004 (RM1075U) по цитате на PriusChat: 15,9 ± 1,1 унции, т.е. около 450 ± 30 г.",
+    "src": "https://toyota-club.net/files/techdata/ttx/prius_20j.htm"
+   },
+   {
+    "name": "Масло компрессора кондиционера",
+    "oil": "ND-OIL 11",
+    "note": "Электрокомпрессор с инвертором: другое масло (PAG и т.п.) резко снижает изоляцию – цитата из ремонтного мануала Toyota 2005 на PriusChat. Объём заливки в найденных источниках не подтверждён.",
+    "src": "https://www.priuschat.com/threads/recharging-the-a-c.48720/page-2"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Prius",
+  "sub": "3 поколение (ZVW30), 2009–2015",
+  "code": "ZVW30, ДВС 2ZR-FXE, THS II",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,4 л",
+    "note": "Объём справочный. Совпадает с toyota-club (JDM).",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_201405.pdf#page=498"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Castle Motor Oil SN 0W-20",
+    "spec": "API SN/RC, ILSAC GF-5, SAE 0W-20",
+    "alt": [
+     "Toyota SN 5W-20",
+     "Toyota SN 5W-30",
+     "Toyota SN 10W-30"
+    ],
+    "vol": "4,2 л с фильтром",
+    "note": "Без замены фильтра – 3,9 л. Данные руководства выпуска 05.2014–11.2015; toyota-club: допуск API SL..SN / ILSAC GF-4..GF-5 (для ранних машин – SL/SM).",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_201405.pdf#page=496"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Toyota 04152-37010 (сменный элемент)",
+    "alt": [
+     "MANN HU 6006 z",
+     "Toyota 04152-YZZA6"
+    ],
+    "note": "Картриджный. Применяемость по toyota-club: ZVW30, 05.2009–12.2015. 04152-YZZA6 – тот же элемент по форумам и магазинам, не по каталогу Toyota.",
+    "src": "https://toyota-club.net/files/techdata/oil_filter/index.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "7,2 л",
+    "note": "Концентрация 50 % – защита до –35 °C, 30 % – до –12 °C (по руководству).",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_201405.pdf#page=498"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "2,1 л",
+    "note": "Контур блока управления мощностью (PCU). Концентрация 50 % – защита до –35 °C, 30 % – до –12 °C (по руководству).",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_201405.pdf#page=498"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "spec": "DOT 3",
+    "note": "DOT 3 – по маркировке товара (08882-00190, 0,5 л), в руководстве класс не указан.",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_201405.pdf#page=499"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a (HFC-134a)",
+    "vol": "470 г",
+    "note": "toyota-club, JDM-версия.",
+    "src": "https://toyota-club.net/files/techdata/ttx/prius_30j.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Prius",
+  "sub": "4 поколение (ZVW50/51/55), 2015–2022",
+  "code": "ZVW50, ZVW51, ZVW55 (E-Four), ДВС 2ZR-FXE, THS II",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,6 л",
+    "note": "Руководство: другую жидкость не заливать – вибрации, шум, поломка. Объём справочный. Одинаково в руководствах 2015 и 2021 гг. и у toyota-club.",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_201512.pdf#page=551"
+   },
+   {
+    "name": "Задний редуктор электромотора (4WD)",
+    "oil": "Toyota ATF WS",
+    "vol": "1,2 л",
+    "note": "Только ZVW55 (E-Four).",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_201512.pdf#page=551"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Castle Motor Oil 0W-16",
+    "spec": "SAE 0W-16",
+    "alt": [
+     "Toyota SN 0W-20 (API SN/RC, ILSAC GF-5)",
+     "Toyota SN 5W-20",
+     "Toyota SN 5W-30",
+     "Toyota SN 10W-30"
+    ],
+    "vol": "4,2 л с фильтром",
+    "note": "Без замены фильтра – 3,9 л. В руководстве 2021 г.: рекомендовано SP 0W-16 (API SP/RC, ILSAC GF-6B), допустимо SP 0W-20 и SP 5W-30 (ILSAC GF-6A).",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_201512.pdf#page=594"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Toyota 04152-37010 (до 11.2017) / 90915-10003 (с 11.2017)",
+    "alt": [
+     "MANN HU 6006 z (до 11.2017)",
+     "MANN W 68/3 (с 11.2017)"
+    ],
+    "note": "По таблице toyota-club в 11.2017 сменили картридж на резьбовой фильтр – проверять по машине.",
+    "src": "https://toyota-club.net/files/techdata/oil_filter/index.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "5,9 л",
+    "note": "Руководство 2015 г. – 5,9 л, руководство 2021 г. – 5,6 л, toyota-club – 5,9–6,0 л. Концентрация 50 % – защита до –35 °C, 30 % – до –12 °C (по руководству).",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_202110.pdf#page=623"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "1,4 л",
+    "note": "Контур PCU, одинаково в руководствах 2015 и 2021 гг.",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_201512.pdf#page=551"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "spec": "DOT 3",
+    "note": "DOT 3 – по маркировке товара (08882-00190), в руководстве класс не указан.",
+    "src": "https://manual.toyota.jp/pdf/prius/prius_202110.pdf#page=624"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a (HFC-134a) до 07.2020, R1234yf (HFO-1234yf) с 07.2020",
+    "vol": "470 г",
+    "note": "toyota-club: 470 г для обоих хладагентов. Тип смотреть по наклейке под капотом.",
+    "src": "https://toyota-club.net/files/techdata/ttx/prius_50j.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Prius Alpha",
+  "sub": "ZVW40/41, 2011–2021",
+  "code": "ZVW40 (7 мест), ZVW41 (5 мест), ДВС 2ZR-FXE, THS II",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,4 л",
+    "note": "Руководство: другую жидкость не заливать – вибрации, шум, поломка. Объём справочный. Одинаково в руководствах 2011 и 2020 гг.",
+    "src": "https://manual.toyota.jp/pdf/priusalpha/priusalpha_202008.pdf#page=468"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Motor Oil SM 0W-20",
+    "spec": "API SM, EC / ILSAC GF-4, SAE 0W-20",
+    "alt": [
+     "Toyota SM 5W-30",
+     "Toyota SM 10W-30",
+     "Toyota SL 5W-20",
+     "Toyota SL 10W-30"
+    ],
+    "vol": "4,2 л с фильтром",
+    "note": "Без замены фильтра – 3,9 л. Руководство 2011 г. В руководстве 2020 г.: рекомендовано SN PLUS 0W-20 (API SN PLUS/RC, ILSAC GF-5), допустимо SN 5W-30.",
+    "src": "https://manual.toyota.jp/pdf/priusalpha/priusalpha_201104.pdf#page=420"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Toyota 04152-37010 (до 12.2017) / 90915-10003 (с 12.2017)",
+    "alt": [
+     "MANN HU 6006 z (до 12.2017)",
+     "MANN W 68/3 (с 12.2017)"
+    ],
+    "note": "По таблице toyota-club; тип фильтра проверять по машине.",
+    "src": "https://toyota-club.net/files/techdata/oil_filter/index.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "6,5 л",
+    "note": "6,9 л – с утилизатором тепла выхлопа (ставится на исполнение для холодного климата). Концентрация 50 % – защита до –35 °C, 30 % – до –12 °C (по руководству).",
+    "src": "https://manual.toyota.jp/pdf/priusalpha/priusalpha_201104.pdf#page=422"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "2,7 л",
+    "note": "Контур PCU.",
+    "src": "https://manual.toyota.jp/pdf/priusalpha/priusalpha_201104.pdf#page=422"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H (2011) / Toyota BF-5 (руководство 2020 г.)",
+    "note": "В руководстве 2020 г. указана BF-5; класс DOT для неё в найденных источниках не подтверждён.",
+    "src": "https://manual.toyota.jp/pdf/priusalpha/priusalpha_202008.pdf#page=468"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a (HFC-134a) до 07.2020, R1234yf (HFO-1234yf) с 07.2020",
+    "vol": "1060 г",
+    "note": "Значение toyota-club, необычно большое для класса – сверить по наклейке под капотом.",
+    "src": "https://toyota-club.net/files/techdata/ttx/prius-alpha_40j.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Aqua",
+  "sub": "1 поколение (NHP10), 2011–2021",
+  "code": "NHP10, ДВС 1NZ-FXE, THS II",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,3 л",
+    "note": "Объём справочный. Одинаково в руководствах 2011 и 2020 гг. и у toyota-club.",
+    "src": "https://manual.toyota.jp/pdf/aqua/aqua_201112.pdf#page=411"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Motor Oil SN 0W-20",
+    "spec": "API SN, RC / ILSAC GF-5, SAE 0W-20",
+    "alt": [
+     "Toyota SN 5W-20",
+     "Toyota SN 5W-30",
+     "Toyota SN 10W-30"
+    ],
+    "vol": "3,7 л с фильтром",
+    "note": "Без замены фильтра – 3,4 л. Руководство 2011 г. В руководстве 2020 г.: SN 0W-16 (API SN/RC, SAE 0W-16) как самое экономичное, допустимо SN PLUS 0W-20 и SN 5W-30.",
+    "src": "https://manual.toyota.jp/pdf/aqua/aqua_201112.pdf#page=409"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Toyota 90915-10003",
+    "alt": [
+     "MANN W 68/3"
+    ],
+    "note": "Резьбовой. По таблице toyota-club: NHP10 с 12.2011.",
+    "src": "https://toyota-club.net/files/techdata/oil_filter/index.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "4,5 л",
+    "note": "5,3 л – исполнение для холодного климата (寒冷地仕様). Концентрация 50 % – защита до –35 °C, 30 % – до –12 °C (по руководству).",
+    "src": "https://manual.toyota.jp/pdf/aqua/aqua_201112.pdf#page=411"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "1,6 л",
+    "src": "https://manual.toyota.jp/pdf/aqua/aqua_201112.pdf#page=411"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H (2011) / 2500H-A (2020)",
+    "spec": "DOT 3",
+    "note": "DOT 3 – по маркировке 2500H-A (08882-00190), в руководстве класс не указан.",
+    "src": "https://manual.toyota.jp/pdf/aqua/aqua_202005.pdf#page=478"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a (HFC-134a)",
+    "vol": "420 г",
+    "note": "toyota-club, JDM-версия.",
+    "src": "https://toyota-club.net/files/techdata/ttx/aqua.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Aqua",
+  "sub": "2 поколение (MXPK10/11), с 2021",
+  "code": "MXPK10, MXPK11 (2WD), MXPK15/16 (E-Four), ДВС M15A-FXE",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "2,6 л",
+    "note": "Руководство: другую жидкость не заливать – вибрации, шум, поломка. Объём справочный. Совпадает с toyota-club.",
+    "src": "https://manual.toyota.jp/aqua/2211/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Задний редуктор электромотора (4WD)",
+    "oil": "Toyota ATF WS",
+    "vol": "1,2 л",
+    "note": "Только полноприводные версии.",
+    "src": "https://manual.toyota.jp/aqua/2211/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Motor Oil GLV-1 0W-8",
+    "spec": "JASO GLV-1, SAE 0W-8",
+    "alt": [
+     "Toyota SP 0W-16 (API SP/RC, ILSAC GF-6B)",
+     "Toyota SP 0W-20 (API SP/RC, ILSAC GF-6A)",
+     "Toyota SP 5W-30 (API SP/RC, ILSAC GF-6A)"
+    ],
+    "vol": "3,6 л с фильтром",
+    "note": "Без замены фильтра – 3,3 л. 0W-8 залит с завода; если его нет – допустимы перечисленные (0W-16 также API SN PLUS/RC, SN/RC). Руководство выпуска 11.2022–03.2024, в выпуске 04.2024–08.2025 то же.",
+    "src": "https://manual.toyota.jp/aqua/2211/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "4,8 л",
+    "note": "Концентрация 50 % – защита до –35 °C, 30 % – до –12 °C (по руководству). toyota-club – тоже 4,8 л.",
+    "src": "https://manual.toyota.jp/aqua/2211/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "1,6 л",
+    "note": "Контур PCU.",
+    "src": "https://manual.toyota.jp/aqua/2211/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "spec": "DOT 3",
+    "note": "DOT 3 – по маркировке товара (08882-00190), в руководстве класс не указан.",
+    "src": "https://manual.toyota.jp/aqua/2211/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R1234yf (HFO-1234yf)",
+    "vol": "450 г",
+    "note": "Экологическая спецификация Toyota 2024 г. По toyota-club: до 08.2021 – R134a 420 г, с 08.2021 – R1234yf 450 г.",
+    "src": "https://toyota.jp/pages/contents/aqua/002_p_001/pdf/aqua_ecology_202404.pdf"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Sienta",
+  "sub": "Гибрид NHP170, 2015–2022",
+  "code": "NHP170G, ДВС 1NZ-FXE, THS II",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,4 л",
+    "note": "Руководство: другую жидкость не заливать – вибрации, шум, поломка. Объём справочный. Одинаково в руководствах 2015 и 2021 гг. и у toyota-club.",
+    "src": "https://manual.toyota.jp/pdf/sienta/sienta_hybrid_201507.pdf#page=391"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Castle Motor Oil 0W-16",
+    "spec": "SAE 0W-16",
+    "alt": [
+     "Toyota SN 0W-20 (API SN/RC, ILSAC GF-5)",
+     "Toyota SN 5W-20",
+     "Toyota SN 5W-30",
+     "Toyota SN 10W-30"
+    ],
+    "vol": "3,7 л с фильтром",
+    "note": "Без замены фильтра – 3,4 л. В руководстве 2021 г.: рекомендовано SP 0W-16 (API SP/RC, ILSAC GF-6B), допустимо SP 0W-20 и SP 5W-30.",
+    "src": "https://manual.toyota.jp/pdf/sienta/sienta_hybrid_201507.pdf#page=389"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Toyota 90915-10003",
+    "alt": [
+     "MANN W 68/3"
+    ],
+    "note": "Резьбовой. По таблице toyota-club: NHP170G с 07.2015.",
+    "src": "https://toyota-club.net/files/techdata/oil_filter/index.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "5,0 л",
+    "note": "Концентрация 50 % – защита до –35 °C, 30 % – до –12 °C (по руководству).",
+    "src": "https://manual.toyota.jp/pdf/sienta/sienta_hybrid_201507.pdf#page=391"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "1,8 л",
+    "src": "https://manual.toyota.jp/pdf/sienta/sienta_hybrid_201507.pdf#page=391"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "spec": "DOT 3",
+    "note": "DOT 3 – по маркировке товара (08882-00190), в руководстве класс не указан.",
+    "src": "https://manual.toyota.jp/pdf/sienta/sienta_hybrid_201507.pdf#page=391"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a (HFC-134a)",
+    "vol": "450 г",
+    "note": "toyota-club, гибридная версия NHP170G.",
+    "src": "https://toyota-club.net/files/techdata/ttx/sienta_170.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Corolla Fielder / Axio",
+  "sub": "Гибрид NKE165, 2013–2025",
+  "code": "NKE165G (Fielder), NKE165 (Axio), ДВС 1NZ-FXE, THS II",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,3 л",
+    "note": "Руководства Fielder 2013 и 2024 гг. и Axio 2013 г. – 3,3 л; toyota-club – 3,6 л. Руководство: другую жидкость не заливать – вибрации, шум, поломка.",
+    "src": "https://manual.toyota.jp/pdf/corollafielder/corollafielder_hybrid_201308.pdf#page=352"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Castle Motor Oil SN 0W-20",
+    "spec": "API SN/RC, ILSAC GF-5, SAE 0W-20",
+    "alt": [
+     "Toyota SN 5W-20",
+     "Toyota SN 5W-30",
+     "Toyota SN 10W-30"
+    ],
+    "vol": "3,7 л с фильтром",
+    "note": "Без замены фильтра – 3,4 л. Руководство 2013 г. В руководстве Fielder 2024 г.: рекомендовано SP 0W-16 (API SP/RC, ILSAC GF-6B), допустимо SP 0W-20 и SP 5W-30.",
+    "src": "https://manual.toyota.jp/pdf/corollafielder/corollafielder_hybrid_201308.pdf#page=350"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Toyota 90915-10003",
+    "alt": [
+     "MANN W 68/3"
+    ],
+    "note": "Резьбовой. По таблице toyota-club: NKE165 и NKE165G с 08.2013.",
+    "src": "https://toyota-club.net/files/techdata/oil_filter/index.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "4,5 л",
+    "note": "5,3 л – исполнение для холодного климата. Концентрация 50 % – защита до –35 °C, 30 % – до –12 °C (по руководству).",
+    "src": "https://manual.toyota.jp/pdf/corollaaxio/corollaaxio_hybrid_201308.pdf#page=348"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "1,6 л",
+    "src": "https://manual.toyota.jp/pdf/corollafielder/corollafielder_hybrid_201308.pdf#page=352"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A (2013) / Toyota BF-5 (руководство Fielder 2024 г.)",
+    "note": "2500H-A продаётся как DOT 3 (08882-00190); класс DOT для BF-5 в найденных источниках не подтверждён.",
+    "src": "https://manual.toyota.jp/pdf/corollafielder/COROLLA-FIELDER-HEV_OM_JP_M13544_1_2403.pdf#page=362"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R134a (HFC-134a)",
+    "vol": "420 г",
+    "note": "toyota-club, гибридные Fielder и Axio.",
+    "src": "https://toyota-club.net/files/techdata/ttx/corolla-fielder_160.htm"
+   }
+  ]
+ }
+]

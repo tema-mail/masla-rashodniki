@@ -1,0 +1,616 @@
+[
+ {
+  "brand": "Honda",
+  "model": "Fit Hybrid",
+  "sub": "2 поколение, IMA, 2010–2013",
+  "code": "GP1, ДВС LDA 1,3 л",
+  "rows": [
+   {
+    "name": "Вариатор (CVT)",
+    "oil": "Honda Ultra HMMF",
+    "vol": "2,8 л (замена)",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fithybrid/30TF26102_web.pdf#page=241"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Honda Ultra Green (самое экономичное) или Ultra LEO SM",
+    "spec": "API SM/GF-4, SAE 0W-20",
+    "vol": "3,0 л без фильтра; 3,2 л с фильтром",
+    "note": "В руководстве 2012 г. (30TF26300) – Ultra Green / Ultra LEO, API SN, SAE 0W-20, 3,0 л без фильтра.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fithybrid/30TF26102_web.pdf#page=241"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Honda 15400-RTA-004",
+    "src": "https://maintbook.jp/honda/fit-hybrid/jpjpkj.html"
+   },
+   {
+    "name": "Охлаждающая жидкость",
+    "oil": "Honda Ultra e-coolant (готовая, 50 %)",
+    "spec": "концентрация 50 %",
+    "vol": "4,56 л (замена, вкл. 0,44 л в расширительном бачке)",
+    "note": "Источники расходятся: в руководстве 2012 г. (30TF26300, стр. 263) – 4,42 л, бачок 0,44 л: https://www.honda.co.jp/ownersmanual/pdf/auto/fithybrid/30TF26300_web.pdf#page=263",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fithybrid/30TF26102_web.pdf#page=241"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Honda Ultra Brake Fluid",
+    "spec": "DOT 3 / DOT 4",
+    "alt": [
+     "Honda Ultra BF DOT4"
+    ],
+    "note": "Ultra BF DOT4 – нынешняя фирменная тормозная жидкость Honda Japan: https://www.honda.co.jp/auto-parts/fluid/",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fithybrid/30TF26102_web.pdf#page=241"
+   },
+   {
+    "name": "Тяговая батарея (охлаждение)",
+    "oil": "Жидкость не заливается",
+    "note": "Воздушное охлаждение: руководство требует не закрывать воздухозаборник охлаждения IMA-батареи, иначе батарея перегревается и падает отдача. Батарея никель-металлгидридная (Ni-MH).",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fithybrid/30TF26102_web.pdf#page=9"
+   }
+  ]
+ },
+ {
+  "brand": "Honda",
+  "model": "Fit Hybrid",
+  "sub": "3 поколение, i-DCD, 2013–2020",
+  "code": "GP5 (2WD) / GP6 (4WD), ДВС LEB 1,5 л",
+  "rows": [
+   {
+    "name": "Коробка i-DCD (7DCT)",
+    "oil": "Honda Ultra ATF-DW1",
+    "vol": "2WD – 1,3 л, 4WD – 1,6 л (замена)",
+    "note": "Руководство 2017 г. (30T5C6310) – те же значения. Руководство Jazz Hybrid GP5 для Малайзии: Honda ATF DW-1, замена 1,3 л: https://www.honda.com.my/asset/pdf/JAZZ%20Hybrid%202017-Current.pdf#page=306",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fithybrid/30T5C6030_web.pdf#page=291"
+   },
+   {
+    "name": "Дифференциал (только 4WD)",
+    "oil": "Honda Ultra HGO-μ",
+    "vol": "0,34 л (замена)",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fithybrid/30T5C6030_web.pdf#page=291"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Honda ULTRA NEXT (самое экономичное), ULTRA Green или ULTRA LEO",
+    "spec": "API SN, SAE 0W-20",
+    "alt": [
+     "Масло API SM и выше: 0W-20, 0W-30, 5W-30, 10W-30 (руководство для Малайзии)"
+    ],
+    "vol": "3,1 л без фильтра; 3,3 л с фильтром",
+    "note": "Руководство для Малайзии (GP5): те же 3,1 / 3,3 л: https://www.honda.com.my/asset/pdf/JAZZ%20Hybrid%202017-Current.pdf#page=306",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fithybrid/30T5C6030_web.pdf#page=291"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Honda 15400-RTA-004",
+    "src": "https://maintbook.jp/honda/fit-hybrid/jpbjkb.html"
+   },
+   {
+    "name": "Охлаждающая жидкость",
+    "oil": "Honda Ultra e-coolant (готовая, 50 %)",
+    "spec": "концентрация 50 %",
+    "alt": [
+     "Honda All Season Antifreeze/Coolant Type 2 (так названа в руководстве для Малайзии)"
+    ],
+    "vol": "3,8 л (замена, вкл. 0,40 л в расширительном бачке)",
+    "note": "Руководство для Малайзии: 3,80 л, в т.ч. 0,40 л в бачке.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fithybrid/30T5C6030_web.pdf#page=291"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Honda Brake Fluid",
+    "spec": "DOT 3 / DOT 4",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fithybrid/30T5C6030_web.pdf#page=291"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a (R-134a)",
+    "vol": "405–455 г",
+    "note": "Цифра из руководства Jazz Hybrid (GP5) для Малайзии; в японском руководстве заправки кондиционера нет – сверить с табличкой под капотом.",
+    "src": "https://www.honda.com.my/asset/pdf/JAZZ%20Hybrid%202017-Current.pdf#page=306"
+   },
+   {
+    "name": "Тяговая батарея (охлаждение)",
+    "oil": "Жидкость не заливается",
+    "note": "Воздушное охлаждение: руководство требует не закрывать воздухозаборник охлаждения высоковольтной батареи. Батарея литий-ионная.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fithybrid/30T5C6030_web.pdf#page=12"
+   }
+  ]
+ },
+ {
+  "brand": "Honda",
+  "model": "Fit Shuttle Hybrid",
+  "sub": "IMA, 2011–2015",
+  "code": "GP2, ДВС LDA 1,3 л",
+  "rows": [
+   {
+    "name": "Вариатор (CVT)",
+    "oil": "Honda Ultra HMMF",
+    "vol": "2,8 л (замена)",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fitshuttlehybrid/30TF96002_web.pdf#page=278"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Honda Ultra Green (самое экономичное) или Ultra LEO SM",
+    "spec": "API SM/GF-4, SAE 0W-20",
+    "vol": "3,0 л без фильтра; 3,2 л с фильтром",
+    "note": "В руководстве 2014 г. (30TF96320) – Ultra LEO, API SN, SAE 0W-20, 3,0 л без фильтра.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fitshuttlehybrid/30TF96002_web.pdf#page=278"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Honda 15400-RTA-004",
+    "src": "https://maintbook.jp/honda/fit-shuttle-hybrid/jponkp.html"
+   },
+   {
+    "name": "Охлаждающая жидкость",
+    "oil": "Honda Ultra e-coolant (готовая, 50 %)",
+    "spec": "концентрация 50 %",
+    "vol": "4,56 л (замена, вкл. 0,44 л в расширительном бачке)",
+    "note": "В руководстве 2014 г. (30TF96320) – тоже 4,56 л.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fitshuttlehybrid/30TF96002_web.pdf#page=278"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Honda Ultra Brake Fluid",
+    "spec": "DOT 3 / DOT 4",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fitshuttlehybrid/30TF96002_web.pdf#page=278"
+   },
+   {
+    "name": "Тяговая батарея (охлаждение)",
+    "oil": "Жидкость не заливается",
+    "note": "Воздушное охлаждение: руководство требует не закрывать воздухозаборник охлаждения IMA-батареи, иначе батарея перегревается и падает отдача. Батарея никель-металлгидридная (Ni-MH).",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/fitshuttlehybrid/30TF96002_web.pdf#page=9"
+   }
+  ]
+ },
+ {
+  "brand": "Honda",
+  "model": "Shuttle Hybrid",
+  "sub": "i-DCD, 2015–2022",
+  "code": "GP7 (2WD) / GP8 (4WD), ДВС LEB 1,5 л",
+  "rows": [
+   {
+    "name": "Коробка i-DCD (7DCT)",
+    "oil": "Honda Ultra ATF DW-1",
+    "vol": "2WD – 1,3 л, 4WD – 1,6 л (замена)",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/shuttlehybrid/30TD46100_web.pdf#page=300"
+   },
+   {
+    "name": "Дифференциал (только 4WD)",
+    "oil": "Honda Ultra HGO-μ",
+    "vol": "0,34 л (замена)",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/shuttlehybrid/30TD46100_web.pdf#page=300"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Honda ULTRA NEXT (самое экономичное), ULTRA Green или ULTRA LEO",
+    "spec": "API SN, SAE 0W-20",
+    "vol": "3,1 л без фильтра; 3,3 л с фильтром",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/shuttlehybrid/30TD46100_web.pdf#page=300"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Honda 15400-RTA-004",
+    "src": "https://maintbook.jp/honda/shuttle/jptttk.html"
+   },
+   {
+    "name": "Охлаждающая жидкость",
+    "oil": "Honda Ultra e-coolant (готовая, 50 %)",
+    "spec": "концентрация 50 %",
+    "vol": "3,8 л (замена, вкл. 0,40 л в расширительном бачке)",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/shuttlehybrid/30TD46100_web.pdf#page=300"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Honda Brake Fluid",
+    "spec": "DOT 3 / DOT 4",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/shuttlehybrid/30TD46100_web.pdf#page=300"
+   },
+   {
+    "name": "Тяговая батарея (охлаждение)",
+    "oil": "Жидкость не заливается",
+    "note": "Воздушное охлаждение: руководство требует не закрывать воздухозаборник охлаждения высоковольтной батареи. Батарея литий-ионная.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/shuttlehybrid/30TD46100_web.pdf#page=12"
+   }
+  ]
+ },
+ {
+  "brand": "Honda",
+  "model": "Insight",
+  "sub": "2 поколение, IMA, 2009–2014",
+  "code": "ZE2 (ДВС LDA 1,3 л) / ZE3 (Exclusive, ДВС LEA 1,5 л)",
+  "rows": [
+   {
+    "name": "Вариатор (CVT)",
+    "oil": "Honda Ultra HMMF",
+    "alt": [
+     "Honda CVTF (так жидкость названа в руководстве для США)"
+    ],
+    "vol": "2,8 л (замена)",
+    "note": "Руководство США 2010: замена 2,8 л, полный объём 5,2 л: https://techinfo.honda.com/rjanisis/pubs/om/A2MA20/A2MA2010OMA.pdf#page=424 . ZE3 (Exclusive) – тоже HMMF 2,8 л (руководство 2012).",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/insight/30TM86031_web.pdf#page=220"
+   },
+   {
+    "name": "Масло ДВС (ZE2, 1,3 л)",
+    "oil": "Honda Ultra Green (самое экономичное), Ultra LEO SM или Ultra LTD SM",
+    "spec": "API SM/GF-4; SAE 0W-20 (LTD – 5W-30)",
+    "vol": "3,0 л без фильтра; 3,2 л с фильтром",
+    "note": "Руководство США 2010: 0W-20, 3,0 / 3,2 л.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/insight/30TM86031_web.pdf#page=220"
+   },
+   {
+    "name": "Масло ДВС (ZE3, Exclusive 1,5 л)",
+    "oil": "Honda Ultra Green или Ultra LEO SN",
+    "spec": "API SN, SAE 0W-20",
+    "vol": "3,4 л без фильтра; 3,6 л с фильтром",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/insight/30TM86202_web.pdf#page=239"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Honda 15400-RTA-004",
+    "src": "https://maintbook.jp/honda/insight/jpppoi.html"
+   },
+   {
+    "name": "Охлаждающая жидкость (ZE2)",
+    "oil": "Honda Ultra e-coolant (готовая, 50 %)",
+    "spec": "концентрация 50 %",
+    "alt": [
+     "Honda Long-Life Antifreeze/Coolant Type 2 (руководство США)"
+    ],
+    "vol": "4,55 л (замена, вкл. 0,44 л в расширительном бачке)",
+    "note": "Источники расходятся: в руководстве 2012 г. (30TM86202) для ZE2 – 4,41 л; в руководстве США 2010 – 4,55 л (замена), 5,04 л полный.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/insight/30TM86031_web.pdf#page=220"
+   },
+   {
+    "name": "Охлаждающая жидкость (ZE3)",
+    "oil": "Honda Ultra e-coolant (готовая, 50 %)",
+    "spec": "концентрация 50 %",
+    "vol": "4,35 л (замена, вкл. 0,44 л в расширительном бачке)",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/insight/30TM86202_web.pdf#page=239"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Honda Brake Fluid",
+    "spec": "DOT 3 / DOT 4",
+    "note": "Руководство США: Honda Heavy Duty Brake Fluid DOT 3, временно DOT 3 или DOT 4.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/insight/30TM86031_web.pdf#page=220"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a (R-134a)",
+    "vol": "450–500 г",
+    "note": "Руководство США 2010. База MAHLE: 475 г для правого руля, 425 г для левого.",
+    "src": "https://techinfo.honda.com/rjanisis/pubs/om/A2MA20/A2MA2010OMA.pdf#page=425"
+   },
+   {
+    "name": "Масло компрессора кондиционера",
+    "oil": "SP-10",
+    "note": "Источники расходятся: руководство США 2010 – SP-10; база MAHLE – SE-10Y, 140 мл.",
+    "src": "https://techinfo.honda.com/rjanisis/pubs/om/A2MA20/A2MA2010OMA.pdf#page=425"
+   },
+   {
+    "name": "Тяговая батарея (охлаждение)",
+    "oil": "Жидкость не заливается",
+    "note": "Воздушное охлаждение: руководство требует не закрывать воздухозаборник охлаждения IMA-батареи, иначе батарея перегревается и падает отдача. Батарея никель-металлгидридная (Ni-MH).",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/insight/30TM86031_web.pdf#page=8"
+   }
+  ]
+ },
+ {
+  "brand": "Honda",
+  "model": "Vezel Hybrid",
+  "sub": "1 поколение, i-DCD, 2013–2021",
+  "code": "RU3 (2WD) / RU4 (AWD), ДВС LEB 1,5 л",
+  "rows": [
+   {
+    "name": "Коробка i-DCD (7DCT)",
+    "oil": "Honda Ultra ATF-DW1",
+    "vol": "2WD – 1,3 л, AWD – 1,6 л (замена)",
+    "note": "Руководство HR-V Hybrid для Малайзии: Honda ATF DW-1, замена 1,3 л, не смешивать с другими жидкостями: https://www.honda.com.my/asset/pdf/HR-V%20Hybrid%202020-Current.pdf#page=239",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/vezelhybrid/30T7B6021_web.pdf#page=314"
+   },
+   {
+    "name": "Задний редуктор (только AWD)",
+    "oil": "Honda Ultra DPSF-II",
+    "vol": "1,2 л (замена)",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/vezelhybrid/30T7B6021_web.pdf#page=314"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Honda ULTRA NEXT (самое экономичное), ULTRA Green или ULTRA LEO",
+    "spec": "API SN, SAE 0W-20",
+    "alt": [
+     "0W-16, 0W-20, 5W-30 по ACEA A5/B5 или API SM и выше (руководство HR-V Hybrid для Малайзии)"
+    ],
+    "vol": "3,1 л без фильтра; 3,3 л с фильтром",
+    "note": "Руководство для Малайзии: те же 3,1 / 3,3 л: https://www.honda.com.my/asset/pdf/HR-V%20Hybrid%202020-Current.pdf#page=308",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/vezelhybrid/30T7B6021_web.pdf#page=314"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Honda 15400-RTA-004",
+    "src": "https://maintbook.jp/honda/vezel/jptmnk.html"
+   },
+   {
+    "name": "Охлаждающая жидкость",
+    "oil": "Honda Ultra e-coolant (готовая, 50 %)",
+    "spec": "концентрация 50 %",
+    "alt": [
+     "Honda All Season Antifreeze/Coolant Type 2 (так названа в руководстве для Малайзии)"
+    ],
+    "vol": "3,6 л (замена, вкл. 0,475 л в расширительном бачке)",
+    "note": "Руководство для Малайзии: тоже 3,60 л.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/vezelhybrid/30T7B6021_web.pdf#page=314"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Honda Brake Fluid",
+    "spec": "DOT 3 / DOT 4",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/vezelhybrid/30T7B6021_web.pdf#page=314"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a (R-134a)",
+    "vol": "405–455 г",
+    "note": "Цифра из руководства HR-V Hybrid для Малайзии; в японском руководстве её нет. Подтверждение на форуме (minkara): RU HEV – HFC-134a, 430±25 г, масло компрессора только POE (электрокомпрессор): https://minkara.carview.co.jp/userid/3225424/car/3158594/8698196/note.aspx",
+    "src": "https://www.honda.com.my/asset/pdf/HR-V%20Hybrid%202020-Current.pdf#page=307"
+   },
+   {
+    "name": "Тяговая батарея (охлаждение)",
+    "oil": "Жидкость не заливается",
+    "note": "Воздушное охлаждение: руководство требует не закрывать воздухозаборник охлаждения высоковольтной батареи. Батарея литий-ионная.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/vezelhybrid/30T7B6021_web.pdf#page=11"
+   }
+  ]
+ },
+ {
+  "brand": "Honda",
+  "model": "Freed Hybrid / Freed Spike Hybrid",
+  "sub": "1 поколение, IMA, 2011–2016",
+  "code": "GP3, ДВС LEA 1,5 л",
+  "rows": [
+   {
+    "name": "Вариатор (CVT)",
+    "oil": "Honda Ultra HMMF",
+    "vol": "2,8 л (замена)",
+    "note": "Freed Spike Hybrid – то же: https://www.honda.co.jp/ownersmanual/pdf/auto/freedspikehybrid/30SWZ6010_web.pdf#page=248",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/freedhybrid/30SWP6012_web.pdf#page=253"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Honda Ultra Green (самое экономичное) или Ultra LEO SN",
+    "spec": "API SN, SAE 0W-20",
+    "vol": "3,4 л без фильтра; 3,6 л с фильтром",
+    "note": "Freed Spike Hybrid – то же.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/freedhybrid/30SWP6012_web.pdf#page=253"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Honda 15400-RTA-004",
+    "src": "https://maintbook.jp/honda/freed-hybrid/jponik.html"
+   },
+   {
+    "name": "Охлаждающая жидкость",
+    "oil": "Honda Ultra e-coolant (готовая, 50 %)",
+    "spec": "концентрация 50 %",
+    "vol": "4,7 л (замена, вкл. 0,4 л в расширительном бачке)",
+    "note": "Freed Spike Hybrid и руководство Freed Hybrid 2014 г. (30SWP6200) – тоже 4,7 л.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/freedhybrid/30SWP6012_web.pdf#page=253"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Honda Brake Fluid",
+    "spec": "DOT 3 / DOT 4",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/freedhybrid/30SWP6012_web.pdf#page=253"
+   },
+   {
+    "name": "Тяговая батарея (охлаждение)",
+    "oil": "Жидкость не заливается",
+    "note": "Воздушное охлаждение: руководство требует не закрывать воздухозаборник охлаждения IMA-батареи, иначе батарея перегревается и падает отдача. Батарея никель-металлгидридная (Ni-MH).",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/freedhybrid/30SWP6012_web.pdf#page=12"
+   }
+  ]
+ },
+ {
+  "brand": "Honda",
+  "model": "Freed Hybrid / Freed+ Hybrid",
+  "sub": "2 поколение, i-DCD, 2016–2024",
+  "code": "GB7 (2WD) / GB8 (AWD), ДВС LEB 1,5 л",
+  "rows": [
+   {
+    "name": "Коробка i-DCD (7DCT)",
+    "oil": "Honda Ultra ATF DW-1",
+    "vol": "2WD – 1,3 л, AWD – 1,6 л (замена)",
+    "note": "Для Freed+ Hybrid в том же руководстве – те же значения.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/freedhybrid/30TDL6011_web.pdf#page=397"
+   },
+   {
+    "name": "Задний редуктор (только AWD)",
+    "oil": "Honda Ultra DPSF-II",
+    "vol": "1,2 л (замена)",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/freedhybrid/30TDL6011_web.pdf#page=397"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Honda ULTRA NEXT (самое экономичное), ULTRA Green или ULTRA LEO",
+    "spec": "API SN, SAE 0W-20",
+    "vol": "3,1 л без фильтра; 3,3 л с фильтром",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/freedhybrid/30TDL6011_web.pdf#page=397"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Honda 15400-RTA-004",
+    "src": "https://maintbook.jp/honda/freed-hybrid/jpbanb.html"
+   },
+   {
+    "name": "Охлаждающая жидкость",
+    "oil": "Honda Ultra e-coolant (готовая, 50 %)",
+    "spec": "концентрация 50 %",
+    "vol": "3,65 л (замена, вкл. 0,41 л в расширительном бачке)",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/freedhybrid/30TDL6011_web.pdf#page=397"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Honda Brake Fluid",
+    "spec": "DOT 3 / DOT 4",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/freedhybrid/30TDL6011_web.pdf#page=397"
+   },
+   {
+    "name": "Тяговая батарея (охлаждение)",
+    "oil": "Жидкость не заливается",
+    "note": "Воздушное охлаждение: руководство требует не закрывать воздухозаборник охлаждения высоковольтной батареи. Батарея литий-ионная.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/freedhybrid/30TDL6011_web.pdf#page=11"
+   }
+  ]
+ },
+ {
+  "brand": "Honda",
+  "model": "CR-Z",
+  "sub": "IMA, 2010–2017",
+  "code": "ZF1 / ZF2, ДВС LEA 1,5 л",
+  "rows": [
+   {
+    "name": "Вариатор (CVT)",
+    "oil": "Honda Ultra HMMF",
+    "alt": [
+     "Honda CVTF (так жидкость названа в руководстве для США)"
+    ],
+    "vol": "2,8 л (замена)",
+    "note": "Руководство США 2011 – тоже 2,8 л: https://techinfo.honda.com/rjanisis/pubs/OM/ZT1111/ZT1111OM.pdf#page=314",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/cr-z/30SZT6002_web.pdf#page=254"
+   },
+   {
+    "name": "Механическая коробка (6MT)",
+    "oil": "Honda Ultra MTF-III",
+    "alt": [
+     "Honda Manual Transmission Fluid (руководство США)"
+    ],
+    "vol": "1,4 л (замена)",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/cr-z/30SZT6002_web.pdf#page=254"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Honda Ultra Green (самое экономичное) или Ultra LEO SM",
+    "spec": "API SM/GF-4, SAE 0W-20",
+    "vol": "3,4 л без фильтра; 3,6 л с фильтром",
+    "note": "В руководстве 2013 г. (30SZT6200) – Ultra LEO SN, API SN, те же 3,4 / 3,6 л. Руководство США 2011: 0W-20, 3,4 / 3,6 л.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/cr-z/30SZT6002_web.pdf#page=254"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Honda 15400-RTA-004",
+    "src": "https://maintbook.jp/honda/cr-z/jppkja.html"
+   },
+   {
+    "name": "Охлаждающая жидкость",
+    "oil": "Honda Ultra e-coolant (готовая, 50 %)",
+    "spec": "концентрация 50 %",
+    "alt": [
+     "Honda Long-Life Antifreeze/Coolant Type 2 (руководство США)"
+    ],
+    "vol": "4,4 л (замена, вкл. 0,4 л в расширительном бачке)",
+    "note": "Источники расходятся: руководство 2013 г. (30SZT6200) – вариатор 4,35 л, механика 4,42 л (бачок 0,44 л): https://www.honda.co.jp/ownersmanual/pdf/auto/cr-z/30SZT6200_web.pdf#page=260 ; руководство США 2011 – 4,4 л.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/cr-z/30SZT6002_web.pdf#page=254"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Honda Ultra Brake Fluid",
+    "spec": "DOT 3 / DOT 4",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/cr-z/30SZT6002_web.pdf#page=254"
+   },
+   {
+    "name": "Жидкость сцепления (6MT)",
+    "oil": "Honda Ultra Brake Fluid (та же тормозная)",
+    "spec": "DOT 3 / DOT 4",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/cr-z/30SZT6002_web.pdf#page=254"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a (R-134a)",
+    "vol": "450–500 г",
+    "note": "Руководство США 2011. База MAHLE: 475 г.",
+    "src": "https://techinfo.honda.com/rjanisis/pubs/OM/ZT1111/ZT1111OM.pdf#page=313"
+   },
+   {
+    "name": "Масло компрессора кондиционера",
+    "oil": "SP-10",
+    "note": "База MAHLE: SP10, 165 мл.",
+    "src": "https://techinfo.honda.com/rjanisis/pubs/OM/ZT1111/ZT1111OM.pdf#page=313"
+   },
+   {
+    "name": "Тяговая батарея (охлаждение)",
+    "oil": "Жидкость не заливается",
+    "note": "Воздушное охлаждение: руководство требует не закрывать воздухозаборник охлаждения IMA-батареи. До рестайлинга 2012 г. батарея Ni-MH (руководство 2011), с 2012 г. – литий-ионная (руководство 2013): https://www.honda.co.jp/ownersmanual/pdf/auto/cr-z/30SZT6200_web.pdf#page=12",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/cr-z/30SZT6002_web.pdf#page=12"
+   }
+  ]
+ },
+ {
+  "brand": "Honda",
+  "model": "Civic Hybrid",
+  "sub": "IMA, 2005–2010",
+  "code": "FD3, ДВС LDA 1,3 л",
+  "rows": [
+   {
+    "name": "Вариатор (CVT)",
+    "oil": "Honda Ultra HMMF",
+    "vol": "2,8 л (замена)",
+    "note": "Руководство США 2009: замена 2,8 л, полный объём 5,1 л: https://techinfo.honda.com/rjanisis/pubs/om/ANC090/ANC0909OM.pdf#page=356",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/civichybrid/30SND601_web.pdf#page=349"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Honda Ultra LEO SM (самое экономичное)",
+    "spec": "API SM/GF-4, SAE 0W-20",
+    "alt": [
+     "Honda Ultra LTD SM 5W-30",
+     "Honda Ultra MILD SM 10W-30",
+     "Honda Ultra GOLD SM 5W-40"
+    ],
+    "vol": "3,0 л без фильтра; 3,2 л с фильтром",
+    "note": "Допуск по руководству: API SL и выше или знак API Certification, вязкость по температуре. Руководство США 2009: 0W-20, при отсутствии – 5W-20; 3,0 / 3,2 л.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/civichybrid/30SND601_web.pdf#page=348"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Honda 15400-RTA-004",
+    "note": "Для FD3 до 2006.09 и после – тот же номер; у Civic Hybrid прошлого кузова (до 2005) – 15400-PLC-004.",
+    "src": "https://maintbook.jp/honda/civic-hybrid/jpkkam.html"
+   },
+   {
+    "name": "Охлаждающая жидкость",
+    "oil": "Honda Ultra e-coolant (готовая, 50 %)",
+    "spec": "концентрация 50 %",
+    "vol": "4,7 л (замена, вкл. 0,4 л в расширительном бачке)",
+    "note": "Руководство США 2009: 4,75 л (замена), 6,0 л полный.",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/civichybrid/30SND601_web.pdf#page=349"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Honda Ultra Brake Fluid",
+    "spec": "DOT 3 / DOT 4",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/civichybrid/30SND601_web.pdf#page=349"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a (R-134a)",
+    "vol": "400–450 г",
+    "note": "Руководство США 2009. База MAHLE: 475 г для правого руля, 425 г для левого.",
+    "src": "https://techinfo.honda.com/rjanisis/pubs/om/ANC090/ANC0909OM.pdf#page=357"
+   },
+   {
+    "name": "Масло компрессора кондиционера",
+    "oil": "SE-10Y",
+    "note": "База MAHLE – тоже SE-10Y.",
+    "src": "https://techinfo.honda.com/rjanisis/pubs/om/ANC090/ANC0909OM.pdf#page=357"
+   },
+   {
+    "name": "Тяговая батарея (охлаждение)",
+    "oil": "Жидкость не заливается",
+    "note": "Воздушное охлаждение: на схеме руководства – воздухозаборник охлаждения батареи и блока управления (IPU). Батарея Ni-MH (стр. 18 руководства).",
+    "src": "https://www.honda.co.jp/ownersmanual/pdf/auto/civichybrid/30SND601_web.pdf#page=11"
+   }
+  ]
+ }
+]

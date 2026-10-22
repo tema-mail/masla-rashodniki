@@ -1,0 +1,525 @@
+[
+ {
+  "brand": "Toyota",
+  "model": "bZ3X",
+  "sub": "1 поколение (GAC-Toyota 铂智3X), 2025–",
+  "code": "GTM64606#, электромоторы TZ175XSAY501 (150 кВт) и TZ180XS135 (165 кВт), привод передний",
+  "rows": [
+   {
+    "name": "Редуктор",
+    "oil": "MS304",
+    "vol": "0,6 ± 0,02 л",
+    "note": "Версия с мотором TZ175XSAY501 (150 кВт). MS304 по названию совпадает с Mobil EV Cool Drive MS 304 (масло для электроприводов), см. mobil.com/zh-CN/Passenger-Vehicle-Lube/pds/ap-zh-Mobil-EV-Cool-Drive-MS-304. Данные из китайского руководства владельца в переводе toyota-club.net.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/bz3x_c.htm"
+   },
+   {
+    "name": "Редуктор",
+    "oil": "805C",
+    "vol": "0,67 ± 0,02 л",
+    "note": "Версия с мотором TZ180XS135 (165 кВт). Что за продукт «805C» – не установлено. Данные из китайского руководства владельца в переводе toyota-club.net.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/bz3x_c.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость батареи",
+    "oil": "JCC 373P",
+    "vol": "10 ± 0,1 л",
+    "note": "В руководстве одна строка «система охлаждения» на 10 л; раздельных объёмов для контура батареи и контура электропривода не приведено. Расшифровка JCC 373P не найдена.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/bz3x_c.htm"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "spec": "FMVSS DOT 4",
+    "vol": "0,75 ± 0,05 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/bz3x_c.htm"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a (R134a)",
+    "vol": "900 ± 50 г",
+    "note": "Тип и количество масла компрессора не найдены.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/bz3x_c.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "RX350h / RX450h+",
+  "sub": "5 поколение, 2022–",
+  "code": "AALH10/15/16, ДВС A25A-FXS, E-Four (задний мотор 4NM)",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "4,4 л",
+    "note": "Объём – ёмкость по руководству владельца; объём при сливе-заливке в источнике не указан. Оригинальные артикулы Toyota ATF WS: 08886-02305 и 08886-02805 (4 л), 08886-81210 (1 л) – по catalog.onliner.by/gearoil/toyota.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_la10e.htm"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota ATF WS",
+    "vol": "1,7 л",
+    "note": "Объём – ёмкость по руководству владельца; объём при сливе-заливке в источнике не указан.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_la10e.htm"
+   },
+   {
+    "name": "Масло ДВС",
+    "spec": "API SN–SP / ILSAC GF-6A; вязкость по таблице руководства 0W-16, 0W-20, 5W-30",
+    "vol": "4,5 л",
+    "note": "Объём с фильтром. Европейская версия: 4,5 л для HEV и PHEV; в японском руководстве для RX350h – 4,3 л, для RX450h+ – 4,5 л.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_la10e.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "vol": "7,2 л (RX350h), 8,1 л (RX450h+)",
+    "note": "Европейское руководство: HEV 7,2 л, PHEV 8,1 л. В японском – наоборот: HEV 8,1 л, PHEV 7,2 л (https://www.toyota-club.net/files/techdata/ttx/lexus_rx_la10j.htm). В американском RX350h – 8,2 л. Тип ОЖ в таблице не указан.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_la10e.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "vol": "2,0 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_la10e.htm"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "note": "По японскому руководству; объём не указан.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_la10j.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "RX500h",
+  "sub": "5 поколение, 2022–",
+  "code": "TALH17, ДВС T24A-FTS (турбо), DIRECT4, задний e-Axle 1YM",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "6,4 л",
+    "note": "6-ступенчатый автомат с мотором (DBHS-6AT). Объём – ёмкость по руководству владельца; объём при сливе-заливке в источнике не указан. Оригинальные артикулы Toyota ATF WS: 08886-02305 и 08886-02805 (4 л), 08886-81210 (1 л) – по catalog.onliner.by/gearoil/toyota.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_la10e.htm"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota e-Transaxle Fluid TE",
+    "vol": "3,1 л",
+    "note": "Объём – ёмкость по руководству владельца; объём при сливе-заливке в источнике не указан.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_la10e.htm"
+   },
+   {
+    "name": "Масло ДВС",
+    "spec": "API SN–SP / ILSAC GF-6A, GF-6B; вязкость по таблице руководства 0W-20, 5W-30",
+    "vol": "5,3 л",
+    "note": "Объём с фильтром.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_la10e.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "vol": "9,4 л",
+    "note": "Тип ОЖ в таблице не указан.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_la10e.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "vol": "5,3 л",
+    "note": "Общий контур интеркулера и инвертора.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_la10e.htm"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "note": "По японскому руководству; объём не указан.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_la10j.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "ES300h",
+  "sub": "7 поколение, 2018–2025",
+  "code": "AXZH10/11, ДВС A25A-FXS, гибридная трансмиссия с мотором 3NM",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,9 л",
+    "note": "Объём – ёмкость по руководству владельца; объём при сливе-заливке в источнике не указан. Оригинальные артикулы Toyota ATF WS: 08886-02305 и 08886-02805 (4 л), 08886-81210 (1 л) – по catalog.onliner.by/gearoil/toyota.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_es_z10w.htm"
+   },
+   {
+    "name": "Масло ДВС",
+    "spec": "API SL–SN+ (австралийское: API SL–SP / ILSAC GF-6A, GF-6B); вязкость по таблице руководства 0W-16, 0W-20, 5W-20, 5W-30, 10W-30, 15W-40",
+    "vol": "4,5 л",
+    "note": "Объём с фильтром. В австралийском руководстве таблица вязкостей без 15W-40.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_es_z10w.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota SLLC",
+    "vol": "6,1–6,7 л",
+    "note": "Международное руководство: 6,1–6,7 л; австралийское, американское и японское – 6,1 л. Тип SLLC указан в австралийском руководстве (https://www.toyota-club.net/files/techdata/ttx/lexus_es_z10a.htm).",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_es_z10w.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota SLLC",
+    "vol": "1,8–2,0 л",
+    "note": "Австралийское, американское и японское руководства – 1,8 л.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_es_z10w.htm"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "spec": "SAE J1703 / J1704, FMVSS No.116 DOT 3 / DOT 4",
+    "note": "По австралийскому руководству; объём не указан.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_es_z10a.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "LX700h",
+  "sub": "4 поколение (J310), 2024–",
+  "code": "VJH310W, ДВС V35A-FTS (турбо) + мотор 1TM в 10-ступенчатом автомате, полный привод",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "11,6 л",
+    "note": "10-ступенчатый автомат со встроенным мотором. В американском руководстве 11,5–11,6 л. Объём – ёмкость по руководству владельца; объём при сливе-заливке в источнике не указан. Оригинальные артикулы Toyota ATF WS: 08886-02305 и 08886-02805 (4 л), 08886-81210 (1 л) – по catalog.onliner.by/gearoil/toyota.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_lx_300j.htm"
+   },
+   {
+    "name": "Масло ДВС",
+    "spec": "API SN–SP/RC / ILSAC GF-6A; вязкость по таблице руководства 0W-20, 5W-30",
+    "vol": "7,3 л",
+    "note": "Объём с фильтром.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_lx_300j.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota SLLC",
+    "vol": "14,7 л",
+    "note": "Плюс контур интеркулера 3,8 л (Toyota SLLC).",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_lx_300j.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota SLLC",
+    "vol": "1,9 л",
+    "note": "Блок управления мощностью (PCU). В американском руководстве – 2,1 л (https://www.toyota-club.net/files/techdata/ttx/lexus_lx_300u.htm).",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_lx_300j.htm"
+   },
+   {
+    "name": "Раздаточная коробка",
+    "oil": "Toyota Transfer Gear Oil LF",
+    "spec": "SAE 75W",
+    "vol": "1,78 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_lx_300j.htm"
+   },
+   {
+    "name": "Передний дифференциал",
+    "oil": "Toyota Differential Gear Oil LT",
+    "spec": "API GL-5, SAE 75W-85",
+    "vol": "1,16 л",
+    "note": "С блокировкой – 1,32 л.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_lx_300j.htm"
+   },
+   {
+    "name": "Задний дифференциал",
+    "oil": "Toyota Differential Gear Oil LT",
+    "spec": "API GL-5, SAE 75W-85",
+    "vol": "5,45 л",
+    "note": "С блокировкой – 5,18 л. С LSD (американское руководство) – 5,25 л, масло Toyota Differential Gear Oil LX GL-5 75W-85.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_lx_300j.htm"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "note": "По японскому руководству; в американском – FMVSS No.116 DOT 3 / DOT 4, SAE J1703 / J1704. Объём не указан.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_lx_300j.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "RX400h",
+  "sub": "2 поколение, 2005–2009",
+  "code": "MHU38, ДВС 3MZ-FE",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,9–4,2 л",
+    "note": "Американское руководство. Объём – ёмкость по руководству владельца; объём при сливе-заливке в источнике не указан.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_30u.htm"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota ATF WS",
+    "vol": "2,0 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_30u.htm"
+   },
+   {
+    "name": "Масло ДВС",
+    "spec": "API SL / ILSAC; SAE 5W-30 (предписание для рынка США)",
+    "vol": "4,7 л",
+    "note": "Объём с фильтром.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_30u.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "vol": "10,3 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_30u.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "vol": "3,4 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_30u.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "RX450h",
+  "sub": "3 поколение, 2009–2015",
+  "code": "GYL10/15/16, ДВС 2GR-FXE",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "4,6 л",
+    "note": "Объём – ёмкость по руководству владельца; объём при сливе-заливке в источнике не указан. Владелец на drive2 слил и залил около 3,9 л (drive2.ru/l/653565105786598408).",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_l10j.htm"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota ATF WS",
+    "vol": "1,8 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_l10j.htm"
+   },
+   {
+    "name": "Масло ДВС",
+    "spec": "API SL–SN / ILSAC; вязкость по таблице 0W-20, 5W-20, 5W-30, 10W-30",
+    "vol": "6,1 л",
+    "note": "Объём с фильтром.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_l10j.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "vol": "11,4 л",
+    "note": "Американское руководство: 11,4–11,7 л.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_l10j.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "vol": "1,9 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_l10j.htm"
+   },
+   {
+    "name": "Фильтр масляный",
+    "oil": "Элемент Toyota 04152-31090",
+    "note": "Со слов владельца на drive2, не каталог.",
+    "src": "https://www.drive2.ru/l/664809536325944737/"
+   }
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "RX450h",
+  "sub": "4 поколение, 2015–2022",
+  "code": "GYL20/25/26, ДВС 2GR-FXS",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "4,8 л",
+    "note": "Объём – ёмкость по руководству владельца; объём при сливе-заливке в источнике не указан.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_l20w.htm"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota ATF WS",
+    "vol": "1,8 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_l20w.htm"
+   },
+   {
+    "name": "Масло ДВС",
+    "spec": "API SL–SN+ / ILSAC; вязкость по таблице 0W-20, 5W-20, 5W-30, 10W-30, 15W-40",
+    "vol": "5,4 л",
+    "note": "Объём с фильтром. Американское руководство – 5,5 л.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_l20w.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "vol": "9,8 л (RX450h), 12,2 л (RX450hL)",
+    "note": "Американское руководство: 10,1 / 12,5 л.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_l20w.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "vol": "1,9 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_rx_l20w.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "CT200h",
+  "sub": "2010–2020",
+  "code": "ZWA10, ДВС 2ZR-FXE",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,4 л",
+    "note": "Объём – ёмкость по руководству владельца; объём при сливе-заливке в источнике не указан.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_ct_e.htm"
+   },
+   {
+    "name": "Масло ДВС",
+    "spec": "API SL–SN+ / ILSAC; вязкость по таблице 0W-20, 5W-30",
+    "vol": "4,2 л",
+    "note": "Объём с фильтром.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_ct_e.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota SLLC",
+    "vol": "6,5 л",
+    "note": "С рекуператором тепла выхлопа – 6,9 л.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_ct_e.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota SLLC",
+    "vol": "2,1 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_ct_e.htm"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "spec": "SAE J1703 / J1704, FMVSS No.116 DOT 3 / DOT 4",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_ct_e.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "ES300h",
+  "sub": "6 поколение, 2012–2018",
+  "code": "AVV60, ДВС 2AR-FXE",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,7 л",
+    "note": "Американское руководство. Объём – ёмкость по руководству владельца; объём при сливе-заливке в источнике не указан.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_es_60.htm"
+   },
+   {
+    "name": "Масло ДВС",
+    "spec": "ILSAC GF-5; SAE 0W-20 (предписание для рынка США)",
+    "vol": "4,4 л",
+    "note": "Объём с фильтром.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_es_60.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "vol": "7,2 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_es_60.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "vol": "3,2 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_es_60.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "GS450h",
+  "sub": "3 поколение, 2006–2011",
+  "code": "GWS191, ДВС 2GR-FSE",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "5,4 л",
+    "note": "Японское руководство. Объём – ёмкость по руководству владельца; объём при сливе-заливке в источнике не указан.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_gs_190j.htm"
+   },
+   {
+    "name": "Задний дифференциал",
+    "oil": "Toyota Differential Gear Oil LT",
+    "spec": "API GL-5, SAE 75W-85",
+    "vol": "1,35 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_gs_190j.htm"
+   },
+   {
+    "name": "Масло ДВС",
+    "spec": "API SL–SM / ILSAC GF-4; вязкость по таблице 0W-20, 5W-20, 5W-30, 10W-30",
+    "vol": "6,3 л",
+    "note": "Объём с фильтром.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_gs_190j.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "vol": "9,25 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_gs_190j.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "vol": "2,8 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_gs_190j.htm"
+   }
+  ]
+ },
+ {
+  "brand": "Lexus",
+  "model": "GS450h",
+  "sub": "4 поколение, 2012–2020",
+  "code": "GWL10, ДВС 2GR-FXE",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "5,69 л",
+    "note": "Объём – ёмкость по руководству владельца; объём при сливе-заливке в источнике не указан.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_gs_l10e.htm"
+   },
+   {
+    "name": "Задний дифференциал",
+    "oil": "Toyota Differential Gear Oil LT",
+    "spec": "API GL-5, SAE 75W-85",
+    "vol": "1,35 л",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_gs_l10e.htm"
+   },
+   {
+    "name": "Масло ДВС",
+    "spec": "API SL–SN / ILSAC; вязкость по таблице 0W-20, 5W-30, 10W-30, 15W-40",
+    "vol": "6,3 л",
+    "note": "Объём с фильтром.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_gs_l10e.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota SLLC",
+    "vol": "9,2 л",
+    "note": "Японское руководство: 9,4 л до 06.2017, 9,2 л после (https://www.toyota-club.net/files/techdata/ttx/lexus_gs_l10j.htm).",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_gs_l10e.htm"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota SLLC",
+    "vol": "1,9–2,1 л",
+    "note": "Японское руководство: 2,9 л до 06.2017, 1,9 л после.",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_gs_l10e.htm"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "spec": "SAE J1703 / J1704, FMVSS No.116 DOT 3 / DOT 4",
+    "src": "https://www.toyota-club.net/files/techdata/ttx/lexus_gs_l10e.htm"
+   }
+  ]
+ }
+]

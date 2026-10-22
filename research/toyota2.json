@@ -1,0 +1,864 @@
+[
+ {
+  "brand": "Toyota",
+  "model": "Camry",
+  "sub": "Hybrid XV70, 2017–2024 (японский рынок)",
+  "code": "AXVH70 (FF), AXVH75 (4WD), ДВС A25A-FXS",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,9 л",
+    "src": "https://manual.toyota.jp/pdf/camry/camry_hybrid_202102.pdf",
+    "note": "объём справочный (参考値) из руководства владельца; замена – по рекомендации дилера"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota ATF WS",
+    "vol": "1,2 л",
+    "src": "https://manual.toyota.jp/pdf/camry/camry_hybrid_202102.pdf",
+    "note": "только AXVH75 (4WD, задний мотор 1MM)"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Genuine Motor Oil SP 0W-16",
+    "spec": "API SP/RC, ILSAC GF-6B, SAE 0W-16",
+    "alt": [
+     "Toyota SP 0W-20 (API SP/RC, ILSAC GF-6A)",
+     "Toyota SN 5W-30 (API SN/RC), в руководстве 2022 г. – SP 5W-30"
+    ],
+    "vol": "4,5 л (с фильтром)",
+    "note": "без замены фильтра 4,2 л; руководство 2017 г. рекомендовало SN 0W-16, допускало SN 0W-20 и 5W-30: https://manual.toyota.jp/pdf/camry/camry_hybrid_201707.pdf",
+    "src": "https://manual.toyota.jp/pdf/camry/camry_hybrid_202102.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "6,1 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C",
+    "src": "https://manual.toyota.jp/pdf/camry/camry_hybrid_202102.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "1,8 л",
+    "src": "https://manual.toyota.jp/pdf/camry/camry_hybrid_202102.pdf",
+    "note": "в руководстве 2017 г. – 1,7 л: https://manual.toyota.jp/pdf/camry/camry_hybrid_201707.pdf"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/pdf/camry/camry_hybrid_202102.pdf",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R1234yf",
+    "vol": "по наклейке под капотом",
+    "note": "данные для европейского рынка (Camry V70 2.5 Hybrid с 06/2017), в таблице масса «See OE!»; для японских машин тип газа сверить по наклейке",
+    "src": "https://raysons.co.uk/wp-content/uploads/2022/11/2021-Refrigerant-Quantities-for-Automotive.pdf"
+   },
+   {
+    "name": "Масло компрессора кондиционера",
+    "oil": "ND-OIL 11 (POE)",
+    "note": "электрический компрессор: масло ND-11, ПАГ не заливать; объём – по данным производителя; данные для европейского рынка",
+    "src": "https://raysons.co.uk/wp-content/uploads/2022/11/2021-Refrigerant-Quantities-for-Automotive.pdf"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Harrier",
+  "sub": "Hybrid 4 поколение (XU80), 2020+ (японский рынок)",
+  "code": "AXUH80 (FF), AXUH85 (4WD), ДВС A25A-FXS",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,9 л",
+    "src": "https://manual.toyota.jp/harrier/2209/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota ATF WS",
+    "vol": "1,7 л",
+    "src": "https://manual.toyota.jp/harrier/2209/hev/ja_JP/contents/vhch08se010401.php",
+    "note": "только AXUH85 (4WD, задний мотор 4NM)"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Genuine Motor Oil SP 0W-16",
+    "spec": "API SP/RC, ILSAC GF-6B, SAE 0W-16",
+    "alt": [
+     "Toyota SP 0W-20 (API SP/RC, ILSAC GF-6A)",
+     "Toyota SP 5W-30 (API SP/RC, ILSAC GF-6A)"
+    ],
+    "vol": "4,5 л (с фильтром)",
+    "note": "без замены фильтра 4,2 л; в руководстве 2026 г. (2608) – 4,3 л с фильтром и 4,0 л без: https://manual.toyota.jp/harrier/2608/hev/ja_JP/contents/vhch08se010401.php",
+    "src": "https://manual.toyota.jp/harrier/2209/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "6,0 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C",
+    "src": "https://manual.toyota.jp/harrier/2209/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "1,6 л",
+    "src": "https://manual.toyota.jp/harrier/2209/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/harrier/2209/hev/ja_JP/contents/vhch08se010401.php",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Noah",
+  "sub": "Hybrid 4 поколение (R90), 2022+ (японский рынок)",
+  "code": "ZWR90W (FF), ZWR95W (4WD), ДВС 2ZR-FXE ; с 2025–2026 также ZWR91W/92W/96W",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota e-Transaxle Fluid TE",
+    "vol": "3,0 л",
+    "src": "https://manual.toyota.jp/noah/2201/hev/ja_JP/contents/vhch08se010401.php",
+    "note": "не ATF WS: в руководстве указана e-Transaxle Fluid TE"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota e-Transaxle Fluid TE",
+    "vol": "1,2 л",
+    "src": "https://manual.toyota.jp/noah/2201/hev/ja_JP/contents/vhch08se010401.php",
+    "note": "только 4WD (ZWR95W); в руководстве 2026 г. (2604) – 1,4 л: https://manual.toyota.jp/noah/2604/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Genuine Motor Oil SP 0W-16",
+    "spec": "API SP/RC, ILSAC GF-6B, SAE 0W-16",
+    "alt": [
+     "Toyota SP 0W-20 (API SP/RC, ILSAC GF-6A)",
+     "Toyota SP 5W-30 (API SP/RC, ILSAC GF-6A)"
+    ],
+    "vol": "4,2 л (с фильтром)",
+    "note": "без замены фильтра 3,9 л",
+    "src": "https://manual.toyota.jp/noah/2201/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "5,5 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C; с задним автоматическим кондиционером – 6,6 л",
+    "src": "https://manual.toyota.jp/noah/2201/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "1,6 л",
+    "src": "https://manual.toyota.jp/noah/2201/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/noah/2201/hev/ja_JP/contents/vhch08se010401.php",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Voxy",
+  "sub": "Hybrid 4 поколение (R90), 2022+ (японский рынок)",
+  "code": "ZWR90W (FF), ZWR95W (4WD), ДВС 2ZR-FXE",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota e-Transaxle Fluid TE",
+    "vol": "3,0 л",
+    "src": "https://manual.toyota.jp/voxy/2201/hev/ja_JP/contents/vhch08se010401.php",
+    "note": "не ATF WS: в руководстве указана e-Transaxle Fluid TE"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota e-Transaxle Fluid TE",
+    "vol": "1,2 л",
+    "src": "https://manual.toyota.jp/voxy/2201/hev/ja_JP/contents/vhch08se010401.php",
+    "note": "только 4WD (ZWR95W)"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Genuine Motor Oil SP 0W-16",
+    "spec": "API SP/RC, ILSAC GF-6B, SAE 0W-16",
+    "alt": [
+     "Toyota SP 0W-20 (API SP/RC, ILSAC GF-6A)",
+     "Toyota SP 5W-30 (API SP/RC, ILSAC GF-6A)"
+    ],
+    "vol": "4,2 л (с фильтром)",
+    "note": "без замены фильтра 3,9 л",
+    "src": "https://manual.toyota.jp/voxy/2201/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "5,5 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C; с задним автоматическим кондиционером – 6,6 л",
+    "src": "https://manual.toyota.jp/voxy/2201/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "1,6 л",
+    "src": "https://manual.toyota.jp/voxy/2201/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/voxy/2201/hev/ja_JP/contents/vhch08se010401.php",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Alphard",
+  "sub": "Hybrid 4 поколение (H40), 2023+ (японский рынок)",
+  "code": "AAHH40W (FF), AAHH45W (4WD), ДВС A25A-FXS",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "4,3 л",
+    "src": "https://manual.toyota.jp/alphard/3002/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota ATF WS",
+    "vol": "1,7 л",
+    "src": "https://manual.toyota.jp/alphard/3002/hev/ja_JP/contents/vhch08se010401.php",
+    "note": "только AAHH45W (4WD, задний мотор 4NM)"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Genuine Motor Oil GLV-1 0W-8",
+    "spec": "JASO GLV-1, SAE 0W-8",
+    "alt": [
+     "Toyota SP 0W-16 (API SP/RC, ILSAC GF-6B)",
+     "Toyota SP 0W-20 (API SP/RC, ILSAC GF-6A)",
+     "Toyota SP 5W-30 (API SP/RC, ILSAC GF-6A)"
+    ],
+    "vol": "4,3 л (с фильтром)",
+    "note": "без замены фильтра 4,0 л; с завода залито 0W-8 (JASO GLV-1); остальные – допуск руководства, если 0W-8 нет",
+    "src": "https://manual.toyota.jp/alphard/3002/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "8,5 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C",
+    "src": "https://manual.toyota.jp/alphard/3002/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "1,3 л",
+    "src": "https://manual.toyota.jp/alphard/3002/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/alphard/3002/hev/ja_JP/contents/vhch08se010401.php",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Vellfire",
+  "sub": "Hybrid 4 поколение (H40), 2023+ (японский рынок)",
+  "code": "AAHH40W (FF), AAHH45W (4WD), ДВС A25A-FXS",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "4,3 л",
+    "src": "https://manual.toyota.jp/vellfire/3003/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota ATF WS",
+    "vol": "1,7 л",
+    "src": "https://manual.toyota.jp/vellfire/3003/hev/ja_JP/contents/vhch08se010401.php",
+    "note": "только AAHH45W (4WD, задний мотор 4NM)"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Genuine Motor Oil GLV-1 0W-8",
+    "spec": "JASO GLV-1, SAE 0W-8",
+    "alt": [
+     "Toyota SP 0W-16 (API SP/RC, ILSAC GF-6B)",
+     "Toyota SP 0W-20 (API SP/RC, ILSAC GF-6A)",
+     "Toyota SP 5W-30 (API SP/RC, ILSAC GF-6A)"
+    ],
+    "vol": "4,3 л (с фильтром)",
+    "note": "без замены фильтра 4,0 л; с завода залито 0W-8 (JASO GLV-1); остальные – допуск руководства, если 0W-8 нет",
+    "src": "https://manual.toyota.jp/vellfire/3003/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "8,5 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C",
+    "src": "https://manual.toyota.jp/vellfire/3003/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "1,3 л",
+    "src": "https://manual.toyota.jp/vellfire/3003/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/vellfire/3003/hev/ja_JP/contents/vhch08se010401.php",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Crown Crossover",
+  "sub": "Hybrid S235, 2022+ (японский рынок)",
+  "code": "AZSH35 (2022–), AZSH34 (рестайлинг 2026), ДВС A25A-FXS, E-Four",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,9 л",
+    "src": "https://manual.toyota.jp/crown/2206/hev/ja_JP/contents/vhch08se010401.php",
+    "note": "AZSH35 по руководству 2022 г.; у AZSH34 (руководство 2026 г.) – Toyota e-Transaxle Fluid TE, 3,7 л: https://manual.toyota.jp/crowncrossover/3143/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota ATF WS",
+    "vol": "1,7 л",
+    "src": "https://manual.toyota.jp/crown/2206/hev/ja_JP/contents/vhch08se010401.php",
+    "note": "задний мотор 4NM; одинаково в руководствах 2022 и 2026 гг."
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Genuine Motor Oil GLV-1 0W-8",
+    "spec": "JASO GLV-1, SAE 0W-8",
+    "alt": [
+     "Toyota SP 0W-16 (API SP/RC, ILSAC GF-6B)",
+     "Toyota SP 0W-20 (API SP/RC, ILSAC GF-6A)",
+     "Toyota SP 5W-30 (API SP/RC, ILSAC GF-6A)"
+    ],
+    "vol": "4,3 л (с фильтром)",
+    "note": "без замены фильтра 4,0 л",
+    "src": "https://manual.toyota.jp/crown/2206/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "6,0 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C",
+    "src": "https://manual.toyota.jp/crown/2206/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "1,8 л",
+    "src": "https://manual.toyota.jp/crown/2206/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/crown/2206/hev/ja_JP/contents/vhch08se010401.php",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Crown Crossover",
+  "sub": "Dual Boost Hybrid S235, 2022+ (японский рынок)",
+  "code": "TZSH35, ДВС T24A-FTS (турбо), E-Four Advanced",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "6,4 л",
+    "src": "https://manual.toyota.jp/crown/2206/hev/ja_JP/contents/vhch08se010401.php",
+    "note": "6-ступенчатый автомат Direct Shift с мотором"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota e-Transaxle Fluid TE",
+    "vol": "3,1 л",
+    "src": "https://manual.toyota.jp/crown/2206/hev/ja_JP/contents/vhch08se010401.php",
+    "note": "задний eAxle (мотор 1YM)"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Genuine Motor Oil SP 0W-20",
+    "spec": "API SP/RC, ILSAC GF-6A, SAE 0W-20",
+    "alt": [
+     "Toyota SP 5W-30 (API SP/RC, ILSAC GF-6A)"
+    ],
+    "vol": "5,3 л (с фильтром)",
+    "note": "без замены фильтра 5,0 л",
+    "src": "https://manual.toyota.jp/crown/2206/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "9,2 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C",
+    "src": "https://manual.toyota.jp/crown/2206/hev/ja_JP/contents/vhch08se010401.php"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "5,2 л",
+    "src": "https://manual.toyota.jp/crown/2206/hev/ja_JP/contents/vhch08se010401.php",
+    "note": "общий контур интеркулера и блока PCU"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/crown/2206/hev/ja_JP/contents/vhch08se010401.php",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Camry",
+  "sub": "Hybrid XV50, 2011–2017 (японский рынок) – старше 2022",
+  "code": "AVV50, ДВС 2AR-FXE",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,7 л",
+    "src": "https://manual.toyota.jp/pdf/camry/camry_hybrid_201510.pdf"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Castle SN 0W-20",
+    "spec": "API SN/RC, ILSAC GF-5, SAE 0W-20",
+    "alt": [
+     "5W-20, 5W-30, 10W-30 (API SN/RC, ILSAC GF-5)"
+    ],
+    "vol": "4,4 л (с фильтром)",
+    "note": "без замены фильтра 4,0 л",
+    "src": "https://manual.toyota.jp/pdf/camry/camry_hybrid_201510.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "7,2 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C",
+    "src": "https://manual.toyota.jp/pdf/camry/camry_hybrid_201510.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "3,2 л",
+    "src": "https://manual.toyota.jp/pdf/camry/camry_hybrid_201510.pdf"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/pdf/camry/camry_hybrid_201510.pdf",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Crown",
+  "sub": "Hybrid S210, 2012–2018 (японский рынок) – старше 2022",
+  "code": "AWS210 (FR), AWS211 (4WD), ДВС 2AR-FSE",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,8 л",
+    "src": "https://manual.toyota.jp/pdf/crown/crown_hybrid_201608.pdf"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Castle SN 0W-20",
+    "spec": "API SN/RC, ILSAC GF-5, SAE 0W-20",
+    "alt": [
+     "5W-20, 5W-30, 10W-30 (API SN/RC, ILSAC GF-5)"
+    ],
+    "vol": "4,5 л (с фильтром)",
+    "note": "без замены фильтра 4,1 л",
+    "src": "https://manual.toyota.jp/pdf/crown/crown_hybrid_201608.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "8,2 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C",
+    "src": "https://manual.toyota.jp/pdf/crown/crown_hybrid_201608.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "2,2 л",
+    "src": "https://manual.toyota.jp/pdf/crown/crown_hybrid_201608.pdf"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "Toyota Differential Gear Oil LT",
+    "spec": "API GL-5, SAE 75W-85",
+    "vol": "1,35 л",
+    "src": "https://manual.toyota.jp/pdf/crown/crown_hybrid_201608.pdf"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/pdf/crown/crown_hybrid_201608.pdf",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Crown",
+  "sub": "Hybrid S220, 2018–2022 (японский рынок) – старше 2022",
+  "code": "AZSH20 (FR), AZSH21 (4WD), ДВС A25A-FXS",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,77 л",
+    "src": "https://manual.toyota.jp/pdf/crown/crown_hybrid_202103.pdf",
+    "note": "в руководстве 2018 г. – 4,0 л: https://manual.toyota.jp/pdf/crown/crown_hybrid_201806.pdf"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Genuine Motor Oil SP 0W-16",
+    "spec": "API SP/RC, ILSAC GF-6B, SAE 0W-16",
+    "alt": [
+     "Toyota SP 0W-20",
+     "Toyota SN 5W-30"
+    ],
+    "vol": "5,0 л (FR), 4,9 л (4WD) (с фильтром)",
+    "note": "без замены фильтра 4,6 л (FR), 4,5 л (4WD)",
+    "src": "https://manual.toyota.jp/pdf/crown/crown_hybrid_202103.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "7,7 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C",
+    "src": "https://manual.toyota.jp/pdf/crown/crown_hybrid_202103.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "2,3 л",
+    "src": "https://manual.toyota.jp/pdf/crown/crown_hybrid_202103.pdf"
+   },
+   {
+    "name": "Задний редуктор",
+    "oil": "Toyota Differential Gear Oil LT",
+    "spec": "API GL-5, SAE 75W-85",
+    "vol": "1,35 л",
+    "src": "https://manual.toyota.jp/pdf/crown/crown_hybrid_202103.pdf"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/pdf/crown/crown_hybrid_202103.pdf",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "C-HR",
+  "sub": "Hybrid 1 поколение, 2016–2023 (японский рынок) – старше 2022",
+  "code": "ZYX10, ZYX11, ДВС 2ZR-FXE",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,6 л",
+    "src": "https://manual.toyota.jp/pdf/c-hr/C-HR-HEV_OM_JP_M10606_1_2208.pdf"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Genuine Motor Oil SP 0W-16",
+    "spec": "API SP/RC, ILSAC GF-6B, SAE 0W-16",
+    "alt": [
+     "Toyota SP 0W-20",
+     "Toyota SP 5W-30"
+    ],
+    "vol": "4,2 л (с фильтром)",
+    "note": "без замены фильтра 3,9 л",
+    "src": "https://manual.toyota.jp/pdf/c-hr/C-HR-HEV_OM_JP_M10606_1_2208.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "5,4 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C",
+    "src": "https://manual.toyota.jp/pdf/c-hr/C-HR-HEV_OM_JP_M10606_1_2208.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "1,4 л",
+    "src": "https://manual.toyota.jp/pdf/c-hr/C-HR-HEV_OM_JP_M10606_1_2208.pdf"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/pdf/c-hr/C-HR-HEV_OM_JP_M10606_1_2208.pdf",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "R1234yf",
+    "vol": "по наклейке под капотом",
+    "note": "данные для европейского рынка (C-HR X1 Hybrid с 10/2016), масса «See OE!»",
+    "src": "https://raysons.co.uk/wp-content/uploads/2022/11/2021-Refrigerant-Quantities-for-Automotive.pdf"
+   },
+   {
+    "name": "Масло компрессора кондиционера",
+    "oil": "ND-OIL 11 / ND-OIL 12",
+    "note": "в таблице указаны оба для C-HR 1.8 и 2.0 Hybrid; европейский рынок",
+    "src": "https://raysons.co.uk/wp-content/uploads/2022/11/2021-Refrigerant-Quantities-for-Automotive.pdf"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Alphard / Vellfire",
+  "sub": "Hybrid 2 поколение, 2011–2015 (японский рынок) – старше 2022",
+  "code": "ATH20W, ДВС 2AZ-FXE, E-Four",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "4,2 л",
+    "src": "https://manual.toyota.jp/pdf/alphard/alphard_201408.pdf"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota ATF WS",
+    "vol": "1,8 л",
+    "src": "https://manual.toyota.jp/pdf/alphard/alphard_201408.pdf"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Castle SN 0W-20",
+    "spec": "API SN, RC/ILSAC GF-5, SAE 0W-20",
+    "alt": [
+     "5W-20, 5W-30, 10W-30"
+    ],
+    "vol": "4,3 л (с фильтром)",
+    "note": "без замены фильтра 4,1 л",
+    "src": "https://manual.toyota.jp/pdf/alphard/alphard_201408.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "9,1 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C",
+    "src": "https://manual.toyota.jp/pdf/alphard/alphard_201408.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "3,3 л",
+    "src": "https://manual.toyota.jp/pdf/alphard/alphard_201408.pdf",
+    "note": "контур электромоторов и инвертора"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/pdf/alphard/alphard_201408.pdf",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Alphard / Vellfire",
+  "sub": "Hybrid 3 поколение, 2015–2023 (японский рынок) – старше 2022",
+  "code": "AYH30W, ДВС 2AR-FXE, E-Four",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,8 л",
+    "src": "https://manual.toyota.jp/pdf/alphard/alphard_hybrid_202201.pdf"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota ATF WS",
+    "vol": "1,8 л",
+    "src": "https://manual.toyota.jp/pdf/alphard/alphard_hybrid_202201.pdf"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota SP 0W-20",
+    "spec": "API SP/RC, ILSAC GF-6A, SAE 0W-20",
+    "alt": [
+     "Toyota SN 5W-30"
+    ],
+    "vol": "4,4 л (с фильтром)",
+    "note": "без замены фильтра 4,0 л",
+    "src": "https://manual.toyota.jp/pdf/alphard/alphard_hybrid_202201.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "9,3 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C",
+    "src": "https://manual.toyota.jp/pdf/alphard/alphard_hybrid_202201.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "3,3 л",
+    "src": "https://manual.toyota.jp/pdf/alphard/alphard_hybrid_202201.pdf"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid BF-5",
+    "src": "https://manual.toyota.jp/pdf/alphard/alphard_hybrid_202201.pdf",
+    "note": "в руководстве 2015 г. – 2500H-A: https://manual.toyota.jp/pdf/alphard/alphard_hybrid_201501.pdf"
+   },
+   {
+    "name": "Хладагент кондиционера",
+    "oil": "HFC-134a",
+    "vol": "830 г",
+    "note": "экологическая спецификация Toyota (каталог 10/2018)",
+    "src": "https://toyota.jp/pages/contents/alphard/003_p_004/pdf/spec/alphard_ecology_201810.pdf"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Noah / Voxy / Esquire",
+  "sub": "Hybrid 3 поколение, 2014–2021 (японский рынок) – старше 2022",
+  "code": "ZWR80G/W, ДВС 2ZR-FXE",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,6 л",
+    "src": "https://manual.toyota.jp/pdf/noah/noah_hybrid_202010.pdf"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota SN PLUS 0W-20",
+    "spec": "API SN PLUS/RC, ILSAC GF-5, SAE 0W-20",
+    "alt": [
+     "Toyota SN 5W-30"
+    ],
+    "vol": "4,2 л (с фильтром)",
+    "note": "без замены фильтра 3,9 л",
+    "src": "https://manual.toyota.jp/pdf/noah/noah_hybrid_202010.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "5,7 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C; с задним автоматическим кондиционером – 7,5 л",
+    "src": "https://manual.toyota.jp/pdf/noah/noah_hybrid_202010.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "2,9 л",
+    "src": "https://manual.toyota.jp/pdf/noah/noah_hybrid_202010.pdf"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/pdf/noah/noah_hybrid_202010.pdf",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   }
+  ]
+ },
+ {
+  "brand": "Toyota",
+  "model": "Harrier",
+  "sub": "Hybrid 3 поколение, 2014–2020 (японский рынок) – старше 2022",
+  "code": "AVU65W, ДВС 2AR-FXE, E-Four",
+  "rows": [
+   {
+    "name": "Гибридная трансмиссия",
+    "oil": "Toyota ATF WS",
+    "vol": "3,8 л",
+    "src": "https://manual.toyota.jp/pdf/harrier/harrier_hybrid_201706.pdf"
+   },
+   {
+    "name": "Задний электромотор (E-Four)",
+    "oil": "Toyota ATF WS",
+    "vol": "1,8 л",
+    "src": "https://manual.toyota.jp/pdf/harrier/harrier_hybrid_201706.pdf"
+   },
+   {
+    "name": "Масло ДВС",
+    "oil": "Toyota Castle SN 0W-20",
+    "spec": "API SN/RC, ILSAC GF-5, SAE 0W-20",
+    "alt": [
+     "5W-20, 5W-30, 10W-30"
+    ],
+    "vol": "4,4 л (с фильтром)",
+    "note": "без замены фильтра 4,0 л",
+    "src": "https://manual.toyota.jp/pdf/harrier/harrier_hybrid_201706.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость ДВС",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "6,7 л",
+    "note": "50% – защита до -35 °C, 30% – до -12 °C; в руководстве 2013 г. – 6,9 л: https://manual.toyota.jp/pdf/harrier/harrier_hybrid_201311.pdf",
+    "src": "https://manual.toyota.jp/pdf/harrier/harrier_hybrid_201706.pdf"
+   },
+   {
+    "name": "Охлаждающая жидкость инвертора",
+    "oil": "Toyota Super Long Life Coolant (SLLC)",
+    "vol": "3,1 л",
+    "src": "https://manual.toyota.jp/pdf/harrier/harrier_hybrid_201706.pdf",
+    "note": "в руководстве 2013 г. – 3,4 л: https://manual.toyota.jp/pdf/harrier/harrier_hybrid_201311.pdf"
+   },
+   {
+    "name": "Тормозная жидкость",
+    "oil": "Toyota Brake Fluid 2500H-A",
+    "src": "https://manual.toyota.jp/pdf/harrier/harrier_hybrid_201706.pdf",
+    "spec": "DOT3",
+    "note": "DOT3 и артикул 08882-00190 (0,5 л) – по карточке магазина: https://www.pricey.jp/web/products/11910010"
+   }
+  ]
+ }
+]
