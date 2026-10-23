@@ -1,0 +1,983 @@
+{
+ "date": "23.10.2026",
+ "items": {
+  "m-vcc": [
+   {
+    "brand": "MOTUL",
+    "article": "114246",
+    "name": "Specific RBS0-2AE 0W-20 1 L",
+    "kind": "допуск",
+    "why": "Specific RBS0-2AE – ровно допуск Volvo",
+    "nsk": 54,
+    "other": 65,
+    "order": null,
+    "price": 2700,
+    "url": "https://gpi54.ru/search/positions?article=114246&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "114247",
+    "name": "Specific RBS0-2AE 0W-20 5 L",
+    "kind": "допуск",
+    "why": "",
+    "nsk": 8,
+    "other": 10,
+    "order": null,
+    "price": 12500,
+    "url": "https://gpi54.ru/search/positions?article=114247&brand=MOTUL"
+   },
+   {
+    "brand": "GNV",
+    "article": "GPR1M20454040130020001",
+    "name": "GNV Power Revolve 0W-20 ACEA C5/ VOLVO RBS0-2AE 1L",
+    "kind": "допуск",
+    "why": "C5 / RBS0-2AE",
+    "nsk": 36,
+    "other": 13,
+    "order": 14,
+    "price": 2120,
+    "url": "https://gpi54.ru/search/positions?article=GPR1M20454040130020001&brand=GNV"
+   },
+   {
+    "brand": "GNV",
+    "article": "GPR1M20454040130020004",
+    "name": "GNV Power Revolve 0W-20 ACEA C5/ VOLVO RBS0-2AE 4L",
+    "kind": "допуск",
+    "why": "",
+    "nsk": 32,
+    "other": 17,
+    "order": 1,
+    "price": 7620,
+    "url": "https://gpi54.ru/search/positions?article=GPR1M20454040130020004&brand=GNV"
+   },
+   {
+    "brand": "FUCHS",
+    "article": "0080351006",
+    "name": "TITAN FORMULA II V 0W-20 / 4L (API SP/ ACEA C5/ ILSAC GF-6 MB 229.71/ VOLVO RBS0-2AE)",
+    "kind": "допуск",
+    "why": "SP / C5 / RBS0-2AE",
+    "nsk": 13,
+    "other": 6,
+    "order": 15,
+    "price": 4199,
+    "url": "https://gpi54.ru/search/positions?article=0080351006&brand=FUCHS"
+   },
+   {
+    "brand": "FOXGEAR",
+    "article": "0103881003",
+    "name": "RENODRIVE FORMULA II V 0W-20 / 1L (API SP/ VW 508.00 / 509.00/ VOLVO RBS0-2AE)",
+    "kind": "допуск",
+    "why": "SP / RBS0-2AE",
+    "nsk": 20,
+    "other": 27,
+    "order": null,
+    "price": 1149,
+    "url": "https://gpi54.ru/search/positions?article=0103881003&brand=FOXGEAR"
+   },
+   {
+    "brand": "FOXGEAR",
+    "article": "0103881004",
+    "name": "RENODRIVE FORMULA II V 0W-20 / 4L (API SP/ VW 508.00 / 509.00/ VOLVO RBS0-2AE)",
+    "kind": "допуск",
+    "why": "",
+    "nsk": 0,
+    "other": 28,
+    "order": null,
+    "price": 4199,
+    "url": "https://gpi54.ru/search/positions?article=0103881004&brand=FOXGEAR"
+   }
+  ],
+  "m-c5": [
+   {
+    "brand": "FUCHS",
+    "article": "0080351006",
+    "name": "TITAN FORMULA II V 0W-20 / 4L (API SP/ ACEA C5/ ILSAC GF-6 MB 229.71/ VOLVO RBS0-2AE)",
+    "kind": "допуск",
+    "why": "API SP / ACEA C5",
+    "nsk": 13,
+    "other": 6,
+    "order": 15,
+    "price": 4199,
+    "url": "https://gpi54.ru/search/positions?article=0080351006&brand=FUCHS"
+   },
+   {
+    "brand": "GNV",
+    "article": "GPR1M20454040130020001",
+    "name": "GNV Power Revolve 0W-20 ACEA C5/ VOLVO RBS0-2AE 1L",
+    "kind": "допуск",
+    "why": "ACEA C5",
+    "nsk": 36,
+    "other": 13,
+    "order": 14,
+    "price": 2120,
+    "url": "https://gpi54.ru/search/positions?article=GPR1M20454040130020001&brand=GNV"
+   },
+   {
+    "brand": "GNV",
+    "article": "GPR1M20454040130020004",
+    "name": "GNV Power Revolve 0W-20 ACEA C5/ VOLVO RBS0-2AE 4L",
+    "kind": "допуск",
+    "why": "",
+    "nsk": 32,
+    "other": 17,
+    "order": 1,
+    "price": 7620,
+    "url": "https://gpi54.ru/search/positions?article=GPR1M20454040130020004&brand=GNV"
+   }
+  ],
+  "m-c2": [
+   {
+    "brand": "MOTUL",
+    "article": "113220",
+    "name": "8100 ECO-CLEAN 0W-30 100% Synth. 1 L",
+    "kind": "допуск",
+    "why": "8100 Eco-clean 0W-30 – ACEA C2",
+    "nsk": 12,
+    "other": 41,
+    "order": null,
+    "price": 2500,
+    "url": "https://gpi54.ru/search/positions?article=113220&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "113221",
+    "name": "8100 ECO-CLEAN 0W-30 100% Synth. 4 L",
+    "kind": "допуск",
+    "why": "",
+    "nsk": 18,
+    "other": 54,
+    "order": null,
+    "price": 9200,
+    "url": "https://gpi54.ru/search/positions?article=113221&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "113548",
+    "name": "8100 ECO-CLEAN C2 5W-30 100% Synth. 1 L",
+    "kind": "допуск",
+    "why": "8100 Eco-clean C2 5W-30",
+    "nsk": 5,
+    "other": 9,
+    "order": null,
+    "price": 2300,
+    "url": "https://gpi54.ru/search/positions?article=113548&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "113549",
+    "name": "8100 ECO-CLEAN C2 5W-30 100% Synth. 4 L",
+    "kind": "допуск",
+    "why": "",
+    "nsk": 7,
+    "other": 21,
+    "order": null,
+    "price": 8400,
+    "url": "https://gpi54.ru/search/positions?article=113549&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "113550",
+    "name": "8100 ECO-CLEAN C2 5W-30 100% Synth. 5 L",
+    "kind": "допуск",
+    "why": "",
+    "nsk": 3,
+    "other": 4,
+    "order": null,
+    "price": 10500,
+    "url": "https://gpi54.ru/search/positions?article=113550&brand=MOTUL"
+   }
+  ],
+  "m-c3": [
+   {
+    "brand": "ВМПАВТО",
+    "article": "9218",
+    "name": "Motive SAE 5W-30 (C3, SN/CF) 1 L (синт. / Ester+AN+VHVI)",
+    "kind": "допуск",
+    "why": "5W-30 C3",
+    "nsk": 8,
+    "other": 0,
+    "order": null,
+    "price": 1836,
+    "url": "https://gpi54.ru/search/positions?article=9218&brand=%D0%92%D0%9C%D0%9F%D0%90%D0%92%D0%A2%D0%9E"
+   },
+   {
+    "brand": "ВМПАВТО",
+    "article": "9219",
+    "name": "Motive SAE 5W-30 (C3, SN/CF) 4 L (синт. / Ester+AN+VHVI)",
+    "kind": "допуск",
+    "why": "",
+    "nsk": 3,
+    "other": 0,
+    "order": 11,
+    "price": 5971,
+    "url": "https://gpi54.ru/search/positions?article=9219&brand=%D0%92%D0%9C%D0%9F%D0%90%D0%92%D0%A2%D0%9E"
+   },
+   {
+    "brand": "FUCHS",
+    "article": "0059931007",
+    "name": "TITAN FORMULA II M 5W-30 / 1L (229.52/ LL-04/ 504.00/507.00)",
+    "kind": "аналог",
+    "why": "Fuchs Titan 5W-30 (229.52 / 504 / 507) – у Foton в таблице «Titan 5W-30 C3»",
+    "nsk": 22,
+    "other": 37,
+    "order": null,
+    "price": 2108,
+    "url": "https://gpi54.ru/search/positions?article=0059931007&brand=FUCHS"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "111687",
+    "name": "8100 X-Clean EFE 5W-30 100% Synth. 1 L",
+    "kind": "аналог",
+    "why": "8100 X-Clean EFE 5W-30 (C2/C3)",
+    "nsk": 257,
+    "other": 553,
+    "order": null,
+    "price": 2400,
+    "url": "https://gpi54.ru/search/positions?article=111687&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "111861",
+    "name": "8100 X-Clean EFE 5W-30 100% Synth. 4 L",
+    "kind": "аналог",
+    "why": "",
+    "nsk": 61,
+    "other": 167,
+    "order": null,
+    "price": 8800,
+    "url": "https://gpi54.ru/search/positions?article=111861&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "113231",
+    "name": "8100 X-Clean EFE 5W-30 100% Synth. 5 L",
+    "kind": "аналог",
+    "why": "",
+    "nsk": 185,
+    "other": 78,
+    "order": null,
+    "price": 11000,
+    "url": "https://gpi54.ru/search/positions?article=113231&brand=MOTUL"
+   }
+  ],
+  "m-5w30": [
+   {
+    "brand": "MOTUL",
+    "article": "113496",
+    "name": "8100 ECO-LITE 5W-30 1 L",
+    "kind": "аналог",
+    "why": "8100 Eco-lite 5W-30, API SP",
+    "nsk": 149,
+    "other": 495,
+    "order": null,
+    "price": 2000,
+    "url": "https://gpi54.ru/search/positions?article=113496&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "113497",
+    "name": "8100 ECO-LITE 5W-30 4 L",
+    "kind": "аналог",
+    "why": "",
+    "nsk": 106,
+    "other": 383,
+    "order": null,
+    "price": 7600,
+    "url": "https://gpi54.ru/search/positions?article=113497&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "113498",
+    "name": "8100 ECO-LITE 5W-30 5 L",
+    "kind": "аналог",
+    "why": "",
+    "nsk": 151,
+    "other": 250,
+    "order": null,
+    "price": 9500,
+    "url": "https://gpi54.ru/search/positions?article=113498&brand=MOTUL"
+   },
+   {
+    "brand": "FUCHS",
+    "article": "0089571007",
+    "name": "TITAN FORMULA II V 5W-30 / 1L (API SP/ ILSAC GF-6)",
+    "kind": "аналог",
+    "why": "API SP / GF-6",
+    "nsk": 14,
+    "other": 10,
+    "order": null,
+    "price": 1111,
+    "url": "https://gpi54.ru/search/positions?article=0089571007&brand=FUCHS"
+   }
+  ],
+  "m-0w20": [
+   {
+    "brand": "MOTUL",
+    "article": "112930",
+    "name": "HYBRID 0W-20 1L",
+    "kind": "аналог",
+    "why": "Motul Hybrid 0W-20 – для гибридов",
+    "nsk": 12,
+    "other": 86,
+    "order": null,
+    "price": 2500,
+    "url": "https://gpi54.ru/search/positions?article=112930&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "112931",
+    "name": "HYBRID 0W-20 4L",
+    "kind": "аналог",
+    "why": "",
+    "nsk": 19,
+    "other": 21,
+    "order": null,
+    "price": 9200,
+    "url": "https://gpi54.ru/search/positions?article=112931&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "113491",
+    "name": "8100 ECO-LITE 0W-20 100% Synth. 1L",
+    "kind": "аналог",
+    "why": "8100 Eco-lite 0W-20",
+    "nsk": 99,
+    "other": 338,
+    "order": null,
+    "price": 2500,
+    "url": "https://gpi54.ru/search/positions?article=113491&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "113492",
+    "name": "8100 ECO-LITE 0W-20 100% Synth. 4 L",
+    "kind": "аналог",
+    "why": "",
+    "nsk": 204,
+    "other": 245,
+    "order": null,
+    "price": 9200,
+    "url": "https://gpi54.ru/search/positions?article=113492&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "113493",
+    "name": "8100 ECO-LITE 0W-20 100% Synth. 5 L",
+    "kind": "аналог",
+    "why": "",
+    "nsk": 86,
+    "other": 95,
+    "order": null,
+    "price": 11500,
+    "url": "https://gpi54.ru/search/positions?article=113493&brand=MOTUL"
+   },
+   {
+    "brand": "ВМПАВТО",
+    "article": "9257",
+    "name": "Modern SAE 0W-20 (SP, GF-6A) 1 L (синт. / Ester+PAO+AN+VHVI)",
+    "kind": "аналог",
+    "why": "API SP / GF-6A",
+    "nsk": 16,
+    "other": 0,
+    "order": null,
+    "price": 1883,
+    "url": "https://gpi54.ru/search/positions?article=9257&brand=%D0%92%D0%9C%D0%9F%D0%90%D0%92%D0%A2%D0%9E"
+   },
+   {
+    "brand": "ВМПАВТО",
+    "article": "9258",
+    "name": "Modern SAE 0W-20 (SP, GF-6A) 4 L (синт. / Ester+PAO+AN+VHVI)",
+    "kind": "аналог",
+    "why": "",
+    "nsk": 9,
+    "other": 0,
+    "order": 11,
+    "price": 6440,
+    "url": "https://gpi54.ru/search/positions?article=9258&brand=%D0%92%D0%9C%D0%9F%D0%90%D0%92%D0%A2%D0%9E"
+   },
+   {
+    "brand": "FOXGEAR",
+    "article": "0103881003",
+    "name": "RENODRIVE FORMULA II V 0W-20 / 1L (API SP/ VW 508.00 / 509.00/ VOLVO RBS0-2AE)",
+    "kind": "аналог",
+    "why": "API SP",
+    "nsk": 20,
+    "other": 27,
+    "order": null,
+    "price": 1149,
+    "url": "https://gpi54.ru/search/positions?article=0103881003&brand=FOXGEAR"
+   },
+   {
+    "brand": "FOXGEAR",
+    "article": "0103881004",
+    "name": "RENODRIVE FORMULA II V 0W-20 / 4L (API SP/ VW 508.00 / 509.00/ VOLVO RBS0-2AE)",
+    "kind": "аналог",
+    "why": "",
+    "nsk": 0,
+    "other": 28,
+    "order": null,
+    "price": 4199,
+    "url": "https://gpi54.ru/search/positions?article=0103881004&brand=FOXGEAR"
+   }
+  ],
+  "t-383": [
+   {
+    "brand": "MOTUL",
+    "article": "114523",
+    "name": "ATF ULV 1L",
+    "kind": "аналог",
+    "why": "класс ATF ULV, как Ravenol ULV D-M из аналогов таблицы; допуска BOT 383 у него нет",
+    "nsk": 0,
+    "other": 27,
+    "order": 14,
+    "price": 2500,
+    "url": "https://gpi54.ru/search/positions?article=114523&brand=MOTUL"
+   }
+  ],
+  "t-384": [
+   {
+    "brand": "MOTUL",
+    "article": "114523",
+    "name": "ATF ULV 1L",
+    "kind": "аналог",
+    "why": "класс ATF ULV, как Ravenol ULV D-M из аналогов таблицы; допуска BOT 384 у него нет",
+    "nsk": 0,
+    "other": 27,
+    "order": 14,
+    "price": 2500,
+    "url": "https://gpi54.ru/search/positions?article=114523&brand=MOTUL"
+   }
+  ],
+  "t-ulv": [
+   {
+    "brand": "MOTUL",
+    "article": "114523",
+    "name": "ATF ULV 1L",
+    "kind": "допуск",
+    "why": "ATF ULV",
+    "nsk": 0,
+    "other": 27,
+    "order": 14,
+    "price": 2500,
+    "url": "https://gpi54.ru/search/positions?article=114523&brand=MOTUL"
+   }
+  ],
+  "t-dx6": [
+   {
+    "brand": "MOTUL",
+    "article": "112145",
+    "name": "ATF VI 1L",
+    "kind": "допуск",
+    "why": "ATF VI – Dexron VI",
+    "nsk": 155,
+    "other": 272,
+    "order": null,
+    "price": 2500,
+    "url": "https://gpi54.ru/search/positions?article=112145&brand=MOTUL"
+   },
+   {
+    "brand": "FUCHS",
+    "article": "0073551005",
+    "name": "TITAN FORMULA ATF 6400 / 1L (Type WS/ DW-1/ Matic S/ SP-IV/ Dexron VI) (красная)",
+    "kind": "допуск",
+    "why": "Titan ATF 6400 – Dexron VI",
+    "nsk": 2,
+    "other": 1,
+    "order": null,
+    "price": 2039,
+    "url": "https://gpi54.ru/search/positions?article=0073551005&brand=FUCHS"
+   }
+  ],
+  "t-dex3": [
+   {
+    "brand": "FUCHS",
+    "article": "0067451003",
+    "name": "TITAN FORMULA ATF 4400 / 1L (ATF Z1/ Type T-lV/ SP lll/ Matic-J)",
+    "kind": "тот же",
+    "why": "Fuchs Titan ATF 4400 – указан в таблице как аналог",
+    "nsk": 1,
+    "other": 2,
+    "order": null,
+    "price": 1471,
+    "url": "https://gpi54.ru/search/positions?article=0067451003&brand=FUCHS"
+   },
+   {
+    "brand": "FUCHS",
+    "article": "0067451005",
+    "name": "TITAN FORMULA ATF 4400 / 4L (ATF Z1/ Type T-lV/ SP lll/ Matic-J)",
+    "kind": "тот же",
+    "why": "",
+    "nsk": 5,
+    "other": 6,
+    "order": null,
+    "price": 5328,
+    "url": "https://gpi54.ru/search/positions?article=0067451005&brand=FUCHS"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "112346",
+    "name": "ATF III 1L",
+    "kind": "допуск",
+    "why": "ATF III – Dexron III",
+    "nsk": 166,
+    "other": 177,
+    "order": null,
+    "price": 1600,
+    "url": "https://gpi54.ru/search/positions?article=112346&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "112938",
+    "name": "ATF III 4L",
+    "kind": "допуск",
+    "why": "",
+    "nsk": 119,
+    "other": 85,
+    "order": null,
+    "price": 6000,
+    "url": "https://gpi54.ru/search/positions?article=112938&brand=MOTUL"
+   },
+   {
+    "brand": "GNV",
+    "article": "GA311110M260751110001",
+    "name": "GNV ATF III 1L (мет. канистра)",
+    "kind": "допуск",
+    "why": "Dexron III",
+    "nsk": 5,
+    "other": 2,
+    "order": 13,
+    "price": 1300,
+    "url": "https://gpi54.ru/search/positions?article=GA311110M260751110001&brand=GNV"
+   },
+   {
+    "brand": "GNV",
+    "article": "GA311110M260751110004",
+    "name": "GNV ATF III 4L (мет. канистра)",
+    "kind": "допуск",
+    "why": "",
+    "nsk": 12,
+    "other": 10,
+    "order": 1,
+    "price": 4820,
+    "url": "https://gpi54.ru/search/positions?article=GA311110M260751110004&brand=GNV"
+   }
+  ],
+  "t-matic": [
+   {
+    "brand": "FUCHS",
+    "article": "0073551005",
+    "name": "TITAN FORMULA ATF 6400 / 1L (Type WS/ DW-1/ Matic S/ SP-IV/ Dexron VI) (красная)",
+    "kind": "допуск",
+    "why": "Titan ATF 6400 – Matic S в списке допусков",
+    "nsk": 2,
+    "other": 1,
+    "order": null,
+    "price": 2039,
+    "url": "https://gpi54.ru/search/positions?article=0073551005&brand=FUCHS"
+   }
+  ],
+  "t-80w90": [
+   {
+    "brand": "LAVR",
+    "article": "LN2068",
+    "name": "RIDE GEAR OIL 80W-90 GL5, 1 л",
+    "kind": "допуск",
+    "why": "80W-90 GL-5",
+    "nsk": 16,
+    "other": 78,
+    "order": null,
+    "price": 952,
+    "url": "https://gpi54.ru/search/positions?article=LN2068&brand=LAVR"
+   }
+  ],
+  "t-75w90": [
+   {
+    "brand": "MOTUL",
+    "article": "113523",
+    "name": "MOTYLGEAR 75W-90 Technosynt. 1L",
+    "kind": "допуск",
+    "why": "Motylgear 75W-90",
+    "nsk": 154,
+    "other": 417,
+    "order": null,
+    "price": 2600,
+    "url": "https://gpi54.ru/search/positions?article=113523&brand=MOTUL"
+   },
+   {
+    "brand": "GNV",
+    "article": "GTP1M72010016547590001",
+    "name": "GNV Transmission Power Shift 75W-90 GL4/GL5 1L (мет. канистра)",
+    "kind": "допуск",
+    "why": "75W-90 GL-4/GL-5",
+    "nsk": 22,
+    "other": 32,
+    "order": 14,
+    "price": 1910,
+    "url": "https://gpi54.ru/search/positions?article=GTP1M72010016547590001&brand=GNV"
+   },
+   {
+    "brand": "GNV",
+    "article": "GTP1M72010016547590004",
+    "name": "GNV Transmission Power Shift 75W-90 GL4/GL5 4L (мет. канистра)",
+    "kind": "допуск",
+    "why": "",
+    "nsk": 5,
+    "other": 5,
+    "order": null,
+    "price": 7310,
+    "url": "https://gpi54.ru/search/positions?article=GTP1M72010016547590004&brand=GNV"
+   },
+   {
+    "brand": "ВМПАВТО",
+    "article": "9728",
+    "name": "REDUX SAE 75W-90 (GL-4/GL-5) 1 L (синт. / Ester+PAO+AN+VHVI)",
+    "kind": "допуск",
+    "why": "75W-90 GL-4/GL-5",
+    "nsk": 8,
+    "other": 0,
+    "order": 11,
+    "price": 1675,
+    "url": "https://gpi54.ru/search/positions?article=9728&brand=%D0%92%D0%9C%D0%9F%D0%90%D0%92%D0%A2%D0%9E"
+   },
+   {
+    "brand": "ВМПАВТО",
+    "article": "9729",
+    "name": "REDUX SAE 75W-90 (GL-4/GL-5) 4 L (синт. / Ester+PAO+AN+VHVI)",
+    "kind": "допуск",
+    "why": "",
+    "nsk": 3,
+    "other": 0,
+    "order": null,
+    "price": 6003,
+    "url": "https://gpi54.ru/search/positions?article=9729&brand=%D0%92%D0%9C%D0%9F%D0%90%D0%92%D0%A2%D0%9E"
+   },
+   {
+    "brand": "XENUM",
+    "article": "1181001",
+    "name": "Синтетическое трансмиссионное масло XENUM X-TRAN 75W-90 GL4/5 LS 1L",
+    "kind": "допуск",
+    "why": "75W-90 GL-4/5",
+    "nsk": 8,
+    "other": 23,
+    "order": 1,
+    "price": 2793,
+    "url": "https://gpi54.ru/search/positions?article=1181001&brand=XENUM"
+   }
+  ],
+  "t-352": [
+   {
+    "brand": "MOTUL",
+    "article": "113523",
+    "name": "MOTYLGEAR 75W-90 Technosynt. 1L",
+    "kind": "аналог",
+    "why": "в таблице аналог – 75W-90 или любое GL-4/GL-5",
+    "nsk": 154,
+    "other": 417,
+    "order": null,
+    "price": 2600,
+    "url": "https://gpi54.ru/search/positions?article=113523&brand=MOTUL"
+   },
+   {
+    "brand": "GNV",
+    "article": "GTP1M72010016547590001",
+    "name": "GNV Transmission Power Shift 75W-90 GL4/GL5 1L (мет. канистра)",
+    "kind": "аналог",
+    "why": "",
+    "nsk": 22,
+    "other": 32,
+    "order": 14,
+    "price": 1910,
+    "url": "https://gpi54.ru/search/positions?article=GTP1M72010016547590001&brand=GNV"
+   },
+   {
+    "brand": "GNV",
+    "article": "GTP1M72010016547590004",
+    "name": "GNV Transmission Power Shift 75W-90 GL4/GL5 4L (мет. канистра)",
+    "kind": "аналог",
+    "why": "",
+    "nsk": 5,
+    "other": 5,
+    "order": null,
+    "price": 7310,
+    "url": "https://gpi54.ru/search/positions?article=GTP1M72010016547590004&brand=GNV"
+   },
+   {
+    "brand": "ВМПАВТО",
+    "article": "9728",
+    "name": "REDUX SAE 75W-90 (GL-4/GL-5) 1 L (синт. / Ester+PAO+AN+VHVI)",
+    "kind": "аналог",
+    "why": "",
+    "nsk": 8,
+    "other": 0,
+    "order": 11,
+    "price": 1675,
+    "url": "https://gpi54.ru/search/positions?article=9728&brand=%D0%92%D0%9C%D0%9F%D0%90%D0%92%D0%A2%D0%9E"
+   },
+   {
+    "brand": "XENUM",
+    "article": "1181001",
+    "name": "Синтетическое трансмиссионное масло XENUM X-TRAN 75W-90 GL4/5 LS 1L",
+    "kind": "аналог",
+    "why": "",
+    "nsk": 8,
+    "other": 23,
+    "order": 1,
+    "price": 2793,
+    "url": "https://gpi54.ru/search/positions?article=1181001&brand=XENUM"
+   }
+  ],
+  "c-oj": [
+   {
+    "brand": "LAVR",
+    "article": "LN1709",
+    "name": "Охлаждающая жидкость Antifreeze G12+ -45°С, 1 КГ (красный)",
+    "kind": "аналог",
+    "why": "G12+ −45 °C, 1 кг",
+    "nsk": 0,
+    "other": 0,
+    "order": 14,
+    "price": 419,
+    "url": "https://gpi54.ru/search/positions?article=LN1709&brand=LAVR"
+   },
+   {
+    "brand": "LAVR",
+    "article": "LN1710",
+    "name": "Охлаждающая жидкость Antifreeze G12+ -45°С, 5 КГ (красный)",
+    "kind": "аналог",
+    "why": "G12+ −45 °C, 5 кг",
+    "nsk": 7,
+    "other": 6,
+    "order": 11,
+    "price": 1878,
+    "url": "https://gpi54.ru/search/positions?article=LN1710&brand=LAVR"
+   }
+  ],
+  "b-dot4": [
+   {
+    "brand": "MOTUL",
+    "article": "113458",
+    "name": "DOT 4 Brake Fluid FL 0,5 L MOTUL",
+    "kind": "допуск",
+    "why": "DOT 4, 0,5 л",
+    "nsk": 209,
+    "other": 106,
+    "order": null,
+    "price": 1000,
+    "url": "https://gpi54.ru/search/positions?article=113458&brand=MOTUL"
+   },
+   {
+    "brand": "MOTUL",
+    "article": "113459",
+    "name": "DOT 4 Brake Fluid FL 1 L MOTUL",
+    "kind": "допуск",
+    "why": "DOT 4, 1 л",
+    "nsk": 79,
+    "other": 257,
+    "order": null,
+    "price": 1900,
+    "url": "https://gpi54.ru/search/positions?article=113459&brand=MOTUL"
+   },
+   {
+    "brand": "GNV",
+    "article": "GUB1106403015030013455",
+    "name": "GNV Ultra Brake DOT-4 (455 гр.)",
+    "kind": "допуск",
+    "why": "DOT 4, 455 г",
+    "nsk": 123,
+    "other": 43,
+    "order": 1,
+    "price": 440,
+    "url": "https://gpi54.ru/search/positions?article=GUB1106403015030013455&brand=GNV"
+   },
+   {
+    "brand": "GNV",
+    "article": "GUB1106403015030013910",
+    "name": "GNV Ultra Brake DOT-4 (910 гр.)",
+    "kind": "допуск",
+    "why": "DOT 4, 910 г",
+    "nsk": 200,
+    "other": 91,
+    "order": 1,
+    "price": 840,
+    "url": "https://gpi54.ru/search/positions?article=GUB1106403015030013910&brand=GNV"
+   }
+  ],
+  "Фильтры|Mahle OC614 / Mann 7030": [
+   {
+    "brand": "MAHLE/KNECHT",
+    "article": "OC614",
+    "name": "",
+    "kind": "тот же",
+    "why": "",
+    "nsk": 0,
+    "other": 0,
+    "order": null,
+    "price": null,
+    "url": "https://gpi54.ru/search/positions?article=OC614&brand=MAHLE%2FKNECHT"
+   },
+   {
+    "brand": "MANN-FILTER",
+    "article": "W7030",
+    "name": "Suzuki/ DODGE/ JEEP/ CHRYSLER",
+    "kind": "тот же",
+    "why": "",
+    "nsk": 0,
+    "other": 0,
+    "order": null,
+    "price": null,
+    "url": "https://gpi54.ru/search/positions?article=W7030&brand=MANN-FILTER"
+   }
+  ],
+  "Фильтры|OC1566": [
+   {
+    "brand": "MAHLE/KNECHT",
+    "article": "OC1566",
+    "name": "",
+    "kind": "тот же",
+    "why": "",
+    "nsk": 0,
+    "other": 0,
+    "order": null,
+    "price": null,
+    "url": "https://gpi54.ru/search/positions?article=OC1566&brand=MAHLE%2FKNECHT"
+   }
+  ],
+  "Фильтры|Filtron K1017": [
+   {
+    "brand": "FILTRON",
+    "article": "K1017",
+    "name": "HONDA CIVIC (EJ/ EK)/ CR-V I (RD)",
+    "kind": "тот же",
+    "why": "",
+    "nsk": 0,
+    "other": 0,
+    "order": null,
+    "price": null,
+    "url": "https://gpi54.ru/search/positions?article=K1017&brand=FILTRON"
+   }
+  ],
+  "Фильтры|Filtron K1175": [
+   {
+    "brand": "FILTRON",
+    "article": "K1175",
+    "name": "HONDA",
+    "kind": "тот же",
+    "why": "",
+    "nsk": 0,
+    "other": 0,
+    "order": null,
+    "price": null,
+    "url": "https://gpi54.ru/search/positions?article=K1175&brand=FILTRON"
+   }
+  ],
+  "Фильтры|OP525": [
+   {
+    "brand": "FILTRON",
+    "article": "OP525",
+    "name": "VW GROUP",
+    "kind": "тот же",
+    "why": "",
+    "nsk": 0,
+    "other": 0,
+    "order": null,
+    "price": null,
+    "url": "https://gpi54.ru/search/positions?article=OP525&brand=FILTRON"
+   }
+  ],
+  "Фильтры|BIG FILTER GB95113, Goodwill AG853, JS Asakashi A0841, Totachi TA-4109": [
+   {
+    "brand": "BIG FILTER",
+    "article": "GB95113",
+    "name": "GEELY Coolray/ BELGEE X50",
+    "kind": "тот же",
+    "why": "",
+    "nsk": 4,
+    "other": 27,
+    "order": 14,
+    "price": 1666.5,
+    "url": "https://gpi54.ru/search/positions?article=GB95113&brand=BIG+FILTER"
+   },
+   {
+    "brand": "GOODWILL",
+    "article": "AG853",
+    "name": "GEELY Coolray/ BELGEE X50",
+    "kind": "тот же",
+    "why": "",
+    "nsk": 0,
+    "other": 6,
+    "order": 7,
+    "price": 826.5,
+    "url": "https://gpi54.ru/search/positions?article=AG853&brand=GOODWILL"
+   },
+   {
+    "brand": "JS ASAKASHI",
+    "article": "A0841",
+    "name": "",
+    "kind": "тот же",
+    "why": "",
+    "nsk": 0,
+    "other": 0,
+    "order": null,
+    "price": null,
+    "url": "https://gpi54.ru/search/positions?article=A0841&brand=JS+ASAKASHI"
+   }
+  ],
+  "Фильтры|1016057051": [
+   {
+    "brand": "GEELY",
+    "article": "1016057051",
+    "name": "",
+    "kind": "тот же",
+    "why": "оригинал Geely",
+    "nsk": 0,
+    "other": 0,
+    "order": null,
+    "price": null,
+    "url": "https://gpi54.ru/search/positions?article=1016057051&brand=GEELY"
+   }
+  ],
+  "Фильтры|W6103": [
+   {
+    "brand": "MANN-FILTER",
+    "article": "W6103",
+    "name": "Honda /Mitsubishi/ Hyundai/ Kia/ Mazda/Nissan",
+    "kind": "тот же",
+    "why": "",
+    "nsk": 0,
+    "other": 0,
+    "order": null,
+    "price": null,
+    "url": "https://gpi54.ru/search/positions?article=W6103&brand=MANN-FILTER"
+   }
+  ],
+  "Запчасти|PS4283": [
+   {
+    "brand": "PATRON",
+    "article": "PS4283",
+    "name": "",
+    "kind": "тот же",
+    "why": "",
+    "nsk": 0,
+    "other": 0,
+    "order": null,
+    "price": null,
+    "url": "https://gpi54.ru/search/positions?article=PS4283&brand=PATRON"
+   }
+  ],
+  "Трансмиссия и редукторы|600632199": [
+   {
+    "brand": "VAG",
+    "article": "G052527A2",
+    "name": "",
+    "kind": "тот же",
+    "why": "оригинал VAG",
+    "nsk": 0,
+    "other": 0,
+    "order": null,
+    "price": null,
+    "url": "https://gpi54.ru/search/positions?article=G052527A2&brand=VAG"
+   }
+  ]
+ }
+}

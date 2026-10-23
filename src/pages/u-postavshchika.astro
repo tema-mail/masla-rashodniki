@@ -1,0 +1,119 @@
+---
+import Shell from '../components/Shell.astro';
+import { CATS, items } from '../data/consumables';
+import supplier from '../data/supplier.json';
+
+type Offer = (typeof supplier.items)[string][number];
+const offers = supplier.items as Record<string, Offer[]>;
+
+// Ключи сопоставления должны совпадать с расходниками – иначе сборка падает, а не молча теряет строки.
+const unknown = Object.keys(offers).filter((k) => !items.some((i) => i.id === k));
+if (unknown.length) throw new Error('supplier.json: нет таких расходников – ' + unknown.join(', '));
+
+const KIND: Record<string, string> = { 'тот же': 'Тот же товар', допуск: 'Тот же допуск', аналог: 'Аналог – сверить' };
+const has = (id: string) => (offers[id] ?? []).length > 0;
+const inStock = (o: Offer) => o.nsk > 0 || o.other > 0;
+const byCat = CATS.map((cat) => ({
+  cat,
+  list: items.filter((i) => i.cat === cat).sort((a, b) => Number(has(b.id)) - Number(has(a.id))),
+})).filter((g) => g.list.length);
+const found = items.filter((i) => has(i.id)).length;
+const cars = (i: (typeof items)[number]) => [...new Set(i.uses.map((u) => u.car))];
+// Марку не повторяем, если поставщик уже начал с неё название («GNV GNV …»).
+const label = (o: Offer) => (o.name.toUpperCase().startsWith(o.brand.toUpperCase()) ? o.name : `${o.brand} ${o.name || o.article}`);
+const rub = (n: number | null) => (n == null ? '' : n.toLocaleString('ru-RU', { maximumFractionDigits: 0 }) + ' ₽');
+---
+
+<Shell title="У поставщика" description="Что из наших расходников есть у поставщика GPI24, со ссылками." active="postavshik">
+  <header class="top">
+    <div class="wrap">
+      <h1>У поставщика GPI24</h1>
+      <p class="lead">
+        Есть у поставщика {found} из {items.length} наших расходников. Только фасовки до 5 л. Наличие и цены – снимок {supplier.date}, по ссылке – актуальные.
+      </p>
+      <p class="legend">
+        <span class="k k-same">Тот же товар</span> <span class="k k-spec">Тот же допуск</span> <span class="k k-alt">Аналог – сверить</span>
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {
+      byCat.map((g) => (
+        <section class="cat">
+          <h2>{g.cat}</h2>
+          <div class="list">
+            {g.list.map((i) => (
+              <article class:list={['item', { none: !has(i.id) }]}>
+                <p class="cars">{cars(i).join(' · ')}</p>
+                <h3>
+                  <span class="lbl">В таблице:</span> {i.title}
+                </h3>
+                {has(i.id) ? (
+                  <ul class="offers">
+                    {offers[i.id].map((o) => (
+                      <li>
+                        <div class="o-head">
+                          <span class:list={['k', o.kind === 'тот же' ? 'k-same' : o.kind === 'допуск' ? 'k-spec' : 'k-alt']}>{KIND[o.kind]}</span>
+                          <a href={o.url} target="_blank" rel="noopener noreferrer">
+                            {label(o)}
+                          </a>
+                        </div>
+                        <div class="o-meta">
+                          <span class="mono">{o.article}</span>
+                          {inStock(o) ? (
+                            <span class="stock">
+                              {o.nsk > 0 ? `Новосибирск: ${o.nsk} шт` : 'В Новосибирске нет'}
+                              {o.other > 0 && ` · другой склад: ${o.other}`}
+                            </span>
+                          ) : o.order != null ? (
+                            <span class="stock wait">под заказ, {o.order} дн.</span>
+                          ) : (
+                            <span class="stock no">сейчас нет предложений</span>
+                          )}
+                          {o.price ? <span class="price">от {rub(o.price)}</span> : null}
+                        </div>
+                        {o.why && <p class="why">{o.why}</p>}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p class="absent">У поставщика нет</p>
+                )}
+              </article>
+            ))}
+          </div>
+        </section>
+      ))
+    }
+  </main>
+
+  <style>
+    .legend { margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+    .k { display: inline-block; font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 6px; white-space: nowrap; }
+    .k-same { background: var(--ok); color: var(--ok-ink); }
+    .k-spec { background: var(--accent-soft); color: var(--accent); }
+    .k-alt { background: var(--warn); color: var(--warn-ink); }
+    .cat { padding-top: 24px; }
+    .cat h2 { margin: 0 0 12px; font-size: 22px; }
+    .list { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 460px), 1fr)); align-items: start; }
+    .item { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; box-shadow: var(--shadow); }
+    .item.none { box-shadow: none; background: transparent; }
+    .cars { margin: 0 0 4px; font-size: 13px; color: var(--muted); }
+    h3 { margin: 0; font-size: 16px; }
+    .lbl { color: var(--muted); font-weight: 500; }
+    .offers { list-style: none; margin: 10px 0 0; padding: 0; }
+    .offers li { padding: 8px 0; border-top: 1px solid var(--line); }
+    .o-head { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+    .o-head a { color: var(--ink); font-weight: 600; text-decoration-color: var(--line); text-underline-offset: 3px; }
+    .o-head a:hover { color: var(--accent); }
+    .o-meta { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: 3px; font-size: 13px; color: var(--muted); }
+    .mono { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 12px; }
+    .stock { color: var(--ok-ink); font-weight: 600; }
+    .stock.wait { color: var(--accent); }
+    .stock.no { color: var(--muted); font-weight: 500; }
+    .price { color: var(--ink); }
+    .why { margin: 3px 0 0; font-size: 12px; font-style: italic; color: var(--muted); }
+    .absent { margin: 8px 0 0; font-size: 14px; color: var(--muted); }
+  </style>
+</Shell>

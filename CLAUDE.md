@@ -12,3 +12,6 @@
 - Тире только короткое «–».
 - Собранное Claude (не из таблицы) – `src/data/nsk/*.json`, всё с пометкой «Надо проверить» и ссылкой. Сырые ответы агентов и бриф – `research/`, конвертер – `python3 scripts/convert.py research src/data/nsk research/drom-counts-2026-10-22.json`.
 - Решение владельца 23.10.2026: машины старше 2022 не добавлять (поколение должно выпускаться после 2022), упор на Китай; другие страны можно, но тоже 2022+.
+- Вкладки: `/` справочник, `/rashodniki/` расходники из базы владельца (группы по допуску – `src/data/consumables.ts`), `/u-postavshchika/` что есть у GPI24 (gpi54.ru). Каркас и тема – `src/components/Shell.astro`.
+- Поставщик: сопоставление вручную `research/gpi/mapping.json`, снимок наличия `research/gpi/positions-*.json` (Playwright, API сайта `/api/products/search/positions` из гостевой сессии), сборка `python3 scripts/supplier.py research/gpi/mapping.json research/gpi/positions-<дата>.json src/data/supplier.json <дата>`. Только фасовки 1–5 л (решение владельца 23.10.2026).
+
