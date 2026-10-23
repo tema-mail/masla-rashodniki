@@ -1,4 +1,5 @@
 ---
+import Shell from '../components/Shell.astro';
 import { brands, type Model, type Row } from '../data/brands';
 
 const sorted = [...brands].sort((a, b) => a.name.localeCompare(b.name, 'en'));
@@ -36,17 +37,11 @@ const searchText = (brand: string, m: Model) =>
 const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (л|мл|г)(?![а-яa-z])/g, '$1\u00a0$2');
 ---
 
-<!doctype html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="noindex, nofollow" />
-    <title>Масла и расходники</title>
-    <meta name="description" content="Что заливать в редукторы, ДВС и системы электромобилей и гибридов: допуски, объёмы, аналоги, фильтры." />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3c5 7 9 12 9 17a9 9 0 0 1-18 0c0-5 4-10 9-17z' fill='%23d97706'/%3E%3C/svg%3E" />
-  </head>
-  <body>
+<Shell
+  title="Масла и расходники"
+  description="Что заливать в редукторы, ДВС и системы электромобилей и гибридов: допуски, объёмы, аналоги, фильтры."
+  active="spravochnik"
+>
     <header class="top">
       <div class="wrap">
         <h1>Масла и расходники</h1>
@@ -200,69 +195,6 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
     </script>
 
     <style is:global>
-      :root {
-        --bg: #f6f5f2;
-        --surface: #ffffff;
-        --ink: #1b1c1e;
-        --muted: #6b6e73;
-        --line: #e4e2dc;
-        --accent: #c2600a;
-        --accent-soft: #fdf0e3;
-        --chip: #ecebe6;
-        --shadow: 0 1px 2px rgb(0 0 0 / 0.04), 0 4px 16px rgb(0 0 0 / 0.04);
-        --warn: #fde68a;
-        --warn-ink: #713f12;
-        --warn-line: #f5d565;
-        color-scheme: light;
-      }
-      @media (prefers-color-scheme: dark) {
-        :root:not([data-theme='light']) {
-          --bg: #121315;
-          --surface: #1b1d20;
-          --ink: #ececea;
-          --muted: #9a9da3;
-          --line: #2c2f33;
-          --accent: #f0913a;
-          --accent-soft: #3a2614;
-          --chip: #25282c;
-          --shadow: none;
-          --warn: #4a3a0a;
-          --warn-ink: #fcd34d;
-          --warn-line: #6b5410;
-          color-scheme: dark;
-        }
-      }
-      :root[data-theme='dark'] {
-        --bg: #121315;
-        --surface: #1b1d20;
-        --ink: #ececea;
-        --muted: #9a9da3;
-        --line: #2c2f33;
-        --accent: #f0913a;
-        --accent-soft: #3a2614;
-        --chip: #25282c;
-        --shadow: none;
-        --warn: #4a3a0a;
-        --warn-ink: #fcd34d;
-        --warn-line: #6b5410;
-        color-scheme: dark;
-      }
-
-      * { box-sizing: border-box; }
-      html { scroll-padding-top: 150px; }
-      body {
-        margin: 0;
-        background: var(--bg);
-        color: var(--ink);
-        font: 15px/1.45 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-        -webkit-text-size-adjust: 100%;
-      }
-      .wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
-
-      .top { padding: 32px 0 16px; }
-      h1 { margin: 0; font-size: clamp(26px, 4vw, 38px); letter-spacing: -0.02em; }
-      .lead { margin: 6px 0 0; color: var(--muted); }
-
       .bar {
         position: sticky;
         top: 0;
@@ -428,5 +360,4 @@ const nb = (v: string) => v.replace(/ (±) /g, '\u00a0$1\u00a0').replace(/(\d) (
       .foot { padding: 40px 16px 32px; color: var(--muted); font-size: 13px; }
       [hidden] { display: none !important; }
     </style>
-  </body>
-</html>
+</Shell>

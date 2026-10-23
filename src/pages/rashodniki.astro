@@ -1,0 +1,87 @@
+---
+import Shell from '../components/Shell.astro';
+import { CATS, items } from '../data/consumables';
+
+const byCat = CATS.map((cat) => ({ cat, list: items.filter((i) => i.cat === cat) })).filter((g) => g.list.length);
+const slug = (c: string) => c.toLowerCase().replace(/[^а-яa-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const cars = (i: (typeof items)[number]) => new Set(i.uses.map((u) => u.car)).size;
+---
+
+<Shell title="Расходники" description="Какие масла, жидкости, фильтры и запчасти нужны по машинам из нашей базы." active="rashodniki">
+  <header class="top">
+    <div class="wrap">
+      <h1>Расходники</h1>
+      <p class="lead">
+        Что держать под машины из нашей таблицы: {items.length} позиций. Собранное «на проверку» сюда не входит.
+      </p>
+      <nav class="jump" aria-label="Виды расходников">
+        {byCat.map((g) => <a href={`#${slug(g.cat)}`}>{g.cat} <span>{g.list.length}</span></a>)}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {
+      byCat.map((g) => (
+        <section class="cat" id={slug(g.cat)}>
+          <h2>{g.cat}</h2>
+          <div class="list">
+            {g.list.map((i) => (
+              <article class="item">
+                <header class="item-head">
+                  <h3>{i.title}</h3>
+                  <span class="count">{cars(i)} маш.</span>
+                </header>
+                <ul class="uses">
+                  {i.uses.map((u) => (
+                    <li>
+                      <span class="car">{u.car}</span>
+                      <span class="node">
+                        {u.node}
+                        {u.oil && u.oil !== i.title && <> · {u.oil}</>}
+                      </span>
+                      {u.vol && <span class="vol">{u.vol}</span>}
+                    </li>
+                  ))}
+                </ul>
+                {i.alt.length > 0 && (
+                  <p class="alt">
+                    <b>Аналоги из таблицы:</b> {i.alt.join(' · ')}
+                  </p>
+                )}
+                {i.note && <p class="note">{i.note}</p>}
+              </article>
+            ))}
+          </div>
+        </section>
+      ))
+    }
+  </main>
+
+  <style>
+    .jump { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+    .jump a {
+      background: var(--chip);
+      color: var(--ink);
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 14px;
+    }
+    .jump a span { color: var(--muted); }
+    .cat { padding-top: 24px; }
+    .cat h2 { margin: 0 0 12px; font-size: 22px; }
+    .list { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 460px), 1fr)); align-items: start; }
+    .item { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; box-shadow: var(--shadow); }
+    .item-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; margin-bottom: 8px; }
+    .item-head h3 { margin: 0; font-size: 17px; }
+    .count { flex: none; font-size: 13px; color: var(--accent); font-weight: 600; }
+    .uses { list-style: none; margin: 0; padding: 0; font-size: 14px; }
+    .uses li { display: grid; grid-template-columns: 1fr auto; gap: 0 12px; padding: 6px 0; border-top: 1px solid var(--line); }
+    .car { font-weight: 600; }
+    .node { grid-column: 1; color: var(--muted); font-size: 13px; }
+    .vol { grid-column: 2; grid-row: 1 / span 2; align-self: center; text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; max-width: 180px; }
+    .alt, .note { margin: 8px 0 0; font-size: 13px; color: var(--muted); }
+    .note { font-style: italic; }
+  </style>
+</Shell>
